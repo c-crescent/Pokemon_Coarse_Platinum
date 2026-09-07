@@ -8,3 +8,4 @@
 
 ## Misc.
 * Opening & Title Screen is now completely skipped
+* Master Balls & Rare Candies now accessible in every mat for cheap
