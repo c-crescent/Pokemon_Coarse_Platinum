@@ -107,7 +107,7 @@ BOOL RowanIntroTv_Main(ApplicationManager *appMan, enum RowanIntroTvAppState *st
         }
 
         tv->delayUpdateCounter = 2 * 30;
-        *state = RIT_APP_STATE_WAIT_AND_START_BGM;
+        *state = RIT_APP_STATE_EXIT_AFTER_FADE;
         break;
     case RIT_APP_STATE_WAIT_AND_START_BGM:
         if (tv->delayUpdateCounter) {

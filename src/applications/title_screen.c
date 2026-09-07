@@ -345,12 +345,12 @@ static BOOL TitleScreen_Main(ApplicationManager *appMan, int *state)
                 appData->inputEnableDelay = TITLE_SCREEN_INPUT_DISABLE_FRAMES;
                 appData->titleScreen.giratinaShown = TRUE;
                 appData->titleScreen.introShown = FALSE;
-                *state = TITLE_SCREEN_APP_STATE_INIT_SOUND;
+                *state = TITLE_SCREEN_APP_STATE_EXIT_NORMAL;
             } else {
                 appData->inputEnableDelay = 0;
                 gSystem.showTitleScreenIntro = FALSE;
                 appData->titleScreen.introShown = TRUE;
-                *state = TITLE_SCREEN_APP_STATE_SHOW_INTRO;
+                *state = TITLE_SCREEN_APP_STATE_EXIT_NORMAL;
             }
         }
         break;
