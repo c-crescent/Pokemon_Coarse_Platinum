@@ -1043,7 +1043,7 @@ static void PlayerAvatar_SetMovement_NormalOverworld(PlayerAvatar *playerAvatar,
             PlayerData *playerData = PlayerAvatar_PlayerData(playerAvatar);
 
             if (PlayerData_HasRunningShoes(playerData) == TRUE) {
-                if (PlayerAvatar_IsRunButtonHeld(playerAvatar, keyPress) == TRUE) {
+                if (PlayerAvatar_IsRunButtonHeld(playerAvatar, keyPress) == FALSE) {
                     movementAction = MOVEMENT_ACTION_RUN_NORTH;
                     speed = PLAYER_ACTION_SPEED_FAST;
                 }
@@ -1121,7 +1121,7 @@ static void PlayerAvatar_SetMovement_DistortionFloor(PlayerAvatar *playerAvatar,
             speed = PLAYER_ACTION_SPEED_NORMAL;
             PlayerData *player = PlayerAvatar_PlayerData(playerAvatar);
 
-            if (PlayerData_HasRunningShoes(player) == TRUE && PlayerAvatar_IsRunButtonHeld(playerAvatar, keyPress) == TRUE) {
+            if (PlayerData_HasRunningShoes(player) == TRUE && PlayerAvatar_IsRunButtonHeld(playerAvatar, keyPress) == FALSE) {
                 movementAction = MOVEMENT_ACTION_RUN_NORTH;
                 speed = PLAYER_ACTION_SPEED_FAST;
             }
@@ -1168,7 +1168,7 @@ static void PlayerAvatar_UpdateMovement_NormalDistortion(PlayerAvatar *playerAva
             movementAction = walkActionTable[dir];
             PlayerData *playerData = PlayerAvatar_PlayerData(playerAvatar);
 
-            if ((PlayerData_HasRunningShoes(playerData) == TRUE) && (PlayerAvatar_IsRunButtonHeld(playerAvatar, keyPress) == TRUE)) {
+            if ((PlayerData_HasRunningShoes(playerData) == TRUE) && (PlayerAvatar_IsRunButtonHeld(playerAvatar, keyPress) == FALSE)) {
                 actionSpeed = PLAYER_ACTION_SPEED_FAST;
                 movementAction = runActionTable[dir];
             }
