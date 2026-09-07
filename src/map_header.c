@@ -193,7 +193,7 @@ BOOL MapHeader_IsUnionRoom(const enum MapHeaderID mapHeaderID)
 
 BOOL MapHeader_HasFeebasTiles(const enum MapHeaderID mapHeaderID)
 {
-    return mapHeaderID == MAP_HEADER_MT_CORONET_B1F;
+    return FALSE;
 }
 
 BOOL MapHeader_IsTrophyGarden(const enum MapHeaderID mapHeaderID)
