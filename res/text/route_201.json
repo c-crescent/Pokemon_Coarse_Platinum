@@ -317,20 +317,14 @@
       "id": "Route201_Text_IChallengeYouToABattle",
       "en_US": [
         "{STRVAR_1 3, 0, 0}: I’ve always wanted to\n",
-        "say this...\r",
-        "The time has finally come!\r",
-        "{STRVAR_1 3, 1, 0}!\n",
-        "I challenge you to a battle!\r"
+        "say this...\r"
       ]
     },
     {
       "id": "Route201_Text_WhewLetsGoHome",
       "en_US": [
         "{STRVAR_1 3, 0, 0}: Whew!\n",
-        "Let’s go home.\r",
-        "I’m beat after that battle.\n",
-        "My Pokémon needs rest, too.\r",
-        "See ya, {STRVAR_1 3, 1, 0}!\r"
+        "Let’s go home.\r"
       ]
     },
     {
@@ -338,33 +332,13 @@
       "en_US": [
         "{STRVAR_1 3, 0, 0}: Aha...\n",
         "Ahaha... I won? I won!\r",
-        "But that battle, it could’ve gone\n",
-        "either way. It was that close!\r",
-        "I can tell you one thing: battling is\n",
-        "awesomely fun!\r",
-        "OK, let’s go home.\r",
-        "I’m beat after that battle.\n",
-        "My Pokémon needs rest, too.\r",
-        "See ya, {STRVAR_1 3, 1, 0}!\r"
+        "OK, let’s go home.\r"
       ]
     },
     {
       "id": "Route201_Text_LetsCatchThatLegendary",
       "en_US": [
-        "{STRVAR_1 3, 0, 0}: Too slow!\n",
-        "{STRVAR_1 3, 1, 0}, I’m sick of waiting!\r",
-        "I’m going to go see Prof. Rowan, so I\n",
-        "can thank him properly.\r",
-        "So, I had this great idea.\n",
-        "Listen up, OK?\r",
-        "You know that lake where we always\n",
-        "play at?\r",
-        "You know how they say a legendary\n",
-        "Pokémon lives there?\r",
-        "You guessed it!\n",
-        "Let’s catch that Pokémon.\r",
-        "That’ll make Prof. Rowan happy.\n",
-        "I’m sure of that!\r"
+        "{STRVAR_1 3, 0, 0}: Too slow!\n"
       ]
     },
     {
@@ -402,18 +376,8 @@
     {
       "id": "Route201_Text_PotionAsFreeSample",
       "en_US": [
-        "Hi!\n",
-        "I work at a Pokémon Mart.\r",
-        "Did you know that a Pokémon’s health\n",
-        "is measured by Hit Points (HP)?\r",
-        "If a Pokémon runs out of HP, it\n",
-        "faints and can’t battle anymore.\r",
-        "If a Pokémon’s HP gets low, you\n",
-        "should heal it with a Potion.\r",
         "Here, let me give you a Potion as\n",
-        "a free sample. First one’s free!\r",
-        "It will automatically go in the\n",
-        "Medicine Pocket of your Bag.\r"
+        "a free sample. First one’s free!\r"
       ]
     },
     {

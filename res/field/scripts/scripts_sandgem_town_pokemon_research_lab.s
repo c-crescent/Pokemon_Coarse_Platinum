@@ -231,8 +231,6 @@ SandgemTownLab_RecordDataOnAllPokemon:
     PlayMusic SEQ_OPENING_sseq_1
     Message SandgemTownLab_Text_SomethingIWantYouToDo
     Message SandgemTownLab_Text_RecordDataOnAllPokemon
-    ShowYesNoMenu VAR_RESULT
-    GoToIfEq VAR_RESULT, MENU_NO, SandgemTownLab_LetMeAskYouAgain
     GoTo SandgemTownLab_ObtainPokedex
     End
 
@@ -245,13 +243,13 @@ SandgemTownLab_LetMeAskYouAgain:
     End
 
 SandgemTownLab_ObtainPokedex:
-    Message SandgemTownLab_Text_GoodAnswer
     GivePokedex
     SetFlag FLAG_HAS_POKEDEX
     BufferPlayerName 0
     Message SandgemTownLab_Text_PlayerObtainedThePokedex
     PlayFanfare SEQ_FANFA4_sseq
     WaitFanfare
+    SetNationalDexEnabled
     BufferPlayerName 0
     Message SandgemTownLab_Text_MeetEveryKindOfPokemon
     CloseMessage

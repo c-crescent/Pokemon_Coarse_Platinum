@@ -12,9 +12,6 @@
     {
       "id": "SandgemTownLab_Text_PokemonSeemsRatherHappy",
       "en_US": [
-        "...\r",
-        "Hmm...\n",
-        "I see...\r",
         "This Pokémon seems to be rather\n",
         "happy.\r"
       ]
@@ -22,7 +19,6 @@
     {
       "id": "SandgemTownLab_Text_PokemonEvolvedAlready",
       "en_US": [
-        "Well well!\r",
         "You’ve made your Pokémon evolve\n",
         "already?!\r"
       ]
@@ -30,7 +26,6 @@
     {
       "id": "SandgemTownLab_Text_EntrustingWasNoMistake",
       "en_US": [
-        "Hm!\r",
         "Entrusting you with that {STRVAR_1 0, 0, 0}\n",
         "was no mistake, it seems!\r"
       ]
@@ -52,66 +47,36 @@
     {
       "id": "SandgemTownLab_Text_CherishThatStarter",
       "en_US": [
-        "Professor: When I first saw you two \n",
-        "about to step into the tall grass\f",
-        "without Pokémon, I was shocked.\r",
-        "I was astounded by these foolhardy\n",
-        "children.\r",
-        "But now, you’ve astounded me in an\n",
-        "entirely different way.\r",
-        "Already, there is a bond growing\n",
-        "between you and that Pokémon.\r",
-        "I feel privileged to have met you.\r",
-        "I’m sure {STRVAR_1 0, 0, 0} feels the same\n",
-        "way about you.\r",
-        "That’s why I’ll ask you to cherish that\n",
-        "{STRVAR_1 0, 0, 0} of yours.\r"
+        "Professor: There is a bond growing\n",
+        "between you and that Pokémon.\r"
       ]
     },
     {
       "id": "SandgemTownLab_Text_DawnImGladYourKind",
       "en_US": [
         "Dawn: I’m so glad that you’re kind\n",
-        "toward Pokémon!\r",
-        "If you weren’t, I’d have to...\n",
-        "Oh, I just can’t say it...\r"
+        "toward Pokémon!\r"
       ]
     },
     {
       "id": "SandgemTownLab_Text_LucasImGladYourKind",
       "en_US": [
         "Lucas: Boy, am I glad you’re kind\n",
-        "toward Pokémon.\r",
-        "If you weren’t, well...\n",
-        "I don’t even want to think about it.\r"
+        "toward Pokémon.\r"
       ]
     },
     {
       "id": "SandgemTownLab_Text_SomethingIWantYouToDo",
       "en_US": [
         "Professor: Er-hem!\n",
-        "Let’s move on to the main topic.\r",
-        "There is something I want you to do\n",
-        "for me.\r"
+        "Let’s move on to the main topic.\r"
       ]
     },
     {
       "id": "SandgemTownLab_Text_RecordDataOnAllPokemon",
       "en_US": [
-        "Allow me to properly introduce myself\n",
-        "first.\r",
         "My name, as you know, is Rowan.\n",
-        "I study Pokémon.\r",
-        "First of all, I want to know exactly\n",
-        "what kinds of Pokémon live in the\f",
-        "Sinnoh region.\r",
-        "To do so, it is necessary to collect\n",
-        "data using the Pokédex.\r",
-        "This is what I wish to ask of you.\r",
-        "I want to entrust you with this\n",
-        "Pokédex.\r",
-        "Will you use it to record data on all\n",
-        "the Pokémon in Sinnoh for me?"
+        "I study Pokémon.\r"
       ]
     },
     {
@@ -150,10 +115,7 @@
         "Rowan: That Pokédex is a very\n",
         "high-tech device.\r",
         "It will automatically record data on\n",
-        "every kind of Pokémon you encounter.\r",
-        "{STRVAR_1 3, 0, 0}, I ask that you go\n",
-        "everywhere and meet every kind of\f",
-        "Pokémon in this region!\r"
+        "every kind of Pokémon you encounter.\r"
       ]
     },
     {
@@ -170,16 +132,7 @@
     {
       "id": "SandgemTownLab_Text_GrandAdventureBeginsNow",
       "en_US": [
-        "Rowan: When you walked up Route 201\n",
-        "with your Pokémon, what did you feel?\r",
-        "I’ve lived for 60 long years.\n",
-        "Even now, I get a thrill when\r",
-        "I’m with a Pokémon.\r",
-        "Now, you should know that there are\n",
-        "countless Pokémon in this world.\r",
-        "That means there are just as many\n",
-        "thrills waiting for you out there!\r",
-        "Now go!\r",
+        "Rowan: Now go!\r",
         "{STRVAR_1 3, 0, 0}, your grand adventure\n",
         "begins right now!\r"
       ]
@@ -195,48 +148,25 @@
     {
       "id": "SandgemTownLab_Text_DawnHappyToTeachYou",
       "en_US": [
-        "Dawn: The Pokémon that I met for\n",
-        "the first time was {STRVAR_1 0, 1, 0}!\r",
-        "If you would have chosen {STRVAR_1 0, 1, 0}\n",
-        "on Route 201, we’d have the same\f",
-        "Pokémon now!\r",
-        "Not that it matters, but...\r",
-        "Anyway, I’m Dawn.\r",
-        "I also help the professor add pages\n",
-        "to the Pokédex.\r",
-        "So, in a sense, I’m just like you.\r",
-        "I just got a little head start on you,\n",
-        "that’s all.\r",
-        "I’ll be happy to teach you things.\n",
+        "Dawn: I’ll be happy to teach you things.\n",
         "Glad to meet you, {STRVAR_1 3, 0, 0}!\r"
       ]
     },
     {
       "id": "SandgemTownLab_Text_LucasIllTeachYouStuff",
       "en_US": [
-        "Lucas: The professor asked me to help,\n",
-        "so I’m filling the Pokédex pages, too.\r",
-        "That makes us comrades working toward\n",
-        "the same goal.\r",
-        "I’ll teach you stuff later, OK?\r"
+        "Lucas: I’ll teach you stuff later, OK?\r"
       ]
     },
     {
       "id": "SandgemTownLab_Text_ImCounterpartsFather",
       "en_US": [
-        "I’m {STRVAR_1 3, 0, 0}’s father.\r",
-        "I’ll be happy to assist you on your\n",
-        "quest for the professor.\r",
-        "Hahaha. Eh...\n",
-        "I’m sure we can count on you!"
+        "I’m {STRVAR_1 3, 0, 0}’s father.\r"
       ]
     },
     {
       "id": "SandgemTownLab_Text_HonorToBeAnAssistant",
       "en_US": [
-        "Professor Rowan invented a new\n",
-        "Pokédex while working alongside a\f",
-        "professor from the Kanto region.\r",
         "Oh, my name is Roseanne.\r",
         "It’s an honor to be an assistant to\n",
         "our professor!"

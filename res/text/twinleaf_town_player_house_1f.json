@@ -88,8 +88,6 @@
       "id": "TwinleafTownPlayerHouse1F_Text_MorningTakeAQuickRest",
       "en_US": [
         "Mom: Welcome home, {STRVAR_1 3, 0, 0}.\n",
-        "Are you and your Pokémon healthy?\r",
-        "It’s still early in the morning.\n",
         "Take a quick rest, dear.\r"
       ]
     },
@@ -97,7 +95,6 @@
       "id": "TwinleafTownPlayerHouse1F_Text_DayTakeAQuickRest",
       "en_US": [
         "Mom: Welcome home, {STRVAR_1 3, 0, 0}.\n",
-        "Are you and your Pokémon healthy?\f",
         "Take a quick rest, dear.\r"
       ]
     },
@@ -105,8 +102,6 @@
       "id": "TwinleafTownPlayerHouse1F_Text_NightTakeAQuickRest",
       "en_US": [
         "Mom: Welcome home, {STRVAR_1 3, 0, 0}.\n",
-        "Are you and your Pokémon healthy?\r",
-        "I just made dinner.\n",
         "Take a quick rest, dear.\r"
       ]
     },
@@ -114,20 +109,14 @@
       "id": "TwinleafTownPlayerHouse1F_Text_LateNightTakeAQuickRest",
       "en_US": [
         "Mom: Welcome home, {STRVAR_1 3, 0, 0}.\n",
-        "Are you and your Pokémon healthy?\r",
-        "It’s so late right now...\n",
         "Take a quick rest, dear.\r"
       ]
     },
     {
       "id": "TwinleafTownPlayerHouse1F_Text_YourMomsGotYourBack",
       "en_US": [
-        "Mom: What is it, {STRVAR_1 3, 0, 0}?\r",
-        "...\r",
-        "Wow. Professor Rowan asked you\n",
+        "Mom: Wow. Professor Rowan asked you\n",
         "to do something that big.\r",
-        "OK, dear, go for it!\n",
-        "Your mom’s got your back!\r",
         "Oh, I know! {STRVAR_1 3, 0, 0}, I’ve got\n",
         "something that you’ll find useful.\r"
       ]
@@ -136,32 +125,19 @@
       "id": "TwinleafTownPlayerHouse1F_Text_ThatsAJournal",
       "en_US": [
         "That’s a Journal. It keeps a record\n",
-        "of your daily events.\r",
-        "Check it, and you’ll be able to\n",
-        "remember what you did last.\r"
+        "of your daily events.\r"
       ]
     },
     {
       "id": "TwinleafTownPlayerHouse1F_Text_IWishICouldGoInstead",
       "en_US": [
         "Gee, a journey full of adventure...\n",
-        "I envy you, kiddo.\r",
-        "Plus, you’re not alone.\n",
-        "You have your Pokémon with you.\f",
-        "I wish I could go instead!\r"
+        "I envy you, kiddo.\r"
       ]
     },
     {
       "id": "TwinleafTownPlayerHouse1F_Text_GoEnjoyYourAdventure",
       "en_US": [
-        "I’m just joking, dear!\n",
-        "Yup, {STRVAR_1 3, 0, 0}!\r",
-        "I’ll be all right by myself, so you\n",
-        "go and enjoy your adventure!\r",
-        "When you’re exposed to new things,\n",
-        "and experience new sensations...\f",
-        "It makes your mother happy, too.\r",
-        "...But come back sometimes.\r",
         "I would like to see the kinds of\n",
         "Pokémon you’ve caught, dear.\r"
       ]
@@ -184,12 +160,7 @@
       "id": "TwinleafTownPlayerHouse1F_Text_HeMustHaveLeftAlready",
       "en_US": [
         "{STRVAR_1 3, 1, 0}’s mom: Oh...\n",
-        "Then, he must have left already...\f",
-        "What to do...\r",
-        "That boy shouted about going on an\n",
-        "adventure, then he bolted.\r",
-        "He’s so headstrong and reckless...\n",
-        "I at least wanted him to take this...\r"
+        "What to do...\r"
       ]
     },
     {
@@ -226,9 +197,7 @@
       "en_US": [
         "{STRVAR_1 3, 1, 0}’s mom: Let me think...\r",
         "Knowing my boy, he would probably\n",
-        "head straight to Jubilife City...\r",
-        "OK, please take that to my\n",
-        "{STRVAR_1 3, 1, 0}.\r"
+        "head straight to Jubilife City...\r"
       ]
     },
     {
