@@ -14,7 +14,7 @@
   "gbaID": "GBA_ITEM_DRAGON_SCALE",
   "price": 2100,
   "effectParam": 10,
-  "holdEffect": "HOLD_EFFECT_EVOLVE_SEADRA",
+  "holdEffect": "HOLD_EFFECT_NONE",
   "pluckEffect": "PLUCK_EFFECT_NONE",
   "flingEffect": "FLING_EFFECT_NONE",
   "flingPower": 30,
