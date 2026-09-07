@@ -1440,11 +1440,33 @@ CommonScript_HatchEgg:
 CommonScript_RepelsEffectWoreOff:
     PlaySE SE_CONFIRM_sseq_3
     LockAll
+    CheckItem VAR_LAST_USED_REPEL, 1, VAR_RESULT
+    GoToIfEq VAR_RESULT, TRUE, CommonScript_UseRepelPrompt
     Message CommonStrings_Text_RepelsEffectWoreOff
     WaitABPress
     CloseMessage
     ReleaseAll
     End
+
+CommonScript_UseRepelPrompt:
+  Message CommonScript_Text_UseAnotherRepel
+  ShowYesNoMenu VAR_RESULT
+  GoToIfEq VAR_RESULT, MENU_YES, CommonScript_UseRepel
+  CloseMessage
+  ReleaseAll
+  End
+
+CommonScript_UseRepel:
+  CloseMessage
+  SetRepelSteps VAR_LAST_USED_REPEL
+  RemoveItem VAR_LAST_USED_REPEL, 1, VAR_RESULT
+  BufferPlayerName 0
+  BufferItemName 1, VAR_LAST_USED_REPEL
+  Message CommonScript_Text_UsedRepel
+  WaitABPress
+  CloseMessage
+  ReleaseAll
+  End
 
 _139D:
     PlaySE SE_CONFIRM_sseq_3

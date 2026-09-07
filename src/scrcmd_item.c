@@ -96,3 +96,15 @@ BOOL ScrCmd_Dummy082(ScriptContext *ctx)
 {
     return FALSE;
 }
+
+BOOL ScrCmd_SetRepelSteps(ScriptContext *ctx)
+{
+   u16 item = ScriptContext_GetVar(ctx);
+   SaveData *saveData = ctx->fieldSystem->saveData;
+   u8 *repelSteps = SpecialEncounter_GetRepelSteps(SaveData_GetSpecialEncounters(saveData));
+
+   u32 stepCount = Item_LoadParam(item, ITEM_PARAM_EFFECT_PARAM, HEAP_ID_FIELD2);
+   *repelSteps = stepCount;
+
+   return FALSE;
+}

@@ -4995,6 +4995,10 @@
     .byte \floor
     .endm
 
+    .macro SetRepelSteps itemVar
+    .short SCRCMD_SETREPELSTEPS
+    .short \itemVar
+    .endm
 
 
     .macro GoToIfLt varID, valueOrVarID, offset
