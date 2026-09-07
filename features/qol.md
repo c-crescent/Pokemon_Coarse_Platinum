@@ -19,3 +19,4 @@
 * TMs are now infinitely reuseable
 * Saving no longer has a confirmation for overwrite
 * The Pokemon summary screen now shows nature colours
+* The Pokemon summary screen now shows EVs and IVs
