@@ -18,3 +18,4 @@
 * HM Moves are now deletable normally
 * TMs are now infinitely reuseable
 * Saving no longer has a confirmation for overwrite
+* The Pokemon summary screen now shows nature colours
