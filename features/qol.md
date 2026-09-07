@@ -13,3 +13,4 @@
 ## Misc.
 * Opening & Title Screen is now completely skipped
 * Master Balls & Rare Candies now accessible in every mart for cheap
+* HM Moves are now deletable normally
