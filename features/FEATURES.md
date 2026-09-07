@@ -21,9 +21,3 @@
 ## Pokemon Locations
 
 # Items
-
-# Trainers
-
-## Battle AI Changes
-
-## Trainer Teams
