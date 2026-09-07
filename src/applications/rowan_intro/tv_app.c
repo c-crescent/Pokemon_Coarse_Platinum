@@ -140,7 +140,7 @@ BOOL RowanIntroTv_Main(ApplicationManager *appMan, enum RowanIntroTvAppState *st
         RowanIntroTv_ShiftCrtOverlay(tv);
 
         if (IsScreenFadeDone() == TRUE) {
-            *state = RIT_APP_STATE_DISPLAY_TEXT_WAIT_INPUT;
+            *state = RIT_APP_STATE_EXIT_AFTER_FADE;
         }
         break;
     case RIT_APP_STATE_DISPLAY_TEXT_WAIT_INPUT:

@@ -33,17 +33,7 @@ TwinleafTownPlayerHouse1F_HideRivalsMom:
 
 TwinleafTownPlayerHouse1F_OnFrame_RivalAlreadyLeft:
     LockAll
-    ApplyMovement LOCALID_PLAYER, TwinleafTownPlayerHouse1F_Movement_PlayerFaceMom
-    ApplyMovement LOCALID_PLAYER_HOUSE_MOM, TwinleafTownPlayerHouse1F_Movement_MomWalkFromCouchToPlayer
-    WaitMovement
     SetFlag FLAG_TALKED_TO_MOM
-    BufferPlayerName 0
-    BufferRivalName 1
-    Message TwinleafTownPlayerHouse1F_Text_RivalAlreadyLeft
-    CloseMessage
-    WaitTime 15, VAR_RESULT
-    ApplyMovement LOCALID_PLAYER_HOUSE_MOM, TwinleafTownPlayerHouse1F_Movement_MomWalkFromPlayerToCouch
-    WaitMovement
     SetVar VAR_PLAYER_HOUSE_STATE, 1
     ReleaseAll
     End
@@ -135,9 +125,6 @@ TwinleafTownPlayerHouse1F_OnFrame_CutsceneAfterRivalBattle:
     Message TwinleafTownPlayerHouse1F_Text_PlayerReceivedRunningShoes
     PlayFanfare SEQ_FANFA4_sseq
     WaitFanfare
-    Message TwinleafTownPlayerHouse1F_Text_LetMeReadTheInstructions
-    WaitButton
-    CloseMessage
     SetVar VAR_PLAYER_HOUSE_STATE, 4
     ReleaseAll
     End
@@ -751,6 +738,9 @@ TwinleafTownPlayerHouse1F_DontGoIntoTallGrass:
     Message TwinleafTownPlayerHouse1F_Text_DontGoIntoTallGrass
     WaitButton
     CloseMessage
+    SetFlag FLAG_RIVAL_LEFT_HOME
+    SetVar VAR_RIVAL_HOUSE_STATE, 1
+    SetVar VAR_TWINLEAF_TOWN_GUITARIST_TRIGGER_STATE, 2
     ReleaseAll
     End
 

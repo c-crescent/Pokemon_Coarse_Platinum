@@ -15,36 +15,19 @@
     {
       "id": "Route201_Text_IveGotAnIdea",
       "en_US": [
-        "{STRVAR_1 3, 0, 0}: ...\n",
-        "...\r",
-        "What?\n",
-        "Don’t go into the grass, right?\f",
-        "No worries! No problem!\r",
-        "It doesn’t matter that we don’t have\n",
-        "any Pokémon.\r",
-        "Trust me on this one.\n",
-        "I’ve got an idea!\r",
-        "Now listen. You know how wild Pokémon\n",
-        "jump out when you go into tall grass?\r"
+        "{STRVAR_1 3, 0, 0}: ...\r"
       ]
     },
     {
       "id": "Route201_Text_JustKeepDashing",
       "en_US": [
-        "So, what you do is, you scoot over to\n",
-        "the next patch of grass before any\f",
-        "wild Pokémon can appear!\r",
-        "If we just keep dashing, we can get to\n",
-        "Sandgem Town without running into\f",
-        "wild Pokémon!\r",
         "OK, stick with me!\r"
       ]
     },
     {
       "id": "Route201_Text_HereGoes",
       "en_US": [
-        "OK, here goes!\r",
-        "On your marks...\r"
+        "OK, here goes!\r"
       ]
     },
     {
@@ -55,9 +38,7 @@
       "id": "Route201_Text_YouHaveNoPokemon",
       "en_US": [
         "Professor: You two don’t seem to have\n",
-        "any Pokémon between you?\r",
-        "Then, what is the meaning of going into\n",
-        "the tall grass?!\r"
+        "any Pokémon between you?\r"
       ]
     },
     {
@@ -71,8 +52,6 @@
       "id": "Route201_Text_ProfessorEllipsis",
       "en_US": [
         "Professor: ...\n",
-        "...\r",
-        "...\n",
         "...\r"
       ]
     },
@@ -80,25 +59,13 @@
       "id": "Route201_Text_ThisIsProfRowan",
       "en_US": [
         "{STRVAR_1 3, 0, 0}: Hey, {STRVAR_1 3, 1, 0}.\n",
-        "This old guy...\r",
-        "It’s Prof. Rowan, isn’t it?\n",
-        "What’s he doing here...?\r"
+        "This old guy...\r"
       ]
     },
     {
       "id": "Route201_Text_HmmWhatToDo",
       "en_US": [
         "Professor: ...\n",
-        "...\r",
-        "They tried to go into the tall grass\n",
-        "because they wanted Pokémon...\r",
-        "Hmm...\n",
-        "What to do...?\r",
-        "Their world would surely change if\n",
-        "they were to meet Pokémon...\r",
-        "Is it right for me to put them on that\n",
-        "path...?\r",
-        "...\n",
         "...\r"
       ]
     },
@@ -129,8 +96,7 @@
     {
       "id": "Route201_Text_ILovePokemonToo",
       "en_US": [
-        "{STRVAR_1 3, 0, 0}: Me, too!\n",
-        "I love Pokémon, too!\r"
+        "{STRVAR_1 3, 0, 0}: Yeah!\r"
       ]
     },
     {
@@ -145,10 +111,7 @@
       "id": "Route201_Text_TheAnswerWillNeverChange",
       "en_US": [
         "{STRVAR_1 3, 0, 0}: What?!\n",
-        "You can ask a hundred times!\f",
-        "The answer will never change!\r",
-        "We’ll both answer a hundred times,\n",
-        "we love Pokémon!\r"
+        "We love Pokémon!\r"
       ]
     },
     {
@@ -165,41 +128,22 @@
     {
       "id": "Route201_Text_ItWorriesMe",
       "en_US": [
-        "Professor: ...A pair of reckless kids\n",
-        "who foolishly try to enter tall grass\f",
-        "without Pokémon of their own...?\r",
-        "It worries me what people like that\n",
-        "would do with Pokémon.\r"
+        "Professor: ...A pair of reckless kids\r"
       ]
     },
     {
       "id": "Route201_Text_GiveAPokemonToMyFriend",
       "en_US": [
         "{STRVAR_1 3, 0, 0}: ...Uh...\n",
-        "Well, I, uh...\r",
-        "...\n",
-        "...\r",
-        "Well, then forget about me, but give\n",
-        "a Pokémon to my friend here!\r",
-        "I mean, it was me who tried to go into\n",
-        "the tall grass and all...\r"
+        "Forget about me, but give\n",
+        "a Pokémon to my friend here!\r"
       ]
     },
     {
       "id": "Route201_Text_EntrustYouWithPokemon",
       "en_US": [
         "Professor: !\r",
-        "How big of you...\r",
-        "Very well, then!\n",
-        "I will entrust you two with Pokémon!\r",
-        "I apologize for putting you through\n",
-        "that exercise.\r",
-        "However!\r",
-        "You must promise me that you will never\n",
-        "recklessly endanger yourselves again.\r",
-        "Now, then...\r",
-        "Hm?\n",
-        "Now, where...?\r"
+        "How big of you...\r"
       ]
     },
     {
@@ -232,47 +176,32 @@
       "id": "Route201_Text_NiceWorkDawn",
       "en_US": [
         "Rowan: Ah! There it is!\n",
-        "Dawn, nice work.\r",
-        "What I was about to do was to entrust\n",
-        "these two with their own Pokémon.\r"
+        "Dawn, nice work.\r"
       ]
     },
     {
       "id": "Route201_Text_NiceWorkLucas",
       "en_US": [
         "Rowan: Ah! There it is!\n",
-        "Lucas, nice work.\r",
-        "What I was about to do was to entrust\n",
-        "these two with their own Pokémon.\r"
+        "Lucas, nice work.\r"
       ]
     },
     {
       "id": "Route201_Text_DawnPokemonHardToReplace",
       "en_US": [
-        "Dawn: Pardon?!\r",
-        "Those Pokémon are hard to replace.\n",
-        "Are you sure about giving them away?\r"
+        "Dawn: Pardon?!\r"
       ]
     },
     {
       "id": "Route201_Text_LucasThosePokemonAreCrucial",
       "en_US": [
-        "Lucas: Wha...?!\r",
-        "Those Pokémon are crucial.\n",
-        "You’re giving them away?\r"
+        "Lucas: Wha...?!\r"
       ]
     },
     {
       "id": "Route201_Text_PeopleShouldMeetPokemon",
       "en_US": [
-        "Rowan: Hm!\r",
-        "We exist side by side with Pokémon.\r",
-        "There comes a time when people should\n",
-        "meet Pokémon.\r",
-        "There is a world that should be\n",
-        "explored together.\r",
-        "For them, today is that time.\n",
-        "The place, right here.\r"
+        "Rowan: Hm!\r"
       ]
     },
     {
@@ -293,18 +222,14 @@
       "id": "Route201_Text_ICantBelieveIt",
       "en_US": [
         "{STRVAR_1 3, 0, 0}: Really?!\n",
-        "Prof. Rowan!\r",
-        "I can’t believe it! I’m so happy now\n",
-        "that I can’t keep a straight face!\r"
+        "Prof. Rowan!\r"
       ]
     },
     {
       "id": "Route201_Text_YouCanChooseFirst",
       "en_US": [
         "Hey, {STRVAR_1 3, 1, 0}.\n",
-        "You can choose first.\r",
-        "Hey, I’m practically a grown-up.\n",
-        "I have to show some class here."
+        "You can choose first.\r"
       ]
     },
     {
@@ -325,22 +250,14 @@
       "id": "Route201_Text_IHopeYoullDoWell",
       "en_US": [
         "Rowan: Very well! Both of you have\n",
-        "chosen a good Pokémon, it seems.\r",
-        "Now, listen well!\r",
-        "The Pokémon you have been entrusted\n",
-        "with are unfamiliar with the world.\r",
-        "In that regard, they’re much\n",
-        "like you.\r",
-        "As fellow newcomers to the world,\n",
-        "I hope you’ll do well together.\r"
+        "chosen a good Pokémon, it seems.\r"
       ]
     },
     {
       "id": "Route201_Text_ComeSeeMeInSandgemTown",
       "en_US": [
         "If you have any trouble, come see me\n",
-        "at my lab in Sandgem Town.\r",
-        "And now, we’ll be on our way.\r"
+        "at my lab in Sandgem Town.\r"
       ]
     },
     {

@@ -143,9 +143,7 @@ Route201_GoIntoTallGrass:
     ApplyMovement LOCALID_PROF_ROWAN, Route201_Movement_ProfRowanWalkBack
     WaitMovement
     Message Route201_Text_YouLovePokemonDoYou
-    ShowYesNoMenu VAR_RESULT
-    GoToIfEq VAR_RESULT, MENU_YES, Route201_WeLovePokemon
-    GoToIfEq VAR_RESULT, MENU_NO, Route201_WeDontLovePokemon
+    GoTo Route201_WeLovePokemon
     End
 
 Route201_WeDontLovePokemon:
@@ -167,8 +165,7 @@ Route201_WeLovePokemon:
     WaitMovement
     BufferRivalName 0
     Message Route201_Text_ILovePokemonToo
-    Message Route201_Text_IWillAskOnceAgain
-    GoTo Route201_TheAnswerWillNeverChangeRight
+    GoTo Route201_WeStillLovePokemon
     End
 
 Route201_TheAnswerWillNeverChangeRight:
@@ -333,10 +330,7 @@ Route201_CounterpartLeave:
     WaitMovement
     SetFlag FLAG_HIDE_ROUTE_201_COUNTERPART
     RemoveObject LOCALID_COUNTERPART
-    BufferRivalName 0
-    Message Route201_Text_ProfRowansReallyNice
-    CloseMessage
-    WaitTime 40, VAR_RESULT
+    WaitTime 30, VAR_RESULT
     ApplyMovement LOCALID_RIVAL, Route201_Movement_RivalRunToPlayerForBattle
     ApplyMovement LOCALID_PLAYER, Route201_Movement_PlayerFaceRivalForBattle
     WaitMovement
@@ -348,7 +342,7 @@ Route201_AskUpForABattle:
     Message Route201_Text_OnlyOneThingToDo
     ShowYesNoMenu VAR_RESULT
     GoToIfEq VAR_RESULT, MENU_YES, Route201_StartRivalBattle
-    GoToIfEq VAR_RESULT, MENU_NO, Route201_DontBeThatWay
+    GoToIfEq VAR_RESULT, MENU_NO, Route201_EndChooseStarterSequenceAndWarpHome
     End
 
 Route201_StartRivalBattle:

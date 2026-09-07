@@ -2079,7 +2079,7 @@ static BOOL RowanIntro_Run(RowanIntro *manager)
         break;
     case RI_STATE_DIALOGUE_ROWAN_INTRO:
         if (RowanIntro_DisplayMessage(manager, RowanIntro_Text_MyNameRowan, TRUE) == TRUE) {
-            manager->state = RI_STATE_MOVE_ROWAN_RIGHT_FOR_INFO;
+            manager->state = RI_STATE_DIALOGUE_ABOUT_YOURSELF;
         }
         break;
     case RI_STATE_MOVE_ROWAN_RIGHT_FOR_INFO:
@@ -2598,7 +2598,7 @@ static BOOL RowanIntro_Run(RowanIntro *manager)
         break;
     case RI_STATE_GENDR_DIALOGUE:
         if (RowanIntro_DisplayMessage(manager, RowanIntro_Text_GenderDialogue, TRUE) == TRUE) {
-            manager->playerGender = GENDER_MALE;
+            manager->playerGender = GENDER_FEMALE;
             manager->state = RI_STATE_GENDR_CHOICE;
         }
         break;

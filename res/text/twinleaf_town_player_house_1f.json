@@ -39,10 +39,7 @@
         "Mom: Oh, yes!\n",
         "{STRVAR_1 3, 0, 0}!\r",
         "Don’t go into the tall grass.\n",
-        "Wild Pokémon might attack you.\r",
-        "It would be OK if you had your own\n",
-        "Pokémon, but you don’t, so...\r",
-        "Well, take care, sweetie!"
+        "Wild Pokémon might attack you.\r"
       ]
     },
     {
@@ -56,19 +53,8 @@
       "id": "TwinleafTownPlayerHouse1F_Text_WowThatHappenedToYou",
       "en_US": [
         "Mom: What’s the matter, dear?\r",
-        "...\r",
         "Wow.\n",
-        "That’s what happened to you?\r",
-        "You and {STRVAR_1 3, 0, 0} are lucky to have\n",
-        "met Prof. Rowan.\r",
-        "Imagine if you didn’t...\r",
-        "I wouldn’t like to think what the wild\n",
-        "Pokémon might have done to you two.\r",
-        "{STRVAR_1 3, 1, 0}, go see Prof. Rowan, and\n",
-        "thank him properly for your Pokémon.\r",
-        "His lab is in Sandgem Town, isn’t it?\r",
-        "Now that you have your own Pokémon,\n",
-        "the tall grass won’t be so threatening.\r"
+        "That’s what happened to you?\r"
       ]
     },
     {
@@ -89,27 +75,12 @@
       "id": "TwinleafTownPlayerHouse1F_Text_LetMeReadTheInstructions",
       "en_US": [
         "Going to Sandgem Town is like an\n",
-        "adventure in itself, right?\r",
-        "With those Running Shoes, you can\n",
-        "get to faraway places much faster.\r",
-        "OK...\n",
-        "Let me read the instructions...\r",
-        "“Press the B Button and dash\n",
-        "about faster than ever before!\r",
-        "“Put on the Running Shoes and\n",
-        "blaze new trails of adventure!”\r",
-        "Well, isn’t that just nifty!"
+        "adventure in itself, right?\r"
       ]
     },
     {
       "id": "TwinleafTownPlayerHouse1F_Text_IllReadTheInstructions",
       "en_US": [
-        "Mom: I’ll read you the instructions\n",
-        "for the Running Shoes...\r",
-        "“Press the B Button and dash\n",
-        "about faster than ever before!\r",
-        "“Put on the Running Shoes and\n",
-        "blaze new trails of adventure!”\r",
         "Well, isn’t that just nifty!"
       ]
     },

@@ -26,11 +26,6 @@ TwinleafTownPlayerHouse2F_SetVolumeForTV:
 TwinleafTownPlayerHouse2F_OnFrame_ConcludeSpecialProgram:
     LockAll
     SetVar VAR_PLAYER_HOUSE_SPECIAL_PROGRAM_STATE, 1
-    Message TwinleafTownPlayerHouse2F_Text_ConcludesSpecialProgram
-    PlayFanfare SEQ_TV_END_sseq
-    Message TwinleafTownPlayerHouse2F_Text_SeeYouNextWeek
-    WaitFanfare
-    CloseMessage
     PlayDefaultMusic
     ReleaseAll
     End
