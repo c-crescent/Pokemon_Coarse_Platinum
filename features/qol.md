@@ -8,6 +8,7 @@
 
 ## Encounters
 * Rebalanced encounter chances to be more even for each slot, with the lowest chance for a slot to be 5%
+* Shiny odds increased to 1/4096
 
 ## Misc.
 * Opening & Title Screen is now completely skipped
