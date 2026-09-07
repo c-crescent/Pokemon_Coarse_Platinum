@@ -14,10 +14,4 @@
 
 ## Evolution Changes
 
-# Pokemon Availability 
-
-## Gift & Static Pokemon
-
-## Pokemon Locations
-
 # Items

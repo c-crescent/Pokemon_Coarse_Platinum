@@ -39,7 +39,7 @@
         },
         {
             "level": 2,
-            "species": "SPECIES_BIDOOF"
+            "species": "SPECIES_DODUO"
         },
         {
             "level": 2,
@@ -47,7 +47,7 @@
         },
         {
             "level": 2,
-            "species": "SPECIES_BIDOOF"
+            "species": "SPECIES_TURTWIG"
         }
     ],
     "swarms": [
@@ -55,12 +55,12 @@
         "SPECIES_DODUO"
     ],
     "day": [
-        "SPECIES_STARLY",
-        "SPECIES_BIDOOF"
+        "SPECIES_NIDORAN_M",
+        "SPECIES_NIDORAN_F"
     ],
     "night": [
         "SPECIES_KRICKETOT",
-        "SPECIES_BIDOOF"
+        "SPECIES_GROWLITHE"
     ],
     "radar": [
         "SPECIES_NIDORAN_M",
