@@ -7,4 +7,4 @@
 * After acquiring the Running Shoes, running is the default movement state. The player can hold B to walk.
 
 ## Misc.
-* Title Screen is now completely skipped
+* Opening & Title Screen is now completely skipped

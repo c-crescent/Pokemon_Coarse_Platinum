@@ -933,6 +933,8 @@ static int ov77_021D2D94(ApplicationManager *appMan, int *param1)
 {
     UnkStruct_ov77_021D2E9C *v0 = ApplicationManager_Data(appMan);
 
+    return 1;
+
     if ((v0->unk_2A8) && ((gSystem.pressedKeys & PAD_BUTTON_A) || (gSystem.pressedKeys & PAD_BUTTON_START))) {
         v0->unk_08 = 1;
         gSystem.showTitleScreenIntro = FALSE;
