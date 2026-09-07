@@ -94,7 +94,7 @@
         ]
     },
     "evolutions": [
-        [ "EVO_LEVEL_HAPPINESS", "SPECIES_PIKACHU" ]
+        [ "EVO_LEVEL", 10, "SPECIES_PIKACHU" ]
     ],
     "offspring": "SPECIES_PICHU",
     "footprint": {
