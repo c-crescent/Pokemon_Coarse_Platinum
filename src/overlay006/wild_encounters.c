@@ -821,44 +821,49 @@ static u8 GetGroundEncounterSlot(void)
 {
     u8 roll = LCRNG_RandMod(100);
 
-    if (roll < 20) {
-        return 0;
-    } else if (roll >= 20 && roll < 40) {
-        return 1;
-    } else if (roll >= 40 && roll < 50) {
-        return 2;
-    } else if (roll >= 50 && roll < 60) {
-        return 3;
-    } else if (roll >= 60 && roll < 70) {
-        return 4;
-    } else if (roll >= 70 && roll < 80) {
-        return 5;
-    } else if (roll >= 80 && roll < 85) {
-        return 6;
-    } else if (roll >= 85 && roll < 90) {
-        return 7;
-    } else if (roll >= 90 && roll < 94) {
-        return 8;
-    } else if (roll >= 94 && roll < 98) {
-        return 9;
-    } else if (roll == 98) {
-        return 10;
+    // Tier 1: Common (4 slots, 12% each = 48% total)
+    if (roll < 12) {
+        return 0;   // 12%
+    } else if (roll < 24) {
+        return 1;   // 12%
+    } else if (roll < 36) {
+        return 2;   // 12%
+    } else if (roll < 48) {
+        return 3;   // 12%
     }
-
-    return 11;
+    // Tier 2: Uncommon (4 slots, 8% each = 32% total)
+    else if (roll < 56) {
+        return 4;   // 8%
+    } else if (roll < 64) {
+        return 5;   // 8%
+    } else if (roll < 72) {
+        return 6;   // 8%
+    } else if (roll < 80) {
+        return 7;   // 8%
+    }
+    // Tier 3: Rare (4 slots, 5% each = 20% total)
+    else if (roll < 85) {
+        return 8;   // 5%
+    } else if (roll < 90) {
+        return 9;   // 5%
+    } else if (roll < 95) {
+        return 10;  // 5%
+    } else {
+        return 11;  // 5% (roll 95-99)
+    }
 }
 
 static u8 GetWaterEncounterSlot(void)
 {
     u8 roll = LCRNG_RandMod(100);
 
-    if (roll < 60) {
+    if (roll < 20) {
         return 0;
-    } else if (roll >= 60 && roll < 90) {
+    } else if (roll >= 20 && roll < 40) {
         return 1;
-    } else if (roll >= 90 && roll < 95) {
+    } else if (roll >= 40 && roll < 60) {
         return 2;
-    } else if (roll >= 95 && roll < 99) {
+    } else if (roll >= 60 && roll < 80) {
         return 3;
     }
 
@@ -873,39 +878,39 @@ static u8 GetRodEncounterSlot(const int fishingRodType)
 
     switch (fishingRodType) {
     case FISHING_TYPE_OLD_ROD:
-        if (roll < 60) {
+        if (roll < 20) {
             encSlot = 0;
-        } else if (roll < 90) {
+        } else if (roll < 40) {
             encSlot = 1;
-        } else if (roll < 95) {
+        } else if (roll < 60) {
             encSlot = 2;
-        } else if (roll < 99) {
+        } else if (roll < 80) {
             encSlot = 3;
         } else {
             encSlot = 4;
         }
         break;
     case FISHING_TYPE_GOOD_ROD:
-        if (roll < 40) {
+        if (roll < 20) {
             encSlot = 0;
-        } else if (roll < 80) {
+        } else if (roll < 40) {
             encSlot = 1;
-        } else if (roll < 95) {
+        } else if (roll < 60) {
             encSlot = 2;
-        } else if (roll < 99) {
+        } else if (roll < 80) {
             encSlot = 3;
         } else {
             encSlot = 4;
         }
         break;
     case FISHING_TYPE_SUPER_ROD:
-        if (roll < 40) {
+        if (roll < 20) {
             encSlot = 0;
-        } else if (roll < 80) {
+        } else if (roll < 40) {
             encSlot = 1;
-        } else if (roll < 95) {
+        } else if (roll < 60) {
             encSlot = 2;
-        } else if (roll < 99) {
+        } else if (roll < 80) {
             encSlot = 3;
         } else {
             encSlot = 4;

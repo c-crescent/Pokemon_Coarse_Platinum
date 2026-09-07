@@ -6,6 +6,9 @@
 ## Exploration
 * After acquiring the Running Shoes, running is the default movement state. The player can hold B to walk.
 
+## Encounters
+* Rebalanced encounter chances to be more even for each slot, with the lowest chance for a slot to be 5%
+
 ## Misc.
 * Opening & Title Screen is now completely skipped
-* Master Balls & Rare Candies now accessible in every mat for cheap
+* Master Balls & Rare Candies now accessible in every mart for cheap
