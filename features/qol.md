@@ -16,3 +16,4 @@
 * Master Balls & Rare Candies now accessible in every mart for cheap
 * HM Moves are now deletable normally
 * TMs are now infinitely reuseable
+* Saving no longer has a confirmation for overwrite
