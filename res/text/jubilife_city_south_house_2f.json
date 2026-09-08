@@ -21,11 +21,37 @@
       ]
     },
     {
-      "id": "JubilifeCitySouthHouse2F_ConductResearchWithProfOak",
+      "id": "JubilifeCitySouthHouse2F_Breeder_TutorWhichPokemon",
       "en_US": [
-        "Didn’t Prof. Rowan conduct research\n",
-        "with Prof. Oak of the Kanto region?"
+        "I can teach your Pokémon moves that they\n",
+        "can learn while leveling up.\r",
+        "Which Pokémon needs tutoring?\r"
       ]
+    },
+    {
+      "id": "JubilifeCitySouthHouse2F_Breeder_ComeBack",
+      "en_US": [
+        "Feel free to return any time.\r"
+      ]
+    },
+    {
+      "id": "JubilifeCitySouthHouse2F_Breeder_EggsCantLearnMoves",
+      "en_US": [
+        "Don’t you think it’d be tough for\n",
+        "an Egg to learn a move?"
+      ]
+    },
+    {
+      "id": "JubilifeCitySouthHouse2F_Breeder_NoMovesToTeach",
+      "en_US": [
+        "Sorry...\r",
+        "There isn’t any move I can teach\n",
+        "that Pokémon."
+      ]
+    },
+    {
+      "id": "JubilifeCitySouthHouse2F_Breeder_TeachWhichMove",
+      "en_US": "Which move should I teach?\r"
     }
   ]
 }

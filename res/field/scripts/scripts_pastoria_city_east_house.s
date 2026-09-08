@@ -10,17 +10,12 @@ PastoriaCityEastHouse_MoveManiac:
     PlaySE SE_CONFIRM_sseq_3
     LockAll
     FacePlayer
-    BufferItemNameWithArticle 4, ITEM_HEART_SCALE
     GoToIfUnset FLAG_TALKED_TO_PASTORIA_CITY_EAST_HOUSE_MOVE_MANIAC, PastoriaCityEastHouse_CheckHeartScale
-    CheckItem ITEM_HEART_SCALE, 1, VAR_RESULT
-    GoToIfEq VAR_RESULT, FALSE, PastoriaCityEastHouse_ComeBackWithHeartScale
     GoTo PastoriaCityEastHouse_TryTeachMove
 
 PastoriaCityEastHouse_CheckHeartScale:
     SetFlag FLAG_TALKED_TO_PASTORIA_CITY_EAST_HOUSE_MOVE_MANIAC
     Message PastoriaCityEastHouse_Text_TeachMoveForHeartScale
-    CheckItem ITEM_HEART_SCALE, 1, VAR_RESULT
-    GoToIfEq VAR_RESULT, FALSE, PastoriaCityEastHouse_ComeBackWithHeartScale
     GoTo PastoriaCityEastHouse_TryTeachMove
 
 PastoriaCityEastHouse_ComeBackWithHeartScale:
@@ -31,7 +26,6 @@ PastoriaCityEastHouse_ComeBackWithHeartScale:
     End
 
 PastoriaCityEastHouse_TryTeachMove:
-    Message PastoriaCityEastHouse_Text_ThatsAHeartScale
     Message PastoriaCityEastHouse_Text_TutorWhichPokemon
     CloseMessage
     FadeScreenOut
@@ -56,11 +50,6 @@ PastoriaCityEastHouse_TryTeachMove:
     FadeScreenIn
     WaitFadeScreen
     GoToIfEq VAR_RESULT, 0xFF, PastoriaCityEastHouse_ComeBackWithHeartScale
-    RemoveItem ITEM_HEART_SCALE, 1, VAR_RESULT
-    BufferPlayerName 3
-    Message PastoriaCityEastHouse_Text_HandedOverHeartScale
-    WaitButton
-    CloseMessage
     ReleaseAll
     End
 

@@ -10,9 +10,7 @@
         "while they’re leveling up, and I can\f",
         "teach Pokémon those moves.\r",
         "I can teach a move to a Pokémon\n",
-        "of yours if you’d like.\r",
-        "I’ll do it if you’ll trade me\n",
-        "a Heart Scale.\r"
+        "of yours if you’d like.\r"
       ]
     },
     {
@@ -28,7 +26,7 @@
       "id": "PastoriaCityEastHouse_Text_ComeBackWithHeartScale",
       "en_US": [
         "If any of your Pokémon needs to learn a\n",
-        "move, come back with a Heart Scale."
+        "move, come back."
       ]
     },
     {
