@@ -22,3 +22,4 @@
 * The Pokemon summary screen now shows nature colours
 * The Pokemon summary screen now shows EVs and IVs
 * Under Buttons Mode L = A, R = B and pressing L and R turboes A and B
+* Reduced the amount of text for healing at Pokemon Centers

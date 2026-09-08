@@ -98,19 +98,7 @@ CommonScript_PokecenterNurse:
     FacePlayer
     GetTrainerCardLevel VAR_RESULT
     GoToIfGe VAR_RESULT, TRAINER_CARD_LEVEL_GOLD, CommonScript_NurseGoldCard
-    SetVar VAR_0x8004, CommonStrings_Text_PokecenterGreeting_Day
-    GetTimeOfDay VAR_RESULT
-    Dummy1F9 VAR_RESULT
-    SetVar VAR_0x8004, CommonStrings_Text_PokecenterGreeting_Morning
-    GoToIfEq VAR_RESULT, TIMEOFDAY_MORNING, CommonScript_NurseGreeting
-    SetVar VAR_0x8004, CommonStrings_Text_PokecenterGreeting_Night
-    GoToIfEq VAR_RESULT, TIMEOFDAY_DAY, CommonScript_NurseGreeting
-    SetVar VAR_0x8004, CommonStrings_Text_PokecenterGreeting_Day
-CommonScript_NurseGreeting:
-    MessageVar VAR_0x8004
-    ShowYesNoMenu VAR_RESULT
-    GoToIfEq VAR_RESULT, MENU_YES, CommonScript_NurseAcceptHealPokemon
-    GoToIfEq VAR_RESULT, MENU_NO, CommonScript_NurseDeclineHealPokemon
+    GoTo CommonScript_NurseAcceptHealPokemon
     End
 
 CommonScript_NurseDeclineHealPokemon:
@@ -153,7 +141,6 @@ CommonScript_NurseHealPokemon:
 
 CommonScript_NurseFarewellAfterHeal:
     GoToIfEq VAR_0x8004, TRUE, CommonScript_NurseFarewellAfterHealGoldCard
-    Message CommonStrings_Text_PokecenterRestoredYourPokemon
     ApplyMovement LOCALID_PLAYER, CommonScript_Movement_PlayerRetrievePokemon
     WaitMovement
     SetPlayerState PLAYER_TRANSITION_WALKING

@@ -4,10 +4,6 @@
     {
       "id": "CommonStrings_Text_PokecenterGreeting_Day",
       "en_US": [
-        "Hello, and welcome to\n",
-        "the Pokémon Center.\r",
-        "We restore your tired Pokémon\n",
-        "to full health.\r",
         "Would you like to rest your Pokémon?"
       ]
     },
@@ -21,7 +17,6 @@
     {
       "id": "CommonStrings_Text_PokecenterRestoredYourPokemon",
       "en_US": [
-        "Thank you for waiting.\r",
         "We’ve restored your Pokémon to full\n",
         "health.\r"
       ]
@@ -33,23 +28,12 @@
     {
       "id": "CommonStrings_Text_PokecenterGreeting_Interrupted",
       "en_US": [
-        "Hello, and welcome to\n",
-        "the Pokémon Center.\r",
-        "We restore your tired Pokémon\n",
-        "to full health.\r",
         "Would you like to...\r"
       ]
     },
     {
       "id": "CommonStrings_Text_PokecenterThatTrainerCard",
       "en_US": [
-        "Th-that Trainer Card!\r",
-        "That sparkling color!\n",
-        "And all those stars!\r",
-        "I’ve seen several Trainers with Silver\n",
-        "Trainer Cards up to now...\r",
-        "But you’re the first to top them\n",
-        "with that Trainer Card.\r",
         "Please, {STRVAR_1 3, 0, 0}, may I have\n",
         "the honor of healing your Pokémon?"
       ]
@@ -81,9 +65,6 @@
       "en_US": [
         "Your Pokémon may be infected with\n",
         "the Pokérus.\r",
-        "Little is known about the Pokérus\n",
-        "except that they are microscopic\f",
-        "life-forms that attach to Pokémon.\r",
         "While infected, Pokémon are said to\n",
         "grow exceptionally well."
       ]
@@ -289,35 +270,13 @@
     {
       "id": "CommonStrings_Text_PokemonLookingGreatBeforePokedex",
       "en_US": [
-        "Mom: Oh, good! You and your\n",
-        "Pokémon are looking great.\r",
-        "Oh, yes, I heard from Professor\n",
-        "Rowan.\r",
-        "He said that a Pokémon’s energy is\n",
-        "measured in HP (Hit Points).\r",
-        "If your Pokémon lose their HP,\n",
-        "you can restore it at any\f",
-        "Pokémon Center.\r",
-        "If you’re going to travel far away,\n",
-        "the smart Trainer stocks up on\f",
-        "Potions at the Pokémon Mart.\r",
-        "Make me proud, honey!\n",
-        "Take care!"
+        "Mom: Take care!"
       ]
     },
     {
       "id": "CommonStrings_Text_PokemonLookingGreatAfterPokedex",
       "en_US": [
-        "Mom: Oh, good! You and your\n",
-        "Pokémon are looking great.\r",
-        "Oh yes, {STRVAR_1 3, 0, 0}, your Pokémon\n",
-        "will faint if it runs out of HP.\r",
-        "If your Pokémon loses its HP, come\n",
-        "home before it faints.\r",
-        "It will be healed to full health by\n",
-        "taking a rest.\r",
-        "Well, honey, make me proud!\n",
-        "Take care!"
+        "Mom: Take care!"
       ]
     },
     {
@@ -338,11 +297,7 @@
       "id": "CommonStrings_Text_PokecenterGoodLuckTrainer",
       "en_US": [
         "Please visit a Pokémon Center when\n",
-        "your Pokémon’s HP goes down.\r",
-        "If you’re planning to travel any\n",
-        "distance, you should stock up on\f",
-        "Potions at a Pokémon Mart.\r",
-        "Good luck, Trainer!"
+        "your Pokémon’s HP goes down.\r"
       ]
     },
     {
@@ -798,10 +753,6 @@
     {
       "id": "CommonStrings_Text_PokecenterGreeting_Night",
       "en_US": [
-        "Hello, and welcome to\n",
-        "the Pokémon Center.\r",
-        "We restore your tired Pokémon\n",
-        "to full health.\r",
         "Would you like to rest your Pokémon?"
       ]
     },
