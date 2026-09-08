@@ -75,7 +75,7 @@ Basic_CheckForImmunity:
     IfLoadedEqualTo ABILITY_FLASH_FIRE, Basic_CheckFireAbsorption
     IfLoadedEqualTo ABILITY_WONDER_GUARD, Basic_CheckWonderGuard
     IfLoadedEqualTo ABILITY_LEVITATE, Basic_CheckGroundAbsorption
-    IfLoadedEqualTo ABILITY_LEVITATE, Basic_CheckWaterAbsorption2 // BUG: This line should branch on Dry Skin rather than Levitate
+    IfLoadedEqualTo ABILITY_DRY_SKIN, Basic_CheckWaterAbsorption2
     GoTo Basic_NoImmunityAbility
 
 Basic_CheckElectricAbsorption:
@@ -708,6 +708,8 @@ Basic_CheckSpikes:
     // If the target already has 3 layers of Spikes or is on their last Pokemon, score -10.
     LoadSpikesLayers AI_BATTLER_DEFENDER, SIDE_CONDITION_SPIKES
     IfLoadedEqualTo 3, ScoreMinus10
+    IfLoadedEqualTo 2, ScorePlus1
+    IfLoadedEqualTo 0, ScorePlus2
     CountAlivePartyBattlers AI_BATTLER_DEFENDER
     IfLoadedEqualTo 0, ScoreMinus10
     PopOrEnd 
@@ -808,12 +810,6 @@ Basic_CheckSunnyDay:
     IfLoadedEqualTo ABILITY_LEAF_GUARD, Basic_CheckCurrentWeatherIsSun
     IfLoadedEqualTo ABILITY_SOLAR_POWER, Basic_CheckCurrentWeatherIsSun
 
-    // If the target's ability is Hydration and they are currently statused, score -10.
-    // Why does this consider Hydration? This is clearly a bug, but what was the intention?
-    LoadBattlerAbility AI_BATTLER_DEFENDER
-    IfLoadedNotEqualTo ABILITY_HYDRATION, Basic_CheckCurrentWeatherIsSun
-    IfStatus AI_BATTLER_DEFENDER, MON_CONDITION_ANY, ScoreMinus10
-
 Basic_CheckCurrentWeatherIsSun:
     // If the weather is currently Sun, score -8.
     LoadCurrentWeather 
@@ -857,16 +853,11 @@ Basic_CheckHail:
 
     // If any opposing battler's ability is Ice Body, score -8.
     LoadBattlerAbility AI_BATTLER_DEFENDER
-    IfLoadedNotEqualTo ABILITY_ICE_BODY, Basic_CheckHail_Terminate
-    AddToMoveScore -8
+    IfLoadedEqualTo ABILITY_ICE_BODY, ScoreMinus8
 
-    // If an attacker's ability is also Ice Body, score +8 (undo the previous modifier).
-    // This feels like a bug of misintention; the intention here seems to be for an attacker with
-    // Ice Body to have an incentive to use Hail, but that is not realized. Instead, such an
-    // attacker can only have a disincentive undone.
     LoadBattlerAbility AI_BATTLER_ATTACKER
-    IfLoadedNotEqualTo ABILITY_ICE_BODY, Basic_CheckHail_Terminate
-    AddToMoveScore 8
+    IfLoadedEqualTo ABILITY_ICE_BODY, ScorePlus5
+    GoTo Basic_CheckHail_Terminate
 
 Basic_CheckHail_Terminate:
     PopOrEnd 
@@ -1161,19 +1152,15 @@ Basic_CheckMetalBurst:
     // If the target is immune to Metal Burst due to its typing (?), score -10.
     IfMoveEffectivenessEquals TYPE_MULTI_IMMUNE, ScoreMinus10
 
-    // If the target's ability is Stall or they are holding a Shiny Stone, score -10.
-    // BUG: This should use the command LoadHeldItemEffect to check for the Lagging Tail
-    // effect.
+    // If the target's ability is Stall or they are holding a Lagging Tail, score -10.
     LoadBattlerAbility AI_BATTLER_DEFENDER
     IfLoadedEqualTo ABILITY_STALL, ScoreMinus10
-    IfHeldItemEqualTo AI_BATTLER_DEFENDER, ITEM_SHINY_STONE, ScoreMinus10
+    IfHeldItemEqualTo AI_BATTLER_DEFENDER, ITEM_LAGGING_TAIL, ScoreMinus10
 
-    // If the attacker's ability is Stall or they are holding a Shiny Stone, terminate.
-    // BUG: This should use the command LoadHeldItemEffect to check for the Lagging Tail
-    // effect.
+    // If the attacker's ability is Stall or they are holding a Lagging Taile, terminate.
     LoadBattlerAbility AI_BATTLER_ATTACKER
     IfLoadedEqualTo ABILITY_STALL, Basic_CheckMetalBurst_Terminate
-    IfHeldItemEqualTo AI_BATTLER_ATTACKER, ITEM_SHINY_STONE, Basic_CheckMetalBurst_Terminate
+    IfHeldItemEqualTo AI_BATTLER_ATTACKER, ITEM_LAGGING_TAIL, Basic_CheckMetalBurst_Terminate
 
     // If the attacker is faster than the target, score -10.
     IfSpeedCompareEqualTo COMPARE_SPEED_FASTER, ScoreMinus10
@@ -1446,6 +1433,7 @@ Basic_CheckToxicSpikes:
     // If the target's side of the field already has 2 layers of Toxic Spikes, score -10.
     LoadSpikesLayers AI_BATTLER_DEFENDER, SIDE_CONDITION_TOXIC_SPIKES
     IfLoadedEqualTo 2, ScoreMinus10
+    IfLoadedEqualTo 0, ScorePlus1
 
     // If the target is the last battler, score -10.
     CountAlivePartyBattlers AI_BATTLER_DEFENDER
@@ -1544,6 +1532,7 @@ Basic_CheckStealthRock:
     // If the target is on their last Pokemon, score -10.
     CountAlivePartyBattlers AI_BATTLER_DEFENDER
     IfLoadedEqualTo 0, ScoreMinus10
+    AddToMoveScore 2
     PopOrEnd 
 
 Basic_CheckLunarDance:
@@ -1714,10 +1703,7 @@ Expert_Main:
     IfCurrentMoveEffectEqualTo BATTLE_EFFECT_MIRROR_COAT, Expert_MirrorCoat
     IfCurrentMoveEffectEqualTo BATTLE_EFFECT_CHARGE_TURN_DEF_UP, Expert_ChargeTurnNoInvuln
     IfCurrentMoveEffectEqualTo BATTLE_EFFECT_SKIP_CHARGE_TURN_IN_SUN, Expert_ChargeTurnNoInvuln
-
-    // BUG: Thunder is not properly scored. This is supposed to check for BATTLE_EFFECT_THUNDER.
-    IfCurrentMoveEffectEqualTo BATTLE_EFFECT_SKIP_CHARGE_TURN_IN_SUN, Expert_Thunder
-
+    IfCurrentMoveEffectEqualTo BATTLE_EFFECT_THUNDER, Expert_Thunder
     IfCurrentMoveEffectEqualTo BATTLE_EFFECT_FLY, Expert_ChargeTurnWithInvuln
     IfCurrentMoveEffectEqualTo BATTLE_EFFECT_UNUSED_157, Expert_Recovery
     IfCurrentMoveEffectEqualTo BATTLE_EFFECT_ALWAYS_FLINCH_FIRST_TURN_ONLY, Expert_FakeOut
@@ -1813,6 +1799,7 @@ Expert_Main:
 Expert_StatusSleep:
     // If the attacker knows a move which requires the target to be asleep (Dream Eater or Nightmare
     // effects), 50% chance of score +1.
+    // As a baseline, socre +2
     IfMoveEffectKnown AI_BATTLER_ATTACKER, BATTLE_EFFECT_RECOVER_DAMAGE_SLEEP, Expert_StatusSleep_TryScorePlus1
     IfMoveEffectKnown AI_BATTLER_ATTACKER, BATTLE_EFFECT_STATUS_NIGHTMARE, Expert_StatusSleep_TryScorePlus1
     GoTo Expert_StatusSleep_End
@@ -1822,6 +1809,7 @@ Expert_StatusSleep_TryScorePlus1:
     AddToMoveScore 1
 
 Expert_StatusSleep_End:
+    AddToMoveScore 2
     PopOrEnd 
 
 Expert_DrainMove:
@@ -1849,9 +1837,9 @@ Expert_Explosion:
     // | ------------: | -------------------- | ------------------------ |
     // |        >= 80% | Faster than target   | 80.5% chance of score -3 |
     // |        >= 80% | Slower than target   | 80.5% chance of score -1 |
-    // |         > 50% | N/A                  | 80.5% chance of score -1 |
-    // | <= 50%, > 30% | N/A                  | 50% chance of score +1   |
-    // |        <= 30% | N/A                  | 80.5% chance of score +1 |
+    // |         > 65% | N/A                  | 80.5% chance of score -1 |
+    // | <= 50%, > 30% | N/A                  | 80.5% chance of score +1   |
+    // |        <= 30% | N/A                  | 100% chance of score +1 |
     //
     IfStatStageLessThan AI_BATTLER_DEFENDER, BATTLE_STAT_EVASION, 7, Expert_Explosion_CheckUserHighHP
     AddToMoveScore -1
@@ -1866,13 +1854,12 @@ Expert_Explosion_CheckUserHighHP:
     GoTo ScoreMinus3
 
 Expert_Explosion_CheckUserMediumHP:
-    IfHPPercentGreaterThan AI_BATTLER_ATTACKER, 50, Expert_Explosion_TryScoreMinus1
-    IfRandomLessThan 128, Expert_Explosion_CheckUserLowHP
+    IfHPPercentGreaterThan AI_BATTLER_ATTACKER, 65, Expert_Explosion_TryScoreMinus1
+    IfRandomLessThan 50, Expert_Explosion_CheckUserLowHP
     AddToMoveScore 1
 
 Expert_Explosion_CheckUserLowHP:
     IfHPPercentGreaterThan AI_BATTLER_ATTACKER, 30, Expert_Explosion_End
-    IfRandomLessThan 50, Expert_Explosion_End
     AddToMoveScore 1
     GoTo Expert_Explosion_End
 
@@ -2679,7 +2666,7 @@ Expert_Recovery_End:
 
 Expert_ToxicLeechSeed:
     // If the attacker has at least one damaging move, apply all of the following which apply:
-    // - If the attacker's HP <= 50%, 80.5% chance of additional score -3.
+    // - If the attacker's HP <= 50%, 80.5% chance of additional score +1.
     // - If the defender's HP <= 50%, 80.5% chance of additional score -3.
     //
     // If the attacker knows a move that either increases its Special Defense by 1 stage or acts as
@@ -2688,7 +2675,7 @@ Expert_ToxicLeechSeed:
     IfAttackerHasNoDamagingMoves Expert_ToxicLeechSeed_CheckMoveEffectsKnown
     IfHPPercentGreaterThan AI_BATTLER_ATTACKER, 50, Expert_ToxicLeechSeed_CheckTargetHP
     IfRandomLessThan 50, Expert_ToxicLeechSeed_CheckTargetHP
-    AddToMoveScore -3
+    AddToMoveScore 1
 
 Expert_ToxicLeechSeed_CheckTargetHP:
     IfHPPercentGreaterThan AI_BATTLER_DEFENDER, 50, Expert_ToxicLeechSeed_CheckMoveEffectsKnown
@@ -2928,29 +2915,33 @@ Expert_Reflect_PreSplitPhysicalTypes:
 
 Expert_StatusPoison:
     // If the attacker's HP is < 50% or the defender's HP is <= 50%, score -1.
+    // Otherwise score +1
     IfHPPercentLessThan AI_BATTLER_ATTACKER, 50, Expert_StatusPoison_ScoreMinus1
     IfHPPercentGreaterThan AI_BATTLER_DEFENDER, 50, Expert_StatusPoison_End
 
 Expert_StatusPoison_ScoreMinus1:
-    AddToMoveScore -1
+    AddToMoveScore -2
 
 Expert_StatusPoison_End:
+    AddToMoveScore 1
     PopOrEnd 
 
 Expert_StatusParalyze:
     // If the attacker is slower than its target, 92.2% chance of score +3.
     //
     // If the attacker's HP is <= 70%, score -1.
+    // Otherwise, score +2
     IfSpeedCompareEqualTo COMPARE_SPEED_SLOWER, Expert_StatusParalyze_TryScorePlus3
     IfHPPercentGreaterThan AI_BATTLER_ATTACKER, 70, Expert_StatusParalyze_End
-    AddToMoveScore -1
+    AddToMoveScore -3
     GoTo Expert_StatusParalyze_End
 
 Expert_StatusParalyze_TryScorePlus3:
     IfRandomLessThan 20, Expert_StatusParalyze_End
-    AddToMoveScore 3
+    AddToMoveScore 1
 
 Expert_StatusParalyze_End:
+    AddToMoveScore 2
     PopOrEnd 
 
 Expert_VitalThrow:
@@ -3606,25 +3597,22 @@ Expert_Spikes_End:
     PopOrEnd 
 
 Expert_Foresight:
-    // If the attacker has a Ghost typing, 47.3% chance of score +2.
-    // BUG: This should instead check the opponent's typing.
-    //
     // If the target's Evasion stat stage is at +3 or higher, 68.75% chance of score +2.
     //
     // Otherwise, score -2.
-    LoadTypeFrom LOAD_ATTACKER_TYPE_1
+    LoadTypeFrom LOAD_DEFENDER_TYPE_1
     IfLoadedEqualTo TYPE_GHOST, Expert_Foresight_FirstRoll
-    LoadTypeFrom LOAD_ATTACKER_TYPE_2
+    LoadTypeFrom LOAD_DEFENDER_TYPE_2
     IfLoadedEqualTo TYPE_GHOST, Expert_Foresight_FirstRoll
     IfStatStageGreaterThan AI_BATTLER_DEFENDER, BATTLE_STAT_EVASION, 8, Expert_Foresight_SecondRoll
     AddToMoveScore -2
     GoTo Expert_Foresight_End
 
 Expert_Foresight_FirstRoll:
-    IfRandomLessThan 80, Expert_Foresight_End
+    IfRandomLessThan 40, Expert_Foresight_End
 
 Expert_Foresight_SecondRoll:
-    IfRandomLessThan 80, Expert_Foresight_End
+    IfRandomLessThan 40, Expert_Foresight_End
     AddToMoveScore 2
 
 Expert_Foresight_End:
@@ -3787,8 +3775,8 @@ Expert_SunnyDay:
     LoadBattlerAbility AI_BATTLER_ATTACKER
     IfLoadedEqualTo ABILITY_FLOWER_GIFT, Expert_SunnyDay_ScorePlus1
     IfLoadedNotEqualTo ABILITY_LEAF_GUARD, Expert_SunnyDay_End
-    IfStatus AI_BATTLER_ATTACKER, MON_CONDITION_ANY, Expert_SunnyDay_ScorePlus1
-    GoTo Expert_SunnyDay_End
+    IfStatus AI_BATTLER_ATTACKER, MON_CONDITION_ANY, Expert_SunnyDay_End
+    GoTo Expert_SunnyDay_ScorePlus1
 
 Expert_SunnyDay_ScorePlus1:
     AddToMoveScore 1
@@ -4118,10 +4106,9 @@ Expert_Hail_End:
     PopOrEnd 
 
 Expert_Facade:
-    // If the opponent has a status condition which would boost Facade, score +1.
-    // BUG: This should instead check if the attacker has such a status condition.
-    IfNotStatus AI_BATTLER_DEFENDER, MON_CONDITION_FACADE_BOOST, Expert_Facade_End
-    AddToMoveScore 1
+    // If the attacker has a status condition which would boost Facade, score +1.
+    IfNotStatus AI_BATTLER_ATTACKER, MON_CONDITION_FACADE_BOOST, Expert_Facade_End
+    AddToMoveScore 2
 
 Expert_Facade_End:
     PopOrEnd 
@@ -4341,7 +4328,6 @@ Expert_Trick_FlavorBerries:
     TableEntry TABLE_END
 
 Expert_Trick_DisruptiveItems:
-    // BUG: This list does not include Macho Brace.
     TableEntry HOLD_EFFECT_CHOICE_ATK
     TableEntry HOLD_EFFECT_CHOICE_SPATK
     TableEntry HOLD_EFFECT_CHOICE_SPEED
@@ -4355,6 +4341,7 @@ Expert_Trick_DisruptiveItems:
     TableEntry HOLD_EFFECT_LVLUP_SPDEF_EV_UP
     TableEntry HOLD_EFFECT_LVLUP_SPEED_EV_UP
     TableEntry HOLD_EFFECT_LVLUP_HP_EV_UP
+    TableEntry HOLD_EFFECT_EVS_UP_SPEED_DOWN
     TableEntry TABLE_END
 
 Expert_Trick_PoisoningItems:
@@ -4613,13 +4600,11 @@ Expert_WaterSpout:
     // If the attacker is slower than its opponent and the opponent's HP <= 70%, score -1.
     //
     // If the attacker is faster than its opponent and the opponent's HP <= 50%, score -1.
-    //
-    // BUG: This should instead check for the user's HP.
     IfMoveEffectivenessEquals TYPE_MULTI_IMMUNE, Expert_WaterSpout_ScoreMinus1
     IfMoveEffectivenessEquals TYPE_MULTI_QUARTER_DAMAGE, Expert_WaterSpout_ScoreMinus1
     IfMoveEffectivenessEquals TYPE_MULTI_HALF_DAMAGE, Expert_WaterSpout_ScoreMinus1
     IfSpeedCompareEqualTo COMPARE_SPEED_SLOWER, Expert_WaterSpout_SlowerCheckHP
-    IfHPPercentGreaterThan AI_BATTLER_DEFENDER, 50, Expert_WaterSpout_End
+    IfHPPercentGreaterThan AI_BATTLER_ATTACKER, 50, Expert_WaterSpout_End
     GoTo Expert_WaterSpout_ScoreMinus1
 
 Expert_WaterSpout_SlowerCheckHP:
@@ -5148,14 +5133,11 @@ Expert_CloseCombat:
     // If the opponent resists or is immune to the move, score -1.
     //
     // If the attacker is slower than its opponent and its HP <= 80%, score -1.
-    //
-    // If the attacker is faster than its opponent and its HP <= 60%, score -1.
     IfMoveEffectivenessEquals TYPE_MULTI_IMMUNE, Expert_CloseCombat_ScoreMinus1
     IfMoveEffectivenessEquals TYPE_MULTI_QUARTER_DAMAGE, Expert_CloseCombat_ScoreMinus1
     IfMoveEffectivenessEquals TYPE_MULTI_HALF_DAMAGE, Expert_CloseCombat_ScoreMinus1
     IfSpeedCompareEqualTo COMPARE_SPEED_SLOWER, Expert_CloseCombat_SlowerCheckHP
-    IfHPPercentGreaterThan AI_BATTLER_ATTACKER, 60, Expert_CloseCombat_End
-    GoTo Expert_CloseCombat_ScoreMinus1
+    GoTo Expert_CloseCombat_End
 
 Expert_CloseCombat_SlowerCheckHP:
     IfHPPercentGreaterThan AI_BATTLER_ATTACKER, 80, Expert_CloseCombat_End
@@ -7247,17 +7229,14 @@ TagStrategy_SpreadElectricMove:
     IfLoadedEqualTo AI_HAVE, ScorePlus3
     CheckBattlerAbility AI_BATTLER_ATTACKER_PARTNER, ABILITY_VOLT_ABSORB
     IfLoadedEqualTo AI_HAVE, ScorePlus3
+    FlagBattlerIsType AI_BATTLER_ATTACKER_PARTNER, TYPE_GROUND
+    IfLoadedEqualTo AI_HAVE, ScorePlus3
     FlagBattlerIsType AI_BATTLER_ATTACKER_PARTNER, TYPE_WATER
     IfLoadedEqualTo AI_HAVE, ScoreMinus10
     FlagBattlerIsType AI_BATTLER_ATTACKER_PARTNER, TYPE_FLYING
     IfLoadedEqualTo AI_HAVE, ScoreMinus10
 
-    // BUG: This should be before the checks for all other types; in its present position, the
-    // vanilla trainer AI will never use Discharge if their partner is, e.g., Swampert or Gliscor
-    // (which should be treated as Immune to the move, but are not).
-    FlagBattlerIsType AI_BATTLER_ATTACKER_PARTNER, TYPE_GROUND
-    IfLoadedEqualTo AI_HAVE, ScorePlus3
-    AddToMoveScore -3
+    AddToMoveScore -1
 
 TagStrategy_CheckElectric_End:
     PopOrEnd 
@@ -7283,7 +7262,7 @@ TagStrategy_CheckPartnerStormDrain:
 TagStrategy_SpreadWaterMove:
     // If our partner has Dry Skin or Water Absorb, score +3
     //
-    // If our partner otherwise has a Ground or Fire typing, score -10
+    // If our partner otherwise has a Ground, Rock, Fire typing, score -10
     //
     // Else, score -3
     CheckBattlerAbility AI_BATTLER_ATTACKER_PARTNER, ABILITY_DRY_SKIN
@@ -7291,10 +7270,11 @@ TagStrategy_SpreadWaterMove:
     CheckBattlerAbility AI_BATTLER_ATTACKER_PARTNER, ABILITY_WATER_ABSORB
     IfLoadedEqualTo AI_HAVE, ScorePlus3
 
-    // BUG: This should also include a similar check for the Rock type
     FlagBattlerIsType AI_BATTLER_ATTACKER_PARTNER, TYPE_GROUND
     IfLoadedEqualTo AI_HAVE, ScoreMinus10
     FlagBattlerIsType AI_BATTLER_ATTACKER_PARTNER, TYPE_FIRE
+    IfLoadedEqualTo AI_HAVE, ScoreMinus10
+    FlagBattlerIsType AI_BATTLER_ATTACKER_PARTNER, TYPE_ROCK
     IfLoadedEqualTo AI_HAVE, ScoreMinus10
     AddToMoveScore -3
 

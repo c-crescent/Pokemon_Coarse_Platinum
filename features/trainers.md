@@ -1,5 +1,9 @@
 # Note
 
+* Removed all battle items from enemy trainers
+* Fixed various trainer AI bugs
+* Trainer AI now prioritises status & hazards
+
 ## Barry's Final Team
 Staraptor
 Heracross
@@ -7,12 +11,6 @@ Snorlax
 Fire (Rapidash / Chimchar)
 Water (Floatzel / Empoleon)
 Grass ( Tangrowth / Torterra )
-
-# Battle AI Changes
-
-# Trainer Teams
-
-* Removed all battle items from enemy trainers
 
 ## Rival - Route 203 (10)
 
