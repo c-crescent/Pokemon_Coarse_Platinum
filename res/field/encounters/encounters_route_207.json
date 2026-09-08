@@ -3,7 +3,7 @@
     "land_encounters": [
         {
             "level": 7,
-            "species": "SPECIES_MACHOP"
+            "species": "SPECIES_STANTLER"
         },
         {
             "level": 5,
@@ -47,7 +47,7 @@
         },
         {
             "level": 7,
-            "species": "SPECIES_GEODUDE"
+            "species": "SPECIES_MUDKIP"
         }
     ],
     "swarms": [
@@ -55,8 +55,8 @@
         "SPECIES_PHANPY"
     ],
     "day": [
-        "SPECIES_PONYTA",
-        "SPECIES_MACHOP"
+        "SPECIES_PHANPY",
+        "SPECIES_PHANPY"
     ],
     "night": [
         "SPECIES_KRICKETOT",

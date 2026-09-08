@@ -3,7 +3,7 @@
     "land_encounters": [
         {
             "level": 5,
-            "species": "SPECIES_GEODUDE"
+            "species": "SPECIES_RHYHORN"
         },
         {
             "level": 6,
@@ -46,8 +46,8 @@
             "species": "SPECIES_GEODUDE"
         },
         {
-            "level": 7,
-            "species": "SPECIES_ZUBAT"
+            "level": 5,
+            "species": "SPECIES_CHIMCHAR"
         }
     ],
     "swarms": [
@@ -55,12 +55,12 @@
         "SPECIES_GEODUDE"
     ],
     "day": [
-        "SPECIES_ZUBAT",
-        "SPECIES_ZUBAT"
+        "SPECIES_BONSLY",
+        "SPECIES_BONSLY"
     ],
     "night": [
-        "SPECIES_ZUBAT",
-        "SPECIES_ZUBAT"
+        "SPECIES_SHUCKLE",
+        "SPECIES_SHUCKLE"
     ],
     "radar": [
         "SPECIES_GEODUDE",

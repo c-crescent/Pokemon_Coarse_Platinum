@@ -7,7 +7,7 @@
         },
         {
             "level": 3,
-            "species": "SPECIES_BIDOOF"
+            "species": "SPECIES_SENTRET"
         },
         {
             "level": 4,
@@ -47,7 +47,7 @@
         },
         {
             "level": 2,
-            "species": "SPECIES_BIDOOF"
+            "species": "SPECIES_CHIKORITA"
         }
     ],
     "swarms": [
@@ -55,12 +55,12 @@
         "SPECIES_ZIGZAGOON"
     ],
     "day": [
-        "SPECIES_STARLY",
-        "SPECIES_BIDOOF"
+        "SPECIES_TAILLOW",
+        "SPECIES_TAILLOW"
     ],
     "night": [
-        "SPECIES_KRICKETOT",
-        "SPECIES_BIDOOF"
+        "SPECIES_HOOTHOOT",
+        "SPECIES_HOOTHOOT"
     ],
     "radar": [
         "SPECIES_SENTRET",

@@ -7,7 +7,7 @@
         },
         {
             "level": 7,
-            "species": "SPECIES_GEODUDE"
+            "species": "SPECIES_ARON"
         },
         {
             "level": 6,
@@ -43,11 +43,11 @@
         },
         {
             "level": 9,
-            "species": "SPECIES_GEODUDE"
+            "species": "SPECIES_ARON"
         },
         {
-            "level": 8,
-            "species": "SPECIES_ZUBAT"
+            "level": 5,
+            "species": "SPECIES_CHARMANDER"
         }
     ],
     "swarms": [
@@ -55,12 +55,12 @@
         "SPECIES_GEODUDE"
     ],
     "day": [
-        "SPECIES_ZUBAT",
-        "SPECIES_ZUBAT"
+        "SPECIES_SOLROCK",
+        "SPECIES_SOLROCK"
     ],
     "night": [
-        "SPECIES_ZUBAT",
-        "SPECIES_ZUBAT"
+        "SPECIES_LUNATONE",
+        "SPECIES_LUNATONE"
     ],
     "radar": [
         "SPECIES_GEODUDE",

@@ -7,7 +7,7 @@
         },
         {
             "level": 4,
-            "species": "SPECIES_PSYDUCK"
+            "species": "SPECIES_POLIWAG"
         },
         {
             "level": 5,
@@ -19,7 +19,7 @@
         },
         {
             "level": 3,
-            "species": "SPECIES_ZUBAT"
+            "species": "SPECIES_PICHU"
         },
         {
             "level": 3,
@@ -31,7 +31,11 @@
         },
         {
             "level": 6,
-            "species": "SPECIES_ZUBAT"
+            "species": "SPECIES_DIGLETT"
+        },
+        {
+            "level": 6,
+            "species": "SPECIES_DIGLETT"
         },
         {
             "level": 6,
@@ -42,12 +46,8 @@
             "species": "SPECIES_ZUBAT"
         },
         {
-            "level": 6,
-            "species": "SPECIES_ZUBAT"
-        },
-        {
-            "level": 6,
-            "species": "SPECIES_ZUBAT"
+            "level": 5,
+            "species": "SPECIES_TORCHIC"
         }
     ],
     "swarms": [
