@@ -12,7 +12,16 @@
         "As the Gym Leader, I need to see\n",
         "your potential as a Trainer.\r",
         "And, I’ll need to see the toughness\n",
-        "of the Pokémon that battle with you!\r"
+        "of the Pokémon that battle with you!\r",
+        "Bring no more than four Pokémon to\n",
+        "the battle!\r"
+      ]
+    },
+    {
+      "id": "OreburghGym_Text_RoarkTooManyMons",
+      "en_US": [
+        "Come back after you have trimmed \n",
+        "your team to no more than four!\r"
       ]
     },
     {

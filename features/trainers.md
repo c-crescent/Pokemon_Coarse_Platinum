@@ -3,6 +3,7 @@
 * Removed all battle items from enemy trainers
 * Fixed various trainer AI bugs
 * Trainer AI now prioritises status & hazards
+* Gym Leaders now enforce a party size cap
 
 ## Barry's Final Team
 Staraptor

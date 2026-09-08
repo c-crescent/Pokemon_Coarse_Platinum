@@ -15,6 +15,8 @@ OreburghGym_Roark:
     CreateJournalEvent LOCATION_EVENT_GYM_WAS_TOO_TOUGH, MAP_HEADER_OREBURGH_CITY_GYM
     Message OreburghGym_Text_RoarkIntro
     CloseMessage
+    GetPartyCount VAR_RESULT
+    GoToIfGt VAR_RESULT, 4, OreburghGym_Roark_TooManyMons
     StartTrainerBattle TRAINER_LEADER_ROARK
     CheckWonBattle VAR_RESULT
     GoToIfEq VAR_RESULT, FALSE, OreburghGym_LostBattle
@@ -42,6 +44,12 @@ OreburghGym_Roark:
     Message OreburghGym_Text_RoarkExplainCoalBadge
     GoTo OreburghGym_RoarkGiveTM76
     End
+
+OreburghGym_Roark_TooManyMons:
+    Message OreburghGym_Text_RoarkTooManyMons
+    CloseMessage
+    ReleaseAll
+    End     
 
 OreburghGym_RoarkGiveTM76:
     SetVar VAR_0x8004, ITEM_TM76
