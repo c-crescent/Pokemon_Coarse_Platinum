@@ -3,6 +3,7 @@
 ## Story
 * Significantly reduced the amount of text in the opening, up to after the first gym.
 * Removed the catching tutorial.
+* After defeating a gym leader, the guide at that gym will tell you the next level cap.
 
 ## Exploration
 * After acquiring the Running Shoes, running is the default movement state. The player can hold B to walk.

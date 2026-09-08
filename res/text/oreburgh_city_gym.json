@@ -27,14 +27,6 @@
     {
       "id": "OreburghGym_Text_BeatRoark",
       "en_US": [
-        "This is embarrassing...\r",
-        "I went and lost to a Trainer who\n",
-        "didn’t have a single Gym Badge...\r",
-        "But that’s tough. You were strong,\n",
-        "and I was weak. That’s all there is.\r",
-        "According to Pokémon League rules,\n",
-        "I have to give you our Gym Badge\f",
-        "since you’ve beaten me, the Leader.\r",
         "Here’s your official Pokémon League\n",
         "Coal Badge.\r"
       ]
@@ -51,8 +43,7 @@
       "en_US": [
         "Having that Coal Badge means your\n",
         "Pokémon can now use the hidden move\f",
-        "Rock Smash outside of battle.\r",
-        "You should also take this, too.\r"
+        "Rock Smash outside of battle.\r"
       ]
     },
     {
@@ -61,12 +52,7 @@
         "That {STRVAR_1 8, 0, 0} contains\n",
         "the move Stealth Rock.\r",
         "It’s a move that inflicts damage on\n",
-        "foes that switch into battle.\r",
-        "Incidentally, a TM will teach its move\n",
-        "to a Pokémon instantly.\r",
-        "But a TM will break when you use it,\n",
-        "so make certain you want a Pokémon\f",
-        "to learn that move."
+        "foes that switch into battle.\r"
       ]
     },
     {
@@ -107,10 +93,8 @@
       "en_US": [
         "Oh! {STRVAR_1 3, 0, 0}!\n",
         "You’ve taken care of the Gym Leader!\r",
-        "So, did my advice come in handy\n",
-        "or what?\r",
-        "If my advice was useful, it’d be\n",
-        "great if you’d become my fan!"
+        "Your next challenge will be at\n",
+        "level twenty-two. Good luck!\r"
       ]
     },
     {
