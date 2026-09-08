@@ -32,7 +32,7 @@
                 "MOVE_HARDEN",
                 "MOVE_ROCK_THROW",
                 "MOVE_TACKLE",
-                "MOVE_MAGNITITUDE"
+                "MOVE_MAGNITUDE"
             ],
             "iv_scale": 50,
             "ball_seal": 0
