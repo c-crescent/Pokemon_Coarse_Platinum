@@ -8,30 +8,47 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_CHERUBI",
+            "species": "SPECIES_PARASECT",
             "form": 0,
-            "level": 17,
+            "level": 20,
             "item": null,
             "moves": [
-                "MOVE_TACKLE",
-                "MOVE_LEECH_SEED"
+                "MOVE_SPORE",
+                "MOVE_SLASH",
+                "MOVE_LEECH_LIFE",
+                "MOVE_CROSS_POISON"
             ],
-            "iv_scale": 20,
+            "iv_scale": 100,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_ROSELIA",
+            "species": "SPECIES_LOMBRE",
             "form": 0,
-            "level": 17,
+            "level": 20,
             "item": null,
             "moves": [
-                "MOVE_MEGA_DRAIN",
-                "MOVE_POISON_STING",
-                "MOVE_STUN_SPORE"
+                "MOVE_FAKE_OUT",
+                "MOVE_BUBBLE_BEAM",
+                "MOVE_NATURE_POWER",
+                "MOVE_ABSORB"
             ],
-            "iv_scale": 20,
+            "iv_scale": 100,
             "ball_seal": 0
-        }
+        },
+        {
+            "species": "SPECIES_NUZLEAF",
+            "form": 0,
+            "level": 20,
+            "item": null,
+            "moves": [
+                "MOVE_RAZOR_LEAF",
+                "MOVE_FAKE_OUT",
+                "MOVE_FAINT_ATTACK",
+                "MOVE_NATURE_POWER"
+            ],
+            "iv_scale": 100,
+            "ball_seal": 0
+        }        
     ],
     "messages": [
         {

@@ -53,3 +53,37 @@ Nosepass
 Larvitar
 Cranidos
 
+### Commander Mars - Valley Windworks (19)
+
+Zubat
+Yanma
+Beldum
+Purugly
+
+## Eterna Gym
+
+### Lass Caroline (20)
+
+Parasect
+Lombre
+Nuzleaf
+
+### Aroma Lady Angela (20)
+
+Cacnea
+Weepinbell
+Carnivine
+
+### Aroma Lady Jenna (20)
+
+Ivysaur
+Bayleef
+Grovyle
+
+### Leader Gardenia (22)
+
+Grotle
+Skiploom
+Cherrim
+Sunflora
+Roserade

@@ -9,16 +9,45 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_ROSELIA",
+            "species": "SPECIES_CACNEA",
             "form": 0,
-            "level": 19,
+            "level": 20,
             "item": null,
             "moves": [
-                "MOVE_MEGA_DRAIN",
-                "MOVE_POISON_STING",
-                "MOVE_STUN_SPORE"
+                "MOVE_LEECH_SEED",
+                "MOVE_SEED_BOMB",
+                "MOVE_SPIKES",
+                "MOVE_MAGICAL_LEAF"
             ],
-            "iv_scale": 20,
+            "iv_scale": 100,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_WEEPINBELL",
+            "form": 0,
+            "level": 20,
+            "item": null,
+            "moves": [
+                "MOVE_SUCKER_PUNCH",
+                "MOVE_SEED_BOMB",
+                "MOVE_GASTRO_ACID",
+                "MOVE_SLEEP_POWDER"
+            ],
+            "iv_scale": 100,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_CARNIVINE",
+            "form": 0,
+            "level": 20,
+            "item": null,
+            "moves": [
+                "MOVE_FAINT_ATTACK",
+                "MOVE_RAZOR_LEAF",
+                "MOVE_SLAM",
+                "MOVE_SYNTHESIS"
+            ],
+            "iv_scale": 100,
             "ball_seal": 0
         }
     ],
