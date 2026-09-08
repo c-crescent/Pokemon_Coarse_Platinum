@@ -57,6 +57,8 @@ Day:
 > Caterpie
 Night:
 > Weedle
+Old Rod:
+> Surskit
 
 ### Ravaged Path
 Land:
@@ -64,6 +66,8 @@ Land:
 > Pichu
 > Diglett
 > Poliwag
+Old Rod:
+> Luvdisc
 
 ### Oreburgh Gate 1F
 Land:
@@ -100,3 +104,45 @@ Day:
 > Solrock
 Night:
 > Lunatone
+
+### Route 204 North
+Land:
+> Sunkern
+
+### Valley Windworks
+Land:
+> Mareep
+> Electrike
+Old Rod:
+> Wooper
+
+### Route 205 South
+Land:
+> Hoppip
+Old Rod:
+> Finneon
+> Shellder
+
+### Eterna Forest
+Day: 
+> Slakoth
+Night:
+> Nincada
+
+### Route 205 North
+Land:
+> Slowpoke
+Day:
+> Cherubi
+Night:
+> Glameow
+Old Rod:
+> Barboach
+
+### Route 206
+Land:
+> Stunky
+> Larvitar
+> Baltoy
+Night:
+> Sandshrew

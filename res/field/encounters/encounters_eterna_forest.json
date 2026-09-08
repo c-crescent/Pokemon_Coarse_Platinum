@@ -55,12 +55,12 @@
         "SPECIES_SLAKOTH"
     ],
     "day": [
-        "SPECIES_WURMPLE",
-        "SPECIES_BUDEW"
+        "SPECIES_SLAKOTH",
+        "SPECIES_SLAKOTH"
     ],
     "night": [
-        "SPECIES_KRICKETOT",
-        "SPECIES_HOOTHOOT"
+        "SPECIES_NINCADA",
+        "SPECIES_NINCADA"
     ],
     "radar": [
         "SPECIES_NINCADA",

@@ -3,7 +3,7 @@
     "land_encounters": [
         {
             "level": 12,
-            "species": "SPECIES_BIDOOF"
+            "species": "SPECIES_SLOWPOKE"
         },
         {
             "level": 12,
@@ -55,12 +55,12 @@
         "SPECIES_BUDEW"
     ],
     "day": [
-        "SPECIES_WURMPLE",
-        "SPECIES_BUDEW"
+        "SPECIES_CHERUBI",
+        "SPECIES_CHERUBI"
     ],
     "night": [
-        "SPECIES_KRICKETOT",
-        "SPECIES_HOOTHOOT"
+        "SPECIES_GLAMEOW",
+        "SPECIES_GLAMEOW"
     ],
     "radar": [
         "SPECIES_SLOWPOKE",
@@ -127,27 +127,27 @@
         {
             "level_max": 6,
             "level_min": 4,
-            "species": "SPECIES_MAGIKARP"
+            "species": "SPECIES_BARBOACH"
         },
         {
             "level_max": 7,
             "level_min": 3,
-            "species": "SPECIES_MAGIKARP"
+            "species": "SPECIES_BARBOACH"
         },
         {
             "level_max": 10,
             "level_min": 5,
-            "species": "SPECIES_MAGIKARP"
+            "species": "SPECIES_BARBOACH"
         },
         {
             "level_max": 10,
             "level_min": 5,
-            "species": "SPECIES_MAGIKARP"
+            "species": "SPECIES_BARBOACH"
         },
         {
             "level_max": 15,
             "level_min": 5,
-            "species": "SPECIES_MAGIKARP"
+            "species": "SPECIES_BARBOACH"
         }
     ],
     "good_rod_rate": 50,

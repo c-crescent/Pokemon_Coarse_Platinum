@@ -3,7 +3,7 @@
     "land_encounters": [
         {
             "level": 10,
-            "species": "SPECIES_SHELLOS"
+            "species": "SPECIES_HOPPIP"
         },
         {
             "level": 11,
@@ -127,27 +127,27 @@
         {
             "level_max": 6,
             "level_min": 4,
-            "species": "SPECIES_MAGIKARP"
+            "species": "SPECIES_FINNEON"
         },
         {
             "level_max": 7,
             "level_min": 3,
-            "species": "SPECIES_MAGIKARP"
+            "species": "SPECIES_FINNEON"
         },
         {
             "level_max": 10,
             "level_min": 5,
-            "species": "SPECIES_MAGIKARP"
+            "species": "SPECIES_FINNEON"
         },
         {
             "level_max": 10,
             "level_min": 5,
-            "species": "SPECIES_MAGIKARP"
+            "species": "SPECIES_FINNEON"
         },
         {
             "level_max": 15,
             "level_min": 5,
-            "species": "SPECIES_MAGIKARP"
+            "species": "SPECIES_SHELLDER"
         }
     ],
     "good_rod_rate": 50,
@@ -155,7 +155,7 @@
         {
             "level_max": 20,
             "level_min": 15,
-            "species": "SPECIES_MAGIKARP"
+            "species": "SPECIES_FINNEON"
         },
         {
             "level_max": 20,
@@ -165,17 +165,17 @@
         {
             "level_max": 25,
             "level_min": 10,
-            "species": "SPECIES_MAGIKARP"
-        },
-        {
-            "level_max": 25,
-            "level_min": 10,
             "species": "SPECIES_FINNEON"
         },
         {
             "level_max": 25,
             "level_min": 10,
-            "species": "SPECIES_FINNEON"
+            "species": "SPECIES_SHELLDER"
+        },
+        {
+            "level_max": 25,
+            "level_min": 10,
+            "species": "SPECIES_SHELLDER"
         }
     ],
     "super_rod_rate": 75,
@@ -183,7 +183,7 @@
         {
             "level_max": 55,
             "level_min": 30,
-            "species": "SPECIES_GYARADOS"
+            "species": "SPECIES_LUMINEON"
         },
         {
             "level_max": 40,
@@ -193,17 +193,17 @@
         {
             "level_max": 50,
             "level_min": 20,
+            "species": "SPECIES_LUMINEON"
+        },
+        {
+            "level_max": 55,
+            "level_min": 40,
             "species": "SPECIES_SHELLDER"
         },
         {
             "level_max": 55,
             "level_min": 40,
-            "species": "SPECIES_LUMINEON"
-        },
-        {
-            "level_max": 55,
-            "level_min": 40,
-            "species": "SPECIES_LUMINEON"
+            "species": "SPECIES_SHELLDER"
         }
     ],
     "map_category": {

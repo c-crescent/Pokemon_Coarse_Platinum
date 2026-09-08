@@ -7,7 +7,7 @@
         },
         {
             "level": 16,
-            "species": "SPECIES_GEODUDE"
+            "species": "SPECIES_STUNKY"
         },
         {
             "level": 18,
@@ -35,7 +35,7 @@
         },
         {
             "level": 19,
-            "species": "SPECIES_MACHOP"
+            "species": "SPECIES_BALTOY"
         },
         {
             "level": 18,
@@ -47,7 +47,7 @@
         },
         {
             "level": 18,
-            "species": "SPECIES_GEODUDE"
+            "species": "SPECIES_LARVITAR"
         }
     ],
     "swarms": [
@@ -56,11 +56,11 @@
     ],
     "day": [
         "SPECIES_GLIGAR",
-        "SPECIES_PONYTA"
+        "SPECIES_GLIGAR"
     ],
     "night": [
-        "SPECIES_KRICKETUNE",
-        "SPECIES_ZUBAT"
+        "SPECIES_SANDSHREW",
+        "SPECIES_SANDSHREW"
     ],
     "radar": [
         "SPECIES_BALTOY",
