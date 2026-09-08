@@ -1806,6 +1806,10 @@ static u8 GetContextMenuEntriesForPartyMon(PartyMenuApplication *application, u8
                     break;
                 }
 
+                if (move == MOVE_FLY) {
+                    continue;
+                }
+
                 fieldEffect = GetFieldMoveIndex(move);
 
                 if (fieldEffect != 0xff) {
@@ -1814,6 +1818,13 @@ static u8 GetContextMenuEntriesForPartyMon(PartyMenuApplication *application, u8
                     PartyMenu_SetKnownFieldMove(application, move, fieldMoveIndex);
                     fieldMoveIndex++;
                 }
+            }
+
+            if (Pokemon_CanLearnTM(mon, Item_TMHMNumber(ITEM_HM02)) == TRUE) {
+                menuEntriesBuffer[count] = GetFieldMoveIndex(MOVE_FLY);
+                count++;
+                PartyMenu_SetKnownFieldMove(application, MOVE_FLY, fieldMoveIndex);
+                fieldMoveIndex++;
             }
 
             menuEntriesBuffer[count] = 0;
