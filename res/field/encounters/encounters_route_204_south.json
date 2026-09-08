@@ -46,8 +46,8 @@
             "species": "SPECIES_STARLY"
         },
         {
-            "level": 6,
-            "species": "SPECIES_BIDOOF"
+            "level": 5,
+            "species": "SPECIES_TOTODILE"
         }
     ],
     "swarms": [
@@ -119,7 +119,7 @@
         {
             "level_max": 40,
             "level_min": 20,
-            "species": "SPECIES_TOTODILE"
+            "species": "SPECIES_GOLDUCK"
         }
     ],
     "old_rod_rate": 25,
