@@ -80,6 +80,8 @@ Land:
 > Mudkip
 Day:
 > Phanphy
+Night:
+> Tangela
 
 ### Oreburg Mine B1F
 Land:

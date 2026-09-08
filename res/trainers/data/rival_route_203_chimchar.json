@@ -12,25 +12,40 @@
         {
             "species": "SPECIES_STARLY",
             "form": 0,
-            "level": 7,
+            "level": 10,
             "item": null,
             "moves": [
                 "MOVE_QUICK_ATTACK",
+                "MOVE_PECK",
                 "MOVE_GROWL"
             ],
-            "iv_scale": 30,
+            "iv_scale": 50,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_PONYTA",
+            "form": 0,
+            "level": 10,
+            "item": null,
+            "moves": [
+                "MOVE_EMBER",
+                "MOVE_TAIL_WHIP",
+                "MOVE_GROWL"
+            ],
+            "iv_scale": 50,
             "ball_seal": 0
         },
         {
             "species": "SPECIES_PIPLUP",
             "form": 0,
-            "level": 9,
+            "level": 10,
             "item": null,
             "moves": [
                 "MOVE_POUND",
-                "MOVE_GROWL"
+                "MOVE_GROWL",
+                "MOVE_BUBBLE"
             ],
-            "iv_scale": 30,
+            "iv_scale": 250,
             "ball_seal": 0
         }
     ],
