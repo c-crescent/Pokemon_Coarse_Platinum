@@ -1,7 +1,7 @@
 # Quality of Life
 
 ## Story
-* Significantly reduced the amount of text in the opening, up to the player receiving the Parcel.
+* Significantly reduced the amount of text in the opening, up to after the first gym.
 * Removed the catching tutorial.
 
 ## Exploration

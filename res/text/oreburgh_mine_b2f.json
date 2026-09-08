@@ -4,9 +4,7 @@
     {
       "id": "OreburghMineB2F_Text_StandBackAndWatch",
       "en_US": [
-        "OK, stand back and watch this.\r",
-        "Using the hidden move Rock Smash,\n",
-        "a boulder blocking your way...\r"
+        "OK, stand back and watch this.\r"
       ]
     },
     {
@@ -14,9 +12,6 @@
       "en_US": [
         "Fallen boulders need to be smashed\n",
         "so they’re out of the way.\r",
-        "If you could get the Badge from\n",
-        "the Gym in town, you’d be able\f",
-        "to do this too.\r",
         "Of course, you’d have to beat the\n",
         "Gym Leader first. That’d be me!\r"
       ]
