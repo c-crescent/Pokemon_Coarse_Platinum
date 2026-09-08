@@ -113,6 +113,8 @@ Land:
 Land:
 > Mareep
 > Electrike
+Night:
+> Drifloon
 Old Rod:
 > Wooper
 
