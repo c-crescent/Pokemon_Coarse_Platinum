@@ -19,6 +19,7 @@
 #include "generated/genders.h"
 #include "generated/natures.h"
 #include "generated/species_data_params.h"
+#include "savedata.h"
 
 #include "struct_defs/chatot_cry.h"
 #include "struct_defs/seal_case.h"
@@ -3505,13 +3506,14 @@ BOOL Pokemon_ShouldLevelUp(Pokemon *mon)
     u32 monExp = Pokemon_GetValue(mon, MON_DATA_EXPERIENCE, NULL);
     int monExpRate = SpeciesData_GetSpeciesValue(monSpecies, SPECIES_DATA_EXP_RATE);
     u32 maxExp = Pokemon_GetExpRateBaseExpAt(monExpRate, MAX_POKEMON_LEVEL);
+    u8 levelCap = Pokemon_GetLevelCap();
 
     if (monExp > maxExp) {
         monExp = maxExp;
         Pokemon_SetValue(mon, MON_DATA_EXPERIENCE, &monExp);
     }
 
-    if (monNextLevel > MAX_POKEMON_LEVEL) {
+    if (monNextLevel > levelCap) {
         return FALSE;
     }
 
@@ -3523,6 +3525,11 @@ BOOL Pokemon_ShouldLevelUp(Pokemon *mon)
     }
 
     return FALSE;
+}
+
+u8 Pokemon_GetLevelCap(Trainer *info, VarsFlags *varsFlags)
+{
+    return 10;
 }
 
 u16 Pokemon_GetEvolutionTargetSpecies(Party *party, Pokemon *mon, u8 evoClass, u16 evoParam, int *evoTypeResult)

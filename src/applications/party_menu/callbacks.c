@@ -675,6 +675,20 @@ static enum PartyMenuState PartyMenuCB_UseItem_RareCandy(PartyMenuApplication *a
 {
     Pokemon *mon = Party_GetPokemonBySlotIndex(application->partyMenu->party, application->currPartySlot);
 
+    u8 maxLevel = MAX_POKEMON_LEVEL;
+
+    if (application->partyMenu->fieldSystem && application->partyMenu->fieldSystem->saveData) {
+        maxLevel = Pokemon_GetLevelCap();
+    }
+
+    if (Pokemon_GetValue(mon, MON_DATA_LEVEL, NULL) >= maxLevel) {
+        MessageLoader_GetString(application->messageLoader, PartyMenu_Text_ItWontHaveAnyEffect, application->tmpString);
+        PartyMenu_PrintLongMessage(application, PRINT_MESSAGE_PRELOADED, TRUE);
+        application->callback = PartyMenuCB_PrintThenWaitABPress;
+        PartyMenu_UpdateCursor(application, application->currPartySlot, 1);
+        return PARTY_MENU_STATE_EXEC_CALLBACK;
+    }
+
     application->monStats[STAT_HP] = (u16)Pokemon_GetValue(mon, MON_DATA_MAX_HP, NULL);
     application->monStats[STAT_ATTACK] = (u16)Pokemon_GetValue(mon, MON_DATA_ATK, NULL);
     application->monStats[STAT_DEFENSE] = (u16)Pokemon_GetValue(mon, MON_DATA_DEF, NULL);

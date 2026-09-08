@@ -9737,7 +9737,7 @@ static void BattleScript_GetExpTask(SysTask *task, void *inData)
         u32 totalExp = 0;
         msg.id = BattleStrings_Text_PokemonGainedExpPoints; // "{0} gained {1} Exp. Points!"
 
-        if (Pokemon_GetValue(mon, MON_DATA_HP, NULL) && Pokemon_GetValue(mon, MON_DATA_LEVEL, NULL) != MAX_POKEMON_LEVEL) {
+        if (Pokemon_GetValue(mon, MON_DATA_HP, NULL) && Pokemon_GetValue(mon, MON_DATA_LEVEL, NULL) < Pokemon_GetLevelCap()) {
             if (data->battleCtx->sideGetExpMask[battler] & FlagIndex(slot)) {
                 totalExp = data->battleCtx->gainedExp;
             }
@@ -9806,7 +9806,7 @@ static void BattleScript_GetExpTask(SysTask *task, void *inData)
 
     case SEQ_GET_EXP_GAUGE:
         // Only animate the gauge for an active battler
-        if (slot == data->battleCtx->selectedPartySlot[expBattler]) {
+        if (slot == data->battleCtx->selectedPartySlot[expBattler] && Pokemon_GetValue(mon, MON_DATA_LEVEL, NULL) < Pokemon_GetLevelCap()) {
             BattleController_EmitUpdateExpGauge(data->battleSys, data->battleCtx, expBattler, data->tmpData[GET_EXP_NEW_EXP]);
             data->tmpData[GET_EXP_NEW_EXP] = 0;
             data->seqNum++;
