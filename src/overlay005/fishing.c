@@ -251,7 +251,7 @@ static BOOL FishingTask_CastRod(FishingTask *fishingTask, PlayerAvatar *playerAv
 
 static BOOL FishingTask_SetFishWait(FishingTask *fishingTask, PlayerAvatar *playerAvatar, MapObject *playerMapObject)
 {
-    fishingTask->fishDelayCounter = ((LCRNG_Next() % 4) + 1) * 30;
+    fishingTask->fishDelayCounter = 60;
     fishingTask->fishHookedCounter = sRodTypeHookTimingWindow[fishingTask->rodType];
     fishingTask->fishingTask = FUNC_FishingTask_WaitForFish;
 
@@ -572,7 +572,7 @@ static u16 ConvertRodTypeToRodItem(enum EncounterFishingRodType rodType)
 }
 
 static const int sRodTypeHookTimingWindow[] = {
-    [FISHING_TYPE_OLD_ROD] = 45,
-    [FISHING_TYPE_GOOD_ROD] = 30,
-    [FISHING_TYPE_SUPER_ROD] = 15
+    [FISHING_TYPE_OLD_ROD] = 600,
+    [FISHING_TYPE_GOOD_ROD] = 600,
+    [FISHING_TYPE_SUPER_ROD] = 600
 };

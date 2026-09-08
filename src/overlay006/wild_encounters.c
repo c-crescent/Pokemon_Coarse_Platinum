@@ -393,10 +393,6 @@ BOOL WildEncounters_TryFishingEncounter(FieldSystem *fieldSystem, enum Encounter
     InitEncounterFieldParams(fieldSystem, firstPartyMon, NULL, &encounterFieldParams);
     encounterRate = ModifyEncounterRateWithFieldParams(TRUE, encounterRate, &encounterFieldParams, FieldOverworldState_GetWeather(SaveData_GetFieldOverworldState(fieldSystem->saveData)), firstPartyMon);
 
-    if (LCRNG_RandMod(100) >= encounterRate) {
-        return FALSE;
-    }
-
     BOOL safariGameActive = SystemFlag_CheckSafariGameActive(SaveData_GetVarsFlags(fieldSystem->saveData));
 
     CreateWildSingleBattle(fieldSystem, safariGameActive, battleParams);
