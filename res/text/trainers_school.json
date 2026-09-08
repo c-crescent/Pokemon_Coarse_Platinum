@@ -5,14 +5,6 @@
       "id": "TrainersSchool_Text_GotSomethingForMe",
       "en_US": [
         "{STRVAR_1 3, 1, 0}: Hey, {STRVAR_1 3, 0, 0}!\n",
-        "Did you come to study, too?\r",
-        "I went ahead and memorized everything\n",
-        "that was up on the blackboard.\r",
-        "After all, it’s the Trainer’s job to\n",
-        "avoid having their precious Pokémon\f",
-        "hurt in battle, right?\r",
-        "So, {STRVAR_1 3, 0, 0}, what brings you?\n",
-        "Huh?\f",
         "You’ve got something for me?\r"
       ]
     },
@@ -24,10 +16,7 @@
       "id": "TrainersSchool_Text_TakeTownMap",
       "en_US": [
         "{STRVAR_1 3, 1, 0}: So, what is this...?\r",
-        "Score!\n",
         "It’s a Town Map!\r",
-        "Huh?!\n",
-        "Why are there two in here?\r",
         "I like it a lot, but I don’t need two.\n",
         "Here, {STRVAR_1 3, 0, 0}, you take one!\r"
       ]
@@ -36,14 +25,8 @@
       "id": "TrainersSchool_Text_OreburghCityNext",
       "en_US": [
         "{STRVAR_1 3, 1, 0}: Hmm...\r",
-        "Well, according to the Town Map,\n",
         "I guess Oreburgh City is where\f",
-        "I should be going next.\r",
-        "There’s a Gym, so it’d be perfect for\n",
-        "raising the Pokémon I just caught.\r",
-        "Well, I’m on the road to becoming\n",
-        "the greatest Trainer of all time!\r",
-        "See you around!\r"
+        "I should be going next.\r"
       ]
     },
     {
