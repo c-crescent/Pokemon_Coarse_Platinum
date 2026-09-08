@@ -90,8 +90,8 @@ Route202_CounterpartWalkToPlayerZ829:
 Route202_CheckStartCatchingTutorial:
     GoToIfUnset FLAG_RECEIVED_PARCEL, Route202_TellYourFamily
     GetPlayerGender VAR_RESULT
-    GoToIfEq VAR_RESULT, GENDER_MALE, Route202_DawnIllDemonstrateHowToCatch
-    GoToIfEq VAR_RESULT, GENDER_FEMALE, Route202_LucasIllDemonstrateHowToCatch
+    GoToIfEq VAR_RESULT, GENDER_MALE, Route202_DawnIllGiveYouFivePokeBalls
+    GoToIfEq VAR_RESULT, GENDER_FEMALE, Route202_LucasIllGiveYouFivePokeBalls
     End
 
 Route202_DawnIllDemonstrateHowToCatch:
