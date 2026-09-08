@@ -98,4 +98,5 @@ Land:
 > Aaron
 Day:
 > Solrock
+Night:
 > Lunatone

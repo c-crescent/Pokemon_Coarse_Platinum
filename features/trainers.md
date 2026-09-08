@@ -1,7 +1,6 @@
-# Trainers
+# Note
 
-## Note
-### Barry's Final Team
+## Barry's Final Team
 Staraptor
 Heracross
 Snorlax
@@ -9,28 +8,49 @@ Fire (Rapidash / Chimchar)
 Water (Floatzel / Empoleon)
 Grass ( Tangrowth / Torterra )
 
-## Battle AI Changes
+# Battle AI Changes
 
-## Trainer Teams
+# Trainer Teams
 
 * Removed all battle items from enemy trainers
 
-### Rival - Route 203
+## Rival - Route 203 (10)
 
-#### Chimchar
+### Chimchar
 
-Starly (10)
-Ponyta (10)
-Piplup (10)
+Starly
+Ponyta
+Piplup
 
 ### Piplup
 
-Starly (10)
-Buizel (10)
-Turtwig (10)
+Starly 
+Buizel 
+Turtwig
 
 ### Turtwig
 
-Starly (10)
-Tangela (10)
-Chimchar (10)
+Starly
+Tangela
+Chimchar
+
+## Oreburgh Gym
+
+### Youngster Jonathon (12)
+
+Geodude
+Aron
+
+### Youngster Darius (13)
+
+Shuckle
+Bonsly
+Onix
+
+### Leader Roark (15)
+
+Anorith
+Nosepass
+Larvitar
+Cranidos
+

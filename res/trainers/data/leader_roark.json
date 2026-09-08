@@ -10,26 +10,43 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_GEODUDE",
+            "species": "SPECIES_ANORITH",
             "form": 0,
-            "level": 12,
+            "level": 15,
             "item": null,
             "moves": [
                 "MOVE_STEALTH_ROCK",
-                "MOVE_ROCK_THROW"
+                "MOVE_WATER_GUN",
+                "MOVE_SCRATCH",
+                "MOVE_HARDEN"
             ],
             "iv_scale": 50,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_ONIX",
+            "species": "SPECIES_NOSEPASS",
             "form": 0,
-            "level": 12,
+            "level": 15,
             "item": null,
             "moves": [
-                "MOVE_STEALTH_ROCK",
+                "MOVE_HARDEN",
                 "MOVE_ROCK_THROW",
-                "MOVE_SCREECH"
+                "MOVE_TACKLE",
+                "MOVE_MAGNITITUDE"
+            ],
+            "iv_scale": 50,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_LARVITAR",
+            "form": 0,
+            "level": 15,
+            "item": null,
+            "moves": [
+                "MOVE_BITE",
+                "MOVE_LEER",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_SANDSTORM"
             ],
             "iv_scale": 50,
             "ball_seal": 0
@@ -37,14 +54,15 @@
         {
             "species": "SPECIES_CRANIDOS",
             "form": 0,
-            "level": 14,
+            "level": 15,
             "item": null,
             "moves": [
                 "MOVE_HEADBUTT",
                 "MOVE_PURSUIT",
-                "MOVE_LEER"
+                "MOVE_ROCK_TOMB",
+                "MOVE_TAKE_DOWN"
             ],
-            "iv_scale": 50,
+            "iv_scale": 150,
             "ball_seal": 0
         }
     ],

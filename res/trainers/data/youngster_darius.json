@@ -8,28 +8,45 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_GEODUDE",
+            "species": "SPECIES_SHUCKLE",
             "form": 0,
-            "level": 9,
+            "level": 13,
             "item": null,
             "moves": [
-                "MOVE_TACKLE",
-                "MOVE_DEFENSE_CURL"
+                "MOVE_BIDE",
+                "MOVE_ENCORE",
+                "MOVE_WITHDRAW",
+                "MOVE_SAFEGUARD"
             ],
-            "iv_scale": 10,
+            "iv_scale": 50,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_BONSLY",
+            "form": 0,
+            "level": 13,
+            "item": null,
+            "moves": [
+                "MOVE_FAKE_TEARS",
+                "MOVE_COPYCAT",
+                "MOVE_LOW_KICK",
+                "MOVE_FLAIL"
+            ],
+            "iv_scale": 50,
             "ball_seal": 0
         },
         {
             "species": "SPECIES_ONIX",
             "form": 0,
-            "level": 9,
+            "level": 13,
             "item": null,
             "moves": [
                 "MOVE_ROCK_THROW",
                 "MOVE_TACKLE",
-                "MOVE_HARDEN"
+                "MOVE_HARDEN",
+                "MOVE_BIND"
             ],
-            "iv_scale": 10,
+            "iv_scale": 50,
             "ball_seal": 0
         }
     ],

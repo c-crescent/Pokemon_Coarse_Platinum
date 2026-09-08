@@ -10,13 +10,29 @@
         {
             "species": "SPECIES_GEODUDE",
             "form": 0,
-            "level": 11,
+            "level": 12,
             "item": null,
             "moves": [
                 "MOVE_TACKLE",
-                "MOVE_DEFENSE_CURL"
+                "MOVE_DEFENSE_CURL",
+                "MOVE_ROCK_THROW",
+                "MOVE_ROCK_POLISH"
             ],
-            "iv_scale": 10,
+            "iv_scale": 50,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_ARON",
+            "form": 0,
+            "level": 12,
+            "item": null,
+            "moves": [
+                "MOVE_TACKLE",
+                "MOVE_HARDEN",
+                "MOVE_MUD_SLAP",
+                "MOVE_HEADBUTT"
+            ],
+            "iv_scale": 50,
             "ball_seal": 0
         }
     ],
