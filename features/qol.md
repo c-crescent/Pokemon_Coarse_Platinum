@@ -32,3 +32,4 @@
 * Added another Move Relearner in Jubilife City
 * Move Releaner no longer requires Heart Scales
 * Eterna Mart now sells all evolution items
+* Significantly reduced egg hatch cycle for every pokemon
