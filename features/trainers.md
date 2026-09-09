@@ -54,7 +54,8 @@ Nosepass
 Larvitar
 Cranidos
 
-### Commander Mars - Valley Windworks (19)
+## Valley Windworks
+### Commander Mars (19)
 
 Zubat
 Yanma
@@ -89,7 +90,9 @@ Cherrim
 Sunflora
 Roserade
 
-### Commander Jupiter - Galactic Eterna Building
+## Galactic Eterna Building
+
+### Commander Jupiter (24)
 
 Golbat
 Sableye
