@@ -2,7 +2,7 @@
 
 ## Gift & Static Pokemon
 
-## Pokemon Locations
+## Wild Encounter Locations
 
 ### Twinleaf Town
 Old Rod:
