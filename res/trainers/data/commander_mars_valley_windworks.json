@@ -7,7 +7,7 @@
         "AI_FLAG_EVAL_ATTACK",
         "AI_FLAG_EXPERT"
     ],
-    "double_battle": false,
+    "double_battle": true,
     "party": [
         {
             "species": "SPECIES_ZUBAT",
@@ -16,7 +16,7 @@
             "item": "ITEM_ORAN_BERRY",
             "moves": [
                 "MOVE_BITE",
-                "MOVE_LEECH_LIFE",
+                "MOVE_PROTECT",
                 "MOVE_TOXIC",
                 "MOVE_WING_ATTACK"
             ],
@@ -45,7 +45,8 @@
             "moves": [
                 "MOVE_TAKE_DOWN",
                 "MOVE_IRON_DEFENSE",
-                "MOVE_HEADBUTT"
+                "MOVE_HEADBUTT",
+                "MOVE_ZEN_HEADBUTT"
             ],
             "iv_scale": 150,
             "ball_seal": 0

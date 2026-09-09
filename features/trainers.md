@@ -4,6 +4,7 @@
 * Fixed various trainer AI bugs
 * Trainer AI now prioritises status & hazards
 * Gym Leaders now enforce a party size cap
+* All Team Galactic Commaner boss fights are now double battles
 
 ## Barry's Final Team
 Staraptor
@@ -87,3 +88,11 @@ Skiploom
 Cherrim
 Sunflora
 Roserade
+
+### Commander Jupiter - Galactic Eterna Building
+
+Golbat
+Sableye
+Skuntank
+Nidoqueen
+Venomoth
