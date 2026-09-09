@@ -11,13 +11,13 @@
         {
             "species": "SPECIES_DRIFLOON",
             "form": 0,
-            "level": 21,
+            "level": 25,
             "item": null,
             "moves": [
-                "MOVE_PAYBACK",
-                "MOVE_GUST",
-                "MOVE_ASTONISH",
-                "MOVE_MINIMIZE"
+                "MOVE_OMINOUS_WIND",
+                "MOVE_ICY_WIND",
+                "MOVE_DESTINY_BOND",
+                "MOVE_GUST"
             ],
             "iv_scale": 10,
             "ball_seal": 0
@@ -25,12 +25,13 @@
         {
             "species": "SPECIES_DRIFLOON",
             "form": 0,
-            "level": 21,
+            "level": 25,
             "item": null,
             "moves": [
-                "MOVE_SPIT_UP",
-                "MOVE_SWALLOW",
-                "MOVE_STOCKPILE"
+                "MOVE_PAYBACK",
+                "MOVE_AIR_CUTTER",
+                "MOVE_OMINOUS_WIND",
+                "MOVE_HYPNOSIS"
             ],
             "iv_scale": 10,
             "ball_seal": 0

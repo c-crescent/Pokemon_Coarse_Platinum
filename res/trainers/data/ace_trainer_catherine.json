@@ -10,15 +10,15 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_HAUNTER",
+            "species": "SPECIES_DRIFLOON",
             "form": 0,
-            "level": 23,
+            "level": 26,
             "item": null,
             "moves": [
-                "MOVE_NIGHT_SHADE",
-                "MOVE_CONFUSE_RAY",
-                "MOVE_SUCKER_PUNCH",
-                "MOVE_CURSE"
+                "MOVE_DESTINY_BOND",
+                "MOVE_OMINOUS_WIND",
+                "MOVE_AIR_CUTTER",
+                "MOVE_ICY_WIND"
             ],
             "iv_scale": 60,
             "ball_seal": 0
@@ -26,13 +26,27 @@
         {
             "species": "SPECIES_MISDREAVUS",
             "form": 0,
-            "level": 24,
+            "level": 26,
             "item": null,
             "moves": [
                 "MOVE_PSYBEAM",
                 "MOVE_PAIN_SPLIT",
-                "MOVE_CONFUSE_RAY",
-                "MOVE_SPITE"
+                "MOVE_OMINOUS_WIND",
+                "MOVE_DESTINY_BOND"
+            ],
+            "iv_scale": 60,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_DRIFBLIM",
+            "form": 0,
+            "level": 26,
+            "item": null,
+            "moves": [
+                "MOVE_OMINOUS_WIND",
+                "MOVE_STOCKPILE",
+                "MOVE_SWALLOW",
+                "MOVE_SPIT_UP"
             ],
             "iv_scale": 60,
             "ball_seal": 0

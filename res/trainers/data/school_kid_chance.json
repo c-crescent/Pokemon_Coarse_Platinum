@@ -9,14 +9,28 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_GASTLY",
+            "species": "SPECIES_SHUPPET",
             "form": 0,
-            "level": 23,
+            "level": 25,
             "item": null,
             "moves": [
                 "MOVE_NIGHT_SHADE",
                 "MOVE_SUCKER_PUNCH",
-                "MOVE_CONFUSE_RAY",
+                "MOVE_SHADOW_SNEAK",
+                "MOVE_HYPNOSIS"
+            ],
+            "iv_scale": 10,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_SHUPPET",
+            "form": 0,
+            "level": 25,
+            "item": null,
+            "moves": [
+                "MOVE_NIGHT_SHADE",
+                "MOVE_SUCKER_PUNCH",
+                "MOVE_SHADOW_SNEAK",
                 "MOVE_HYPNOSIS"
             ],
             "iv_scale": 10,

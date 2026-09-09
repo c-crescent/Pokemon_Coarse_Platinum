@@ -8,28 +8,29 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_GASTLY",
+            "species": "SPECIES_HAUNTER",
             "form": 0,
-            "level": 20,
+            "level": 25,
             "item": null,
             "moves": [
-                "MOVE_SUCKER_PUNCH",
+                "MOVE_OMINOUS_WIND",
                 "MOVE_NIGHT_SHADE",
-                "MOVE_CONFUSE_RAY",
+                "MOVE_EXPLOSION",
                 "MOVE_CURSE"
             ],
             "iv_scale": 10,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_DRIFLOON",
+            "species": "SPECIES_HAUNTER",
             "form": 0,
-            "level": 22,
+            "level": 25,
             "item": null,
             "moves": [
-                "MOVE_SPIT_UP",
-                "MOVE_SWALLOW",
-                "MOVE_STOCKPILE"
+                "MOVE_WILL_O_WISP",
+                "MOVE_PSYWAVE",
+                "MOVE_HAZE",
+                "MOVE_OMINOUS_WIND"
             ],
             "iv_scale": 10,
             "ball_seal": 0

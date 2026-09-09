@@ -14,21 +14,23 @@ Fire (Rapidash / Chimchar)
 Water (Floatzel / Empoleon)
 Grass ( Tangrowth / Torterra )
 
-## Rival - Route 203 (10)
+## Route 203
 
-### Chimchar
+### Rival (10)
+
+#### Chimchar
 
 Starly
 Ponyta
 Piplup
 
-### Piplup
+#### Piplup
 
 Starly 
 Buizel 
 Turtwig
 
-### Turtwig
+#### Turtwig
 
 Starly
 Tangela
@@ -99,3 +101,65 @@ Sableye
 Skuntank
 Nidoqueen
 Venomoth
+
+## Hearthome Gym
+
+### Youngster Donny (25)
+
+Haunter
+Haunter
+
+### Lass Molly (25)
+
+Misdreavus
+Misdreavus
+
+### School Kid Chance (25)
+
+Shuppet
+Shuppet
+
+### School Kid Mackenzie (25)
+
+Drifloon
+Drifloon
+
+### Ace Trainer Allen (26)
+
+Haunter
+Shuppet
+Banette
+
+### Ace Trainer Catherine (26)
+
+Misdreavus
+Drifloon
+Drifblim
+
+### Leader Fantina (28)
+
+Haunter
+Banette
+Dusclops
+Drifblim
+Mismagius
+
+## Route 209
+
+### Rival (29)
+
+#### Chimchar
+Staravia
+Ponyta
+Prinplup
+Tangela
+#### Piplup
+Staravia
+Ponyta
+Floatzel
+Grotle
+#### Turtwig
+Staravia
+Monferno
+Floatzel
+Tangela

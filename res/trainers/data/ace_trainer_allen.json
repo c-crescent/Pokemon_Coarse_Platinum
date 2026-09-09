@@ -10,43 +10,43 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_GASTLY",
-            "form": 0,
-            "level": 21,
-            "item": null,
-            "moves": [
-                "MOVE_NIGHT_SHADE",
-                "MOVE_SUCKER_PUNCH",
-                "MOVE_CURSE",
-                "MOVE_CONFUSE_RAY"
-            ],
-            "iv_scale": 60,
-            "ball_seal": 0
-        },
-        {
-            "species": "SPECIES_GASTLY",
-            "form": 0,
-            "level": 22,
-            "item": null,
-            "moves": [
-                "MOVE_NIGHT_SHADE",
-                "MOVE_SUCKER_PUNCH",
-                "MOVE_HYPNOSIS",
-                "MOVE_CONFUSE_RAY"
-            ],
-            "iv_scale": 60,
-            "ball_seal": 0
-        },
-        {
             "species": "SPECIES_HAUNTER",
             "form": 0,
-            "level": 24,
+            "level": 26,
             "item": null,
             "moves": [
-                "MOVE_SHADOW_BALL",
-                "MOVE_CONFUSE_RAY",
+                "MOVE_NIGHT_SHADE",
+                "MOVE_OMINOUS_WIND",
                 "MOVE_CURSE",
-                "MOVE_MEAN_LOOK"
+                "MOVE_DESTINY_BOND"
+            ],
+            "iv_scale": 60,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_SHUPPET",
+            "form": 0,
+            "level": 26,
+            "item": null,
+            "moves": [
+                "MOVE_NIGHT_SHADE",
+                "MOVE_SUCKER_PUNCH",
+                "MOVE_SHADOW_SNEAK",
+                "MOVE_CONFUSE_RAY"
+            ],
+            "iv_scale": 60,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_BANETTE",
+            "form": 0,
+            "level": 26,
+            "item": null,
+            "moves": [
+                "MOVE_SHADOW_SNEAK",
+                "MOVE_WILL_O_WISP",
+                "MOVE_FAINT_ATTACK",
+                "MOVE_SUCKER_PUNCH"
             ],
             "iv_scale": 60,
             "ball_seal": 0

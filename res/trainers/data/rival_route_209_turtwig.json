@@ -12,57 +12,57 @@
         {
             "species": "SPECIES_STARAVIA",
             "form": 0,
-            "level": 25,
-            "item": null,
+            "level": 29,
+            "item": "ITEM_SITRUS_BERRY",
             "moves": [
-                "MOVE_WING_ATTACK",
+                "MOVE_AERIAL_ACE",
                 "MOVE_QUICK_ATTACK",
                 "MOVE_ENDEAVOR",
-                "MOVE_DOUBLE_TEAM"
+                "MOVE_HEAT_WAVE"
             ],
-            "iv_scale": 50,
+            "iv_scale": 200,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_BUIZEL",
+            "species": "SPECIES_FLOATZEL",
             "form": 0,
-            "level": 23,
-            "item": null,
+            "level": 29,
+            "item": "ITEM_SITRUS_BERRY",
             "moves": [
-                "MOVE_WATER_GUN",
+                "MOVE_AQUA_JET",
                 "MOVE_QUICK_ATTACK",
                 "MOVE_PURSUIT",
-                "MOVE_GROWL"
+                "MOVE_ICE_PUNCH"
             ],
-            "iv_scale": 50,
-            "ball_seal": 0
-        },
-        {
-            "species": "SPECIES_ROSELIA",
-            "form": 0,
-            "level": 23,
-            "item": null,
-            "moves": [
-                "MOVE_MEGA_DRAIN",
-                "MOVE_POISON_STING",
-                "MOVE_LEECH_SEED",
-                "MOVE_STUN_SPORE"
-            ],
-            "iv_scale": 50,
+            "iv_scale": 200,
             "ball_seal": 0
         },
         {
             "species": "SPECIES_MONFERNO",
             "form": 0,
-            "level": 27,
-            "item": null,
+            "level": 29,
+            "item": "ITEM_SITRUS_BERRY",
             "moves": [
                 "MOVE_FLAME_WHEEL",
+                "MOVE_TAUNT",
                 "MOVE_MACH_PUNCH",
-                "MOVE_FURY_SWIPES",
-                "MOVE_LEER"
+                "MOVE_THUNDER_PUNCH"
             ],
-            "iv_scale": 50,
+            "iv_scale": 200,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_TANGELA",
+            "form": 0,
+            "level": 29,
+            "item": "ITEM_SITRUS_BERRY",
+            "moves": [
+                "MOVE_ANCIENT_POWER",
+                "MOVE_MEGA_DRAIN",
+                "MOVE_LEECH_SEED",
+                "MOVE_STUN_SPORE"
+            ],
+            "iv_scale": 200,
             "ball_seal": 0
         }
     ],
