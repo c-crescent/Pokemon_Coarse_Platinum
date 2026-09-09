@@ -4,13 +4,8 @@
     {
       "id": "EternaGym_Text_GardeniaIntro",
       "en_US": [
-        "You kept me waiting!\r",
         "I’m Eterna’s Gym Leader, Gardenia,\n",
         "the Grass-type master!\r",
-        "When I first saw you, I was convinced\n",
-        "you’d find your way to me.\r",
-        "My hunch was right on the money.\n",
-        "You have a winning aura about you.\r",
         "So, anyway, this will be fun.\n",
         "Let’s have our battle!\r"
       ]
@@ -19,13 +14,7 @@
       "id": "EternaGym_Text_BeatGardenia",
       "en_US": [
         "I might’ve said it before, but you’re\n",
-        "really tough!\r",
-        "Wasn’t it hard for you to raise your\n",
-        "Pokémon to be so good?\r",
-        "I guess that’s a measure of how much\n",
-        "you love your Pokémon.\r",
-        "In recognition of that, I proudly\n",
-        "grant you this!\r"
+        "really tough!\r"
       ]
     },
     {
@@ -40,22 +29,14 @@
       "en_US": [
         "With the Forest Badge, your Pokémon\n",
         "can use the hidden move Cut outside\f",
-        "of battle.\r",
-        "Now that you have two Gym Badges,\n",
-        "all Pokémon you received in trades\f",
-        "will obey you up to Lv. 30.\r",
-        "I’ve also got something else.\n",
-        "It’s a gift from me!\r"
+        "of battle.\r"
       ]
     },
     {
       "id": "EternaGym_Text_GardeniaExplainGrassKnot",
       "en_US": [
         "That {STRVAR_1 8, 0, 0} contains\n",
-        "the move {STRVAR_1 6, 1, 0}.\r",
-        "It’s one of my favorite moves.\r",
-        "The heavier the foe, the more\n",
-        "damage this move will cause."
+        "the move {STRVAR_1 6, 1, 0}.\r"
       ]
     },
     {
@@ -152,7 +133,7 @@
         "You’ve beaten the Gym Leader!\r",
         "Your Pokémon look much tougher than\n",
         "when they went in, too!\r",
-        "At least that’s how I see it!"
+        "Level thirty shall be your next task!"
       ]
     },
     {

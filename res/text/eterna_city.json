@@ -21,13 +21,7 @@
       "id": "EternaCity_Text_SoThisIsEternasStatue",
       "en_US": [
         "Cyrus: ...So, this is Eterna’s Pokémon\n",
-        "statue...\r",
-        "Shaping our world are time and space\n",
-        "in an intertwining spiral.\r",
-        "Revered in Sinnoh are the Pokémon of\n",
-        "time and space...\r",
-        "Sinnoh’s myth...\n",
-        "Its truth needs investigation...\r"
+        "statue...\r"
       ]
     },
     {
@@ -42,46 +36,19 @@
       "en_US": [
         "{STRVAR_1 3, 0, 0}: Oh, hey!\r",
         "When we smacked together, a brilliant\n",
-        "flash of inspiration came to me!\r",
-        "An easy way to become a great Trainer!\n",
-        "Yeah, that!\r",
-        "All right.\n",
-        "Listen close...\r",
-        "Make certain all your attacks hit!\n",
-        "Avoid enemy attacks for sure!\r",
-        "You do that, you’d never lose!\n",
-        "You’d be the invincible Trainer!\r",
-        "Anyway, go check out the Pokémon\n",
-        "statue. See you around!\r"
+        "flash of inspiration came to me!\r"
       ]
     },
     {
       "id": "EternaCity_Text_OhYouHaveAPokedex",
       "en_US": [
-        "Oh, that device you have...\r",
-        "It is a Pokédex?\n",
-        "Wow, it brings back some memories.\r",
-        "Pardon me, but what’s your name?\r",
-        "...\r",
-        "OK, hello, {STRVAR_1 3, 0, 0}.\n",
-        "I’ll be sure to remember that name!\r",
         "My name is Cynthia.\n",
-        "I’m a Trainer just like you.\r",
-        "I’ve been studying Pokémon mythology\n",
-        "lately, just out of curiosity.\r"
+        "I’m a Trainer just like you.\r"
       ]
     },
     {
       "id": "EternaCity_Text_TryUsingThis",
       "en_US": [
-        "Here in Eterna City, there is a statue\n",
-        "of an ancient Pokémon.\r",
-        "Have you seen it already?\r",
-        "According to myth, it was an extremely\n",
-        "powerful Pokémon.\r",
-        "Who knows? You may encounter something\n",
-        "like it while you’re traveling with your\f",
-        "Pokédex.\r",
         "Oh, I know! Try using this.\n",
         "It should be helpful.\r"
       ]
@@ -90,14 +57,7 @@
       "id": "EternaCity_Text_CutCanBeUsedInField",
       "en_US": [
         "Cynthia: Remember, the hidden move\n",
-        "Cut can be used in the field.\r",
-        "It will let you go places that were\n",
-        "previously inaccessible to you.\r",
-        "That’s important for filling up your\n",
-        "Pokédex, right?\r",
-        "Then luck be with you, young Trainer!\r",
-        "Oh, there’s one last thing!\n",
-        "Please give my regards to Prof. Rowan.\r"
+        "Cut can be used in the field.\r"
       ]
     },
     {
@@ -122,13 +82,7 @@
       "id": "EternaCity_Text_NoRoomForEgg",
       "en_US": [
         "Cynthia: Oh?\n",
-        "You have six Pokémon with you already.\f",
-        "You don’t have room for this Egg.\r",
-        "You’ll have to store a Pokémon in a\n",
-        "PC Box at the Pokémon Center first.\r",
-        "I’ll give you this Egg when you’ve made\n",
-        "room for it.\r",
-        "I’ll be waiting right here."
+        "You don’t have room for this Egg.\r"
       ]
     },
     {
@@ -178,16 +132,6 @@
       "en_US": [
         "Hi! I’m Gardenia!\n",
         "I’m this town’s Gym Leader!\r",
-        "My last challenger was this awfully\n",
-        "speedy young guy.\r",
-        "...Actually, his name was {STRVAR_1 3, 0, 0}.\n",
-        "He told me about you.\r",
-        "He said that another challenger’s on\n",
-        "the way, so that made me antsy!\r",
-        "At my Gym, no one gets to battle with\n",
-        "the Gym Leader, me, until the end.\r",
-        "The challenger has to beat all the\n",
-        "other Gym Trainers first.\r",
         "I’ll be waiting for you in the back,\n",
         "Trainer. Don’t disappoint me!\r"
       ]
@@ -321,11 +265,7 @@
       "id": "EternaCity_Text_YouGotABicycle_ArrowPrompt",
       "en_US": [
         "Oh, wow!\n",
-        "You got a Bicycle!\r",
-        "You can ride down Cycling Road\n",
-        "and end up in Hearthome City.\r",
-        "It’s a fast and fun ride.\n",
-        "You should check it out!\r"
+        "You got a Bicycle!\r"
       ]
     },
     {

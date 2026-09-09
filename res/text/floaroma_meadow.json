@@ -12,9 +12,7 @@
       "id": "FloaromaMeadow_Text_DoAsWeSay",
       "en_US": [
         "Grunt 2: Do as we say!\n",
-        "Team Galactic will have that Honey!\r",
-        "We must have it to attract Pokémon\n",
-        "in great numbers!\r"
+        "Team Galactic will have that Honey!\r"
       ]
     },
     {
@@ -28,9 +26,7 @@
       "id": "FloaromaMeadow_Text_EnsureTheBratStaysQuiet",
       "en_US": [
         "Grunt 2: We don’t need the brat\n",
-        "running off to get help...\r",
-        "The solution’s simple!\n",
-        "We ensure the brat stays quiet!\r"
+        "running off to get help...\r"
       ]
     },
     {
@@ -44,47 +40,28 @@
       "id": "FloaromaMeadow_Text_ImUpNextHeheheh",
       "en_US": [
         "Grunt 2: I’m up next!\n",
-        "Heheheh...\r",
-        "Battling you right after my cohort\n",
-        "weakened you gives me the edge!\r"
+        "Heheheh...\r"
       ]
     },
     {
       "id": "FloaromaMeadow_Text_LetsGetBackToWindworks",
       "en_US": [
         "Grunt 1: This brat’s tough!\n",
-        "Like, really, really tough!\r",
-        "Tougher than I can put into words,\n",
-        "and I know a lot of words!\r",
-        "We’re done for here... Let’s get back\n",
-        "to the Valley Windworks.\r"
+        "Like, really, really tough!\r"
       ]
     },
     {
       "id": "FloaromaMeadow_Text_KeyMustBeForWindworks",
       "en_US": [
-        "Oh, what’s this thing?\n",
-        "They seem to have forgotten it...\r",
         "It’s a Works Key...\n",
-        "It must be for the Valley Windworks!\r",
-        "It’s of no use to me.\n",
-        "You may as well have it.\r"
+        "It must be for the Valley Windworks!\r"
       ]
     },
     {
       "id": "FloaromaMeadow_Text_ThankYouTakeALot",
       "en_US": [
         "Thank you!\n",
-        "You surely saved me.\r",
-        "Those goons were trying to rob me\n",
-        "of my sweet, sweet Honey.\r",
-        "They sure were weird, though.\n",
-        "You saw how they were dressed.\r",
-        "What they were saying didn’t make\n",
-        "a whole lot of sense, either.\r",
-        "Oh! I need to thank you!\n",
-        "This sweet, sweet Honey!\f",
-        "Go on, take a whole lot!\r"
+        "You surely saved me.\r"
       ]
     },
     {
@@ -109,9 +86,7 @@
       "id": "FloaromaMeadow_Text_YourBagsFull",
       "en_US": [
         "Oh, too bad!\n",
-        "Seems to me your Bag’s full.\r",
-        "You can’t hold any more Honey, a shame\n",
-        "though it is."
+        "Seems to me your Bag’s full.\r"
       ]
     },
     {
