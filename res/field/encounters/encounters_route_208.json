@@ -3,11 +3,11 @@
     "land_encounters": [
         {
             "level": 18,
-            "species": "SPECIES_BUDEW"
+            "species": "SPECIES_RALTS"
         },
         {
             "level": 18,
-            "species": "SPECIES_BIDOOF"
+            "species": "SPECIES_SMEARGLE"
         },
         {
             "level": 19,
@@ -43,11 +43,11 @@
         },
         {
             "level": 20,
-            "species": "SPECIES_ROSELIA"
+            "species": "SPECIES_DUNSPARCE"
         },
         {
             "level": 20,
-            "species": "SPECIES_BIBAREL"
+            "species": "SPECIES_DUNSPARCE"
         }
     ],
     "swarms": [
@@ -55,12 +55,12 @@
         "SPECIES_DUNSPARCE"
     ],
     "day": [
-        "SPECIES_BUDEW",
-        "SPECIES_RALTS"
+        "SPECIES_ZANGOOSE",
+        "SPECIES_ZANGOOSE"
     ],
     "night": [
-        "SPECIES_ZUBAT",
-        "SPECIES_RALTS"
+        "SPECIES_SEVIPER",
+        "SPECIES_SEVIPER"
     ],
     "radar": [
         "SPECIES_SMEARGLE",

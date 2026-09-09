@@ -147,4 +147,23 @@ Land:
 > Larvitar
 > Baltoy
 Night:
+> Oddish
+
+### Wayward Cave 1F
+Land:
 > Sandshrew
+> Slugma
+
+### Wayward Cave B1F
+Land:
+> Slugma
+> Sandshrew
+
+### Route 208
+Land:
+> Dunsparce
+> Smeargle
+Day:
+> Zangoose
+Night:
+> Seviper

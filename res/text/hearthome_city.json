@@ -31,14 +31,6 @@
       "en_US": [
         "Hey, there!\n",
         "How’s it going, Trainer?\r",
-        "You being here tells me you’re going\n",
-        "to challenge the Gym Leader.\r",
-        "Well... I hate to break it to you, but\n",
-        "that’s impossible.\r",
-        "You’re questioning why, and the answer\n",
-        "is: she’s not here.\r",
-        "Not to worry, though.\n",
-        "We know she’s at the Contest Hall.\r",
         "Come back another time, OK?\n",
         "I’ll be waiting right here."
       ]
@@ -47,38 +39,14 @@
       "id": "HearthomeCity_Text_LetsGetTheShowStarted",
       "en_US": [
         "{STRVAR_1 3, 0, 0}: Ta-daah!\n",
-        "Kept me waiting again, {STRVAR_1 3, 1, 0}!\r",
-        "Let’s see how much tougher you and\n",
-        "I have gotten, right here and now!\r",
-        "Hey, you’re a Trainer now. You’re\n",
-        "expected to be ready for a battle.\r",
-        "No whining! No waiting!\n",
-        "Let’s get the show started!\r"
+        "Kept me waiting again, {STRVAR_1 3, 1, 0}!\r"
       ]
     },
     {
       "id": "HearthomeCity_Text_WaaahILostAgain",
       "en_US": [
         "{STRVAR_1 3, 0, 0}: Waaah!\n",
-        "What are you saying? I lost again?!\r",
-        "It goes to show my surefire winning\n",
-        "strategy doesn’t work.\r",
-        "Say, hey, {STRVAR_1 3, 1, 0}.\n",
-        "Remember what I told you before?\r",
-        "Make sure all your attacks hit!\n",
-        "Avoid every enemy attack!\r",
-        "I thought that was a wicked strategy,\n",
-        "but it doesn’t work worth beans.\r",
-        "I guess I have to grind it out and\n",
-        "toughen up the team a bit at a time.\r",
-        "Anyway!\n",
-        "Where to next?\r",
-        "The closest place is Solaceon Town,\n",
-        "I think?\r",
-        "That’ll do! I’m off to Solaceon Town!\n",
-        "See ya, {STRVAR_1 3, 1, 0}!\r",
-        "You’ll be shocked by my growth the\n",
-        "next time we meet!\r"
+        "What are you saying? I lost again?!\r"
       ]
     },
     {
@@ -220,15 +188,8 @@
     {
       "id": "HearthomeCity_Text_SometimesEggsAtDayCare",
       "en_US": [
-        "I have a professor friend, and this is\n",
-        "what he told me.\r",
         "If you leave a pair of Pokémon with the\n",
-        "Day Care, sometimes Eggs are found.\r",
-        "Or things that are like Eggs, anyway.\r",
-        "I wonder how my pal Prof. Elm is doing\n",
-        "these days?\r",
-        "He was always a quiet sort and didn’t\n",
-        "really stand out."
+        "Day Care, sometimes Eggs are found.\r"
       ]
     },
     {

@@ -17,7 +17,7 @@
 * Feebas no longer has special encounter logic
 * Repels now have have reuse prompts
 * Fishing no longer has a chance to fail. The reel in window has been increased significantly. The fish hook delay is no longer random.
-* Day of the week no longer matters for Valley Windworks Drifloon
+* Day of the week no longer matters for Valley Windworks Drifloon.
 
 ## Misc.
 * Opening & Title Screen is now completely skipped

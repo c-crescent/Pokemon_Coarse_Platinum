@@ -31,7 +31,7 @@
         },
         {
             "level": 20,
-            "species": "SPECIES_GEODUDE"
+            "species": "SPECIES_SANDSHREW"
         },
         {
             "level": 20,
@@ -39,7 +39,7 @@
         },
         {
             "level": 18,
-            "species": "SPECIES_ONIX"
+            "species": "SPECIES_SLUGMA"
         },
         {
             "level": 20,
@@ -47,7 +47,7 @@
         },
         {
             "level": 18,
-            "species": "SPECIES_ONIX"
+            "species": "SPECIES_SANDSHREW"
         }
     ],
     "swarms": [
