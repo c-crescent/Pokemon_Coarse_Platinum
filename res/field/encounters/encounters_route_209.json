@@ -11,7 +11,7 @@
         },
         {
             "level": 19,
-            "species": "SPECIES_STARAVIA"
+            "species": "SPECIES_SNUBBULL"
         },
         {
             "level": 17,
@@ -19,11 +19,11 @@
         },
         {
             "level": 18,
-            "species": "SPECIES_STARAVIA"
+            "species": "SPECIES_VULPIX"
         },
         {
             "level": 19,
-            "species": "SPECIES_BIBAREL"
+            "species": "SPECIES_SNUBBULL"
         },
         {
             "level": 18,
@@ -59,7 +59,7 @@
         "SPECIES_RALTS"
     ],
     "night": [
-        "SPECIES_ZUBAT",
+        "SPECIES_DUSKULL",
         "SPECIES_DUSKULL"
     ],
     "radar": [

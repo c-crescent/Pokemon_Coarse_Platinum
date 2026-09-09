@@ -167,3 +167,24 @@ Day:
 > Zangoose
 Night:
 > Seviper
+
+### Route 209
+Land:
+> Snubbul
+> Vulpix
+
+### Lost Tower
+Land:
+> Misdraevus
+> Shuppet
+
+### Route 210 South
+Land:
+> Miltank
+> Taurus
+> Pineco
+
+### Route 215
+Land:
+> Drowzee
+> Azurill

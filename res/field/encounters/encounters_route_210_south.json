@@ -3,11 +3,11 @@
     "land_encounters": [
         {
             "level": 19,
-            "species": "SPECIES_STARAVIA"
+            "species": "SPECIES_MILTANK"
         },
         {
             "level": 18,
-            "species": "SPECIES_GEODUDE"
+            "species": "SPECIES_TAUROS"
         },
         {
             "level": 21,
@@ -31,7 +31,7 @@
         },
         {
             "level": 21,
-            "species": "SPECIES_ROSELIA"
+            "species": "SPECIES_PINECO"
         },
         {
             "level": 21,

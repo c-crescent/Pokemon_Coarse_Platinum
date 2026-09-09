@@ -7,7 +7,7 @@
         },
         {
             "level": 19,
-            "species": "SPECIES_ZUBAT"
+            "species": "SPECIES_SHUPPET"
         },
         {
             "level": 21,
@@ -47,7 +47,7 @@
         },
         {
             "level": 22,
-            "species": "SPECIES_GOLBAT"
+            "species": "SPECIES_MISDREAVUS"
         }
     ],
     "swarms": [
