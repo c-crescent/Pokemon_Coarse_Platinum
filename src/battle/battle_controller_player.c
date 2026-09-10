@@ -2477,7 +2477,7 @@ static BOOL BattleControllerPlayer_CheckStatusDisruption(BattleSystem *battleSys
 
         case CHECK_STATUS_STATE_FREEZE:
             if (ATTACKING_MON.status & MON_CONDITION_FREEZE) {
-                if (BattleSystem_RandNext(battleSys) % 5 != 0) {
+                if (BattleSystem_RandNext(battleSys) % 3 != 0) {
                     if (moveEffect != BATTLE_EFFECT_THAW_AND_BURN_HIT
                         && moveEffect != BATTLE_EFFECT_RECOIL_BURN_HIT) {
                         LOAD_SUBSEQ(subscript_frozen);
@@ -2652,7 +2652,7 @@ static BOOL BattleControllerPlayer_CheckStatusDisruption(BattleSystem *battleSys
         case CHECK_STATUS_STATE_PARALYSIS:
             if ((ATTACKING_MON.status & MON_CONDITION_PARALYSIS)
                 && Battler_Ability(battleCtx, battleCtx->attacker) != ABILITY_MAGIC_GUARD) {
-                if (BattleSystem_RandNext(battleSys) % 4 == 0) {
+                if (FALSE) {
                     battleCtx->moveFailFlags[battleCtx->attacker].paralyzed = TRUE;
 
                     LOAD_SUBSEQ(subscript_fully_paralyzed);
