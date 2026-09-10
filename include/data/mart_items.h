@@ -114,7 +114,6 @@ const u16 HearthomeMartSpecialties[] = {
     ITEM_THICK_CLUB,
     ITEM_LIGHT_BALL,
     ITEM_LUCKY_PUNCH,
-    ITEM_LUCKY_PUNCH,
     ITEM_QUICK_POWDER,
     ITEM_METAL_POWDER,
     ITEM_SOUL_DEW,
