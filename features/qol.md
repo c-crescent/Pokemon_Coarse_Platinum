@@ -35,3 +35,4 @@
 * Eterna Mart now sells all evolution items
 * Significantly reduced egg hatch cycle for every pokemon
 * Made relevant Battle Items much more accessible through normal marts
+* The tutor in house 212 now teaches every tutor moves and is free

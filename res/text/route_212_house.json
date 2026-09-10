@@ -4,9 +4,7 @@
     {
       "id": "Route212House_Text_WantToTeachMove",
       "en_US": [
-        "If you’d share your shards with me,\n",
-        "I can teach your Pokémon some moves.\r",
-        "Would you like me to teach a move?"
+        "I can teach your Pokémon some moves.\r"
       ]
     },
     {
@@ -113,11 +111,7 @@
     {
       "id": "Route212House_Text_DaddyLikesBlueShards",
       "en_US": [
-        "My daddy likes Blue Shards.\r",
-        "There are other people who like shards\n",
-        "in Sinnoh.\r",
-        "One person likes Red Shards.\n",
-        "Another collects Yellow Shards."
+        "My daddy likes Blue Shards.\r"
       ]
     },
     {
