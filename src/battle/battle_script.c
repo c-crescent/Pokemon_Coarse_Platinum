@@ -6626,6 +6626,7 @@ static BOOL BtlCmd_TryKnockOff(BattleSystem *battleSys, BattleContext *battleCtx
 
         DEFENDING_MON.heldItem = ITEM_NONE;
         battleCtx->sideConditions[defending].knockedOffItemsMask |= FlagIndex(battleCtx->selectedPartySlot[battleCtx->defender]);
+        battleCtx->movePower *= 3/2;
     } else {
         BattleScript_Iter(battleCtx, jumpOnFail);
     }

@@ -3,13 +3,13 @@
     "description": [
         "The user slaps down\n",
         "the foe’s held item,\n",
-        "preventing the item\n",
-        "from being used\n",
-        "during the battle."
+        "preventing its use\n",
+        "and increase the\n",
+        "damage dealt."
     ],
     "class": "CLASS_PHYSICAL",
     "type": "TYPE_DARK",
-    "power": 20,
+    "power": 65,
     "accuracy": 100,
     "pp": 20,
     "effect": {

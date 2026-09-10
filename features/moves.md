@@ -1,6 +1,3 @@
-## Absorb
-> PP: 25(+10)
-
 ## Acid Armor
 > PP: 20(-20)
 
@@ -22,6 +19,9 @@
 ## Bind
 > Acc: 85(+10)
 
+## Block
+> Protectable: No
+
 ## Bone Rush
 > Acc: 90(+10)
 
@@ -42,12 +42,15 @@
 > Acc: 85(+10)
 > PP: 15(+5)
 
+## Counter
+> Protectable: Yes
+
 ## Covet
 > BP: 60(+20)
 > PP: 25(-15)
 
 ## Cotton Spore
-> BP: 100(+15)
+> Acc: 100(+15)
 
 ## Crabhammer
 > BP: 100(+10)
@@ -153,6 +156,7 @@
 
 ## Knock Off
 > BP: 65(+45)
+> Effect: Does 50% more damage if it removes an item.
 
 ## Last Resort
 > BP: 140(+10)
@@ -167,12 +171,6 @@
 ## Lick
 > BP: 30(+10)
 
-## Low Sweep
-> BP: 65(+5)
-
-## Lunar Blessing
-> PP: 5(-5)
-
 ## Luster Purge
 > BP: 95(+25)
 
@@ -180,8 +178,11 @@
 > BP: 100(-20)
 > Acc: 75(+5)
 
-## Mega Drain
-> PP: 15(+5)
+## Mean Look
+> Protectable: No
+
+## Metal Burst
+> Protectable: Yes
 
 ## Meteor Mash
 > BP: 90(-10)
@@ -193,11 +194,14 @@
 ## Minimize
 > PP: 10(-10)
 
+## Mirror Coat
+> Protectable: Yes
+
 ## Mist Ball
 > BP: 95(+25)
 
 ## Muddy Water
-> BP: 95(-5)
+> BP: 90(-5)
 
 ## Outrage
 > PP: 10(-5)
@@ -266,14 +270,17 @@
 ## Smelling Salts
 > BP: 70(+10)
 
-## Soft-Boiled
-> PP: 5(-5)
-
 ## Smog
 > BP: 30(+10)
 
 ## Snore
 > BP: 50(+10)
+
+## Soft-Boiled
+> PP: 5(-5)
+
+## Spider Web
+> Protectable: No
 
 ## String Shot
 > Effect: -2(-1) Speed
