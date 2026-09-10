@@ -5,7 +5,7 @@
         "defense": 30,
         "speed": 90,
         "special_attack": 50,
-        "special_defense": 40
+        "special_defense": 50
     },
     "types": [ "TYPE_ELECTRIC", "TYPE_ELECTRIC" ],
     "catch_rate": 190,

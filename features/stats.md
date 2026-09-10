@@ -127,9 +127,6 @@
 ## 407 - Roserade
 > DEF: 65(+10)
 
-## 441 - Chatot
-> SPA: 92(+27)
-
 ## 488 - Cresselia
 > DEF: 110(-10)
 > SPD: 120(-10)
