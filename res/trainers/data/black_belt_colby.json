@@ -9,41 +9,59 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_MACHOKE",
+            "species": "SPECIES_MANKEY",
             "form": 0,
-            "level": 23,
+            "level": 29,
             "item": null,
             "moves": [
                 "MOVE_KARATE_CHOP",
-                "MOVE_LEER",
-                "MOVE_FORESIGHT"
+                "MOVE_ENDEAVOR",
+                "MOVE_ASSURANCE",
+                "MOVE_COUNTER"
             ],
-            "iv_scale": 40,
+            "iv_scale": 100,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_MACHOKE",
+            "species": "SPECIES_MAKUHITA",
             "form": 0,
-            "level": 25,
+            "level": 29,
             "item": null,
             "moves": [
-                "MOVE_LOW_KICK",
-                "MOVE_FORESIGHT"
+                "MOVE_FORCE_PALM",
+                "MOVE_SMELLING_SALT",
+                "MOVE_KNOCK_OFF",
+                "MOVE_VITAL_THROW"
             ],
-            "iv_scale": 40,
+            "iv_scale": 100,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_MACHOKE",
+            "species": "SPECIES_PRIMEAPE",
             "form": 0,
-            "level": 27,
+            "level": 29,
             "item": null,
             "moves": [
-                "MOVE_SUBMISSION",
-                "MOVE_LEER",
-                "MOVE_FORESIGHT"
+                "MOVE_CROSS_CHOP",
+                "MOVE_THUNDER_PUNCH",
+                "MOVE_FIRE_PUNCH",
+                "MOVE_ICE_PUNCH"
             ],
-            "iv_scale": 40,
+            "iv_scale": 100,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_HARIYAMA",
+            "form": 0,
+            "level": 29,
+            "item": null,
+            "moves": [
+                "MOVE_BELLY_DRUM",
+                "MOVE_KNOCK_OFF",
+                "MOVE_FORCE_PALM",
+                "MOVE_REVERSAL"
+            ],
+            "iv_scale": 100,
             "ball_seal": 0
         }
     ],

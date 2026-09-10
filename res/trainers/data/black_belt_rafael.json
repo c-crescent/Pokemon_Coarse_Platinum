@@ -9,28 +9,45 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_CROAGUNK",
+            "species": "SPECIES_TYROGUE",
             "form": 0,
-            "level": 26,
+            "level": 31,
             "item": null,
             "moves": [
-                "MOVE_SWAGGER",
-                "MOVE_REVENGE",
-                "MOVE_FAINT_ATTACK"
+                "MOVE_FACADE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_FAKE_OUT",
+                "MOVE_BULLET_PUNCH"
             ],
-            "iv_scale": 40,
+            "iv_scale": 100,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_MACHOKE",
+            "species": "SPECIES_HITMONCHAN",
             "form": 0,
-            "level": 26,
+            "level": 31,
             "item": null,
             "moves": [
-                "MOVE_KARATE_CHOP",
-                "MOVE_FORESIGHT"
+                "MOVE_SKY_UPPERCUT",
+                "MOVE_THUNDER_PUNCH",
+                "MOVE_ICE_PUNCH",
+                "MOVE_FIRE_PUNCH"
             ],
-            "iv_scale": 40,
+            "iv_scale": 100,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_HITMONLEE",
+            "form": 0,
+            "level": 31,
+            "item": null,
+            "moves": [
+                "MOVE_HI_JUMP_KICK",
+                "MOVE_BLAZE_KICK",
+                "MOVE_SUCKER_PUNCH",
+                "MOVE_KNOCK_OFF"
+            ],
+            "iv_scale": 100,
             "ball_seal": 0
         }
     ],

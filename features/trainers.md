@@ -163,3 +163,34 @@ Staravia
 Monferno
 Floatzel
 Tangela
+
+## Veilstone Gym
+
+## Black Belt Coly (29)
+Mankey
+Primeape
+Makuhita
+Hariyama
+
+## Black Belt Darren (30)
+Croagunk
+Toxicroak
+Combusken
+
+## Black Belt Rafael (31)
+Tyrogue
+Hitmonlee
+Hitmonchan
+
+## Black Belt Jeffery (32)
+Heracross
+Poliwrath
+
+## Leader Maylene (34)
+
+Hitmontop
+Medicham
+Breloom
+Machamp
+Lucario
+Gallade

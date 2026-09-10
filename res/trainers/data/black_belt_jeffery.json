@@ -11,14 +11,29 @@
         {
             "species": "SPECIES_HERACROSS",
             "form": 0,
-            "level": 28,
-            "item": null,
+            "level": 32,
+            "item": "ITEM_CHOICE_BAND",
             "moves": [
-                "MOVE_BRICK_BREAK",
+                "MOVE_MEGAHORN",
                 "MOVE_AERIAL_ACE",
-                "MOVE_LEER"
+                "MOVE_NIGHT_SLASH",
+                "MOVE_BRICK_BREAK"
             ],
-            "iv_scale": 40,
+            "iv_scale": 150,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_POLIWRATH",
+            "form": 0,
+            "level": 32,
+            "item": "ITEM_CHOICE_SCARF",
+            "moves": [
+                "MOVE_DYNAMIC_PUNCH",
+                "MOVE_HYDRO_PUMP",
+                "MOVE_ICE_BEAM",
+                "MOVE_MUD_BOMB"
+            ],
+            "iv_scale": 150,
             "ball_seal": 0
         }
     ],
