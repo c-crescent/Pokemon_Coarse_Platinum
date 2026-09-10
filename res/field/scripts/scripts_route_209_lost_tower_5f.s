@@ -10,7 +10,6 @@ Route209LostTower5F_OldWoman1:
     PlaySE SE_CONFIRM_sseq_3
     LockAll
     FacePlayer
-    GoToIfUnset FLAG_USED_DEFOG_IN_ROUTE_209_LOST_TOWER_5F, Route209LostTower5F_ThisFogObscuresEverything
     GoToIfSet FLAG_RECEIVED_ROUTE_209_LOST_TOWER_5F_SPELL_TAG, Route209LostTower5F_FantinaIsARegularVisitor
     Message Route209LostTower5F_Text_DontBeShyTakeIt
     SetVar VAR_0x8004, ITEM_SPELL_TAG
@@ -39,7 +38,6 @@ Route209LostTower5F_OldWoman2:
     PlaySE SE_CONFIRM_sseq_3
     LockAll
     FacePlayer
-    GoToIfUnset FLAG_USED_DEFOG_IN_ROUTE_209_LOST_TOWER_5F, Route209LostTower5F_ThisFogObscuresEverything2
     GoToIfSet FLAG_RECEIVED_ROUTE_209_LOST_TOWER_5F_CLEANSE_TAG, Route209LostTower5F_PokemonFindSolaceHere
     Message Route209LostTower5F_Text_TakeThis
     SetVar VAR_0x8004, ITEM_CLEANSE_TAG
