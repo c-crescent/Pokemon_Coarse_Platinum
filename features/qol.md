@@ -34,3 +34,4 @@
 * Move Releaner no longer requires Heart Scales
 * Eterna Mart now sells all evolution items
 * Significantly reduced egg hatch cycle for every pokemon
+* Made relevant Battle Items much more accessible through normal marts

@@ -42,6 +42,20 @@ const u16 JubilifeMartSpecialties[] = {
 };
 
 const u16 OreburghMartSpecialties[] = {
+    ITEM_CHERI_BERRY,
+    ITEM_CHESTO_BERRY,
+    ITEM_PECHA_BERRY,
+    ITEM_RAWST_BERRY,
+    ITEM_ASPEAR_BERRY,
+    ITEM_LUM_BERRY,
+    ITEM_CUSTAP_BERRY,
+    ITEM_SITRUS_BERRY,
+    ITEM_GANLON_BERRY,
+    ITEM_LANSAT_BERRY,
+    ITEM_LIECHI_BERRY,
+    ITEM_PETAYA_BERRY,
+    ITEM_SALAC_BERRY,
+    ITEM_STARF_BERRY,
     ITEM_TUNNEL_MAIL,
     ITEM_HEAL_BALL,
     ITEM_NET_BALL,
@@ -93,9 +107,17 @@ const u16 EternaHerbShopStock[] = {
 
 const u16 HearthomeMartSpecialties[] = {
     ITEM_HEART_MAIL,
-    ITEM_HEAL_BALL,
-    ITEM_NET_BALL,
-    ITEM_NEST_BALL,
+    ITEM_STICK,
+    ITEM_TOXIC_ORB,
+    ITEM_FLAME_ORB,
+    ITEM_WIDE_LENS,
+    ITEM_THICK_CLUB,
+    ITEM_LIGHT_BALL,
+    ITEM_LUCKY_PUNCH,
+    ITEM_LUCKY_PUNCH,
+    ITEM_QUICK_POWDER,
+    ITEM_METAL_POWDER,
+    ITEM_SOUL_DEW,
     SHOP_ITEM_END
 };
 
@@ -108,10 +130,23 @@ const u16 SolaceonMartSpecialties[] = {
 };
 
 const u16 PastoriaMartSpecialties[] = {
-    ITEM_AIR_MAIL,
-    ITEM_NEST_BALL,
-    ITEM_DUSK_BALL,
-    ITEM_QUICK_BALL,
+    ITEM_BLACK_BELT,
+    ITEM_BLACKGLASSES,
+    ITEM_CHARCOAL,
+    ITEM_DRAGON_FANG,
+    ITEM_HARD_STONE,
+    ITEM_MAGNET,
+    ITEM_METAL_COAT,
+    ITEM_MIRACLE_SEED,
+    ITEM_MYSTIC_WATER,
+    ITEM_NEVERMELTICE,
+    ITEM_POISON_BARB,
+    ITEM_SHARP_BEAK,
+    ITEM_SILK_SCARF,
+    ITEM_SILVERPOWDER,
+    ITEM_SOFT_SAND,
+    ITEM_SPELL_TAG,
+    ITEM_TWISTEDSPOON,
     SHOP_ITEM_END
 };
 
@@ -176,6 +211,9 @@ const u16 VeilstoneDeptStoreStock_3F_UP[] = {
     ITEM_TM33,
     ITEM_TM16,
     ITEM_TM70,
+    ITEM_TM04,
+    ITEM_TM08,
+    ITEM_TM59,
     SHOP_ITEM_END
 };
 
@@ -185,7 +223,11 @@ const u16 VeilstoneDeptStoreStock_3F_DOWN[] = {
     ITEM_TM14,
     ITEM_TM22,
     ITEM_TM52,
-    ITEM_TM15,
+    ITEM_TM15,    
+    ITEM_TM61,
+    ITEM_TM71,
+    ITEM_TM73,
+    ITEM_TM87,
     SHOP_ITEM_END
 };
 
@@ -198,6 +240,13 @@ const u16 CelesticMartSpecialties[] = {
 };
 
 const u16 SnowpointMartSpecialties[] = {
+    ITEM_CHOICE_SPECS,
+    ITEM_CHOICE_BAND,
+    ITEM_CHOICE_SCARF,
+    ITEM_LEFTOVERS,
+    ITEM_LIFE_ORB,
+    ITEM_FOCUS_SASH,
+    ITEM_EXPERT_BELT,
     ITEM_SNOW_MAIL,
     ITEM_DUSK_BALL,
     ITEM_QUICK_BALL,
@@ -206,6 +255,13 @@ const u16 SnowpointMartSpecialties[] = {
 };
 
 const u16 CanalaveMartSpecialties[] = {
+    ITEM_SKULL_FOSSIL,
+    ITEM_ARMOR_FOSSIL,
+    ITEM_ROOT_FOSSIL,
+    ITEM_CLAW_FOSSIL,
+    ITEM_DOME_FOSSIL,
+    ITEM_HELIX_FOSSIL,
+    ITEM_OLD_AMBER,
     ITEM_AIR_MAIL,
     ITEM_QUICK_BALL,
     ITEM_TIMER_BALL,
@@ -232,11 +288,23 @@ const u16 PokemonLeagueMartSpecialties[] = {
 };
 
 const u16 VeilstoneDeptStoreStock_B1F_DOWN_LEFT[] = {
-    ITEM_FIGY_BERRY,
-    ITEM_WIKI_BERRY,
-    ITEM_MAGO_BERRY,
-    ITEM_AGUAV_BERRY,
-    ITEM_IAPAPA_BERRY,
+    ITEM_OCCA_BERRY,    
+    ITEM_PASSHO_BERRY,
+    ITEM_WACAN_BERRY,
+    ITEM_RINDO_BERRY,
+    ITEM_YACHE_BERRY,
+    ITEM_CHOPLE_BERRY,
+    ITEM_KEBIA_BERRY,
+    ITEM_SHUCA_BERRY,
+    ITEM_COBA_BERRY,
+    ITEM_PAYAPA_BERRY,
+    ITEM_TANGA_BERRY,
+    ITEM_CHARTI_BERRY,
+    ITEM_KASIB_BERRY,
+    ITEM_HABAN_BERRY,
+    ITEM_COLBUR_BERRY,
+    ITEM_BABIRI_BERRY,
+    ITEM_CHILAN_BERRY,
     SHOP_ITEM_END
 };
 
