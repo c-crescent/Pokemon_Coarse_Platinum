@@ -5,11 +5,7 @@
       "id": "VeilstoneCity_Text_DawnPleaseCanYouHelpMe",
       "en_US": [
         "Dawn: Hi, {STRVAR_1 3, 0, 0}!\n",
-        "Please, can you help me?\r",
-        "Some Team Galactic goons took my\n",
-        "Pokédex away from me.\r",
-        "I need your help to get it back.\r",
-        "I’ll be waiting in front of the\n",
+        "I’ll be waiting in front of the\f",
         "warehouses. Please come!\r"
       ]
     },
@@ -18,9 +14,6 @@
       "en_US": [
         "Lucas: Hey! {STRVAR_1 3, 0, 0}!\n",
         "Listen, I need your help...\r",
-        "Some Team Galactic goons grabbed my\n",
-        "Pokédex and won’t give it back.\f",
-        "I sure could use your help.\r",
         "I’ll be waiting in front of the\n",
         "warehouses. Please come!\r"
       ]
@@ -29,42 +22,21 @@
       "id": "VeilstoneCity_Text_DawnWillYouTakeTheGymChallenge",
       "en_US": [
         "Dawn: {STRVAR_1 3, 0, 0}, are you going\n",
-        "to take the Gym challenge?\r",
-        "Gee, you keep getting tougher and\n",
-        "tougher, don’t you?\r",
-        "Me? Well, I went shopping at the\n",
-        "department store, and...\r",
-        "I mean, well, of course I’ve been\n",
-        "working on my Pokédex, but...\r"
+        "to take the Gym challenge?\r"
       ]
     },
     {
       "id": "VeilstoneCity_Text_LucasWillYouTakeOnTheGymLeader",
       "en_US": [
         "Lucas: Hey! {STRVAR_1 3, 0, 0}, are you\n",
-        "going to take on the Gym Leader?\r",
-        "Wow, you just keep getting tougher\n",
-        "and tougher.\r",
-        "Me? Well, I took a look in the\n",
-        "Game Corner, and...\r",
-        "I mean, yeah, of course I’ve been\n",
-        "working on my Pokédex, but...\r",
-        "Anyway, keep it up!\r"
+        "going to take on the Gym Leader?\r"
       ]
     },
     {
       "id": "VeilstoneCity_Text_CrashCrashCrasherWake",
       "en_US": [
         "The ring is my roiling sea. ♫\n",
-        "The towering waves shaped me.\r",
-        "Crash! Crash! Crasher Wake!\n",
-        "Crash! Crash! Crasher Wake!\r",
-        "I’m the tidal wave of power to wash\n",
-        "you away!\r",
-        "Put out the fire, Crasher Wake!\n",
-        "Run from electricity, Crasher Wake!\r",
-        "Ah, ah, aaaah!\n",
-        "The ring is my sea. ♫\r"
+        "The towering waves shaped me.\r"
       ]
     },
     {
@@ -72,20 +44,12 @@
       "en_US": [
         "Hello, dude and young lady!\n",
         "You’re challenging the Gym Leader,\f",
-        "are you?\r",
-        "Let me tell you now, she’s young, but\n",
-        "she’s a born genius.\r",
-        "I tried training with her, and I was\n",
-        "stunned by how tough she was!\r"
+        "are you?\r"
       ]
     },
     {
       "id": "VeilstoneCity_Text_ImCrasherWakeOfPastoriaGym",
       "en_US": [
-        "Whoops!\n",
-        "I’d better tell you who I am!\r",
-        "I’m the triple-threat Gym Leader in\n",
-        "Pokémon, wrestling, and song.\r",
         "I’m Crasher Wake of Pastoria Gym!\n",
         "We’ll meet again!\r"
       ]
@@ -134,11 +98,7 @@
       "id": "VeilstoneCity_Text_ThisIsTheAwesomeWarehouse",
       "en_US": [
         "Grunt 2: This is the awesome Team\n",
-        "Galactic’s awesome warehouse!\r",
-        "A little kid like you should be playing\n",
-        "at the Pokémon Gym.\r",
-        "After all, the Gym Leader happens to\n",
-        "be a kid just like you!"
+        "Galactic’s awesome warehouse!\r"
       ]
     },
     {
@@ -146,35 +106,21 @@
       "en_US": [
         "Grunt 1: What? Now you’ve brought\n",
         "your buddy along so you can get your\f",
-        "Pokédex back?\r",
-        "We’ll be just as happy to send both\n",
-        "of you crying home to your mommies!"
+        "Pokédex back?\r"
       ]
     },
     {
       "id": "VeilstoneCity_Text_WellTakeYouOn",
       "en_US": [
         "Grunt 2: You’re trying to get the\n",
-        "Pokédex back from us?\r",
-        "Not when we, Team Galactic, can make\n",
-        "so much better use of it!\r",
-        "But, OK, guarding the warehouse\n",
-        "does get boring!\r",
-        "We’ll take you on two-on-two!"
+        "Pokédex back from us?\r"
       ]
     },
     {
       "id": "VeilstoneCity_Text_AwwThatStinks",
       "en_US": [
         "Grunt 1: Aww, that stinks!\n",
-        "Our Pokémon are chumps!\r",
-        "We should get new ones from\n",
-        "headquarters.\r",
-        "Humph! Who cares about some\n",
-        "Pokédex anyway?\r",
-        "Team Galactic’s going to own\n",
-        "all the Pokémon in the world...\f",
-        "No, in the universe!\r"
+        "Our Pokémon are chumps!\r"
       ]
     },
     {
@@ -189,9 +135,7 @@
       "en_US": [
         "Grunt 2: Those things we had in\n",
         "the warehouse’ve already been moved\f",
-        "to Pastoria City anyway...\r",
-        "So, we’ll say “You’ll get yours!”\n",
-        "And run like the grunts we are.\r"
+        "to Pastoria City anyway...\r"
       ]
     },
     {
@@ -199,13 +143,6 @@
       "en_US": [
         "Dawn: Hi, {STRVAR_1 3, 0, 0}!\n",
         "Please, can you help me?\r",
-        "Do you remember Team Galactic?\n",
-        "Those horrible people?\r",
-        "They tried to steal Prof. Rowan’s\n",
-        "research results in Jubilife, remember?\r",
-        "I ran into them, and they took away my\n",
-        "Pokédex.\r",
-        "Please, I need your help.\n",
         "Team up and battle with me!"
       ]
     },
@@ -239,17 +176,7 @@
       "id": "VeilstoneCity_Text_DawnThankYouSincerely",
       "en_US": [
         "Dawn: {STRVAR_1 3, 0, 0}, thank you,\n",
-        "sincerely.\r",
-        "I would’ve been lost without my\n",
-        "Pokédex.\r",
-        "It’s indispensable for helping Prof.\n",
-        "Rowan with his studies.\r",
-        "So, {STRVAR_1 3, 0, 0}, what are you going\n",
-        "to do now?\r",
-        "I’m thinking of going to the Pokémon\n",
-        "Mansion on Route 212.\r",
-        "I hear they show rare Pokémon to\n",
-        "visitors there.\r"
+        "sincerely.\r"
       ]
     },
     {
@@ -257,11 +184,6 @@
       "en_US": [
         "Lucas: Hey! {STRVAR_1 3, 0, 0}!\n",
         "Listen, I need your help...\r",
-        "Remember those Team Galactic goons?\r",
-        "The guys who tried to take Prof.\n",
-        "Rowan’s research results in Jubilife?\r",
-        "I ran into them, and they ripped off my\n",
-        "Pokédex!\r",
         "Will you team up with me to take\n",
         "them on?"
       ]
@@ -296,26 +218,14 @@
       "id": "VeilstoneCity_Text_LucasThanksHonestly",
       "en_US": [
         "Lucas: {STRVAR_1 3, 0, 0}, thanks,\n",
-        "honestly.\r",
-        "I’m useless without my Pokédex.\r",
-        "I have to have it for helping Prof.\n",
-        "Rowan with his studies.\r",
-        "So, {STRVAR_1 3, 0, 0}, what are your plans\n",
-        "now?\r",
-        "I think I’m off to the Pokémon Mansion\n",
-        "on Route 212.\r",
-        "They say they show off rare Pokémon to\n",
-        "visitors.\r"
+        "honestly.\r"
       ]
     },
     {
       "id": "VeilstoneCity_Text_HaveNoFear",
       "en_US": [
         "Looker: Have no fear, I have come\n",
-        "running.\r",
-        "I heard of children feuding with the\n",
-        "Team Galactic.\r",
-        "It turns out, of course, to be you.\r"
+        "running.\r"
       ]
     },
     {
@@ -342,23 +252,13 @@
     {
       "id": "VeilstoneCity_Text_DawnIShouldBeGoingNow",
       "en_US": [
-        "Dawn: I’m terribly sorry.\r",
-        "Team Galactic took my Pokédex, so I was\n",
-        "very irritated...\r",
-        "I just blurted it out...\r",
-        "...I should be going now.\n",
-        "Be wary of Team Galactic.\r"
+        "Dawn: I’m terribly sorry.\r"
       ]
     },
     {
       "id": "VeilstoneCity_Text_LucasIllBeGoingNow",
       "en_US": [
-        "Lucas: Oh, sorry. Honestly.\r",
-        "I was upset from having my Pokédex\n",
-        "ripped off by Team Galactic.\r",
-        "I didn’t even think when I spoke up.\r",
-        "I’ll be going now.\n",
-        "Uh... Watch out for Team Galactic.\r"
+        "Lucas: Oh, sorry. Honestly.\r"
       ]
     },
     {
@@ -366,15 +266,7 @@
       "en_US": [
         "Looker: It is of no matter.\r",
         "Of more interest is the criminal\n",
-        "behavior of the Team Galactic.\r",
-        "They attempt to steal the belongings of\n",
-        "a child?\r",
-        "The scale of their criminality, it seems\n",
-        "rather minuscule.\r",
-        "The triviality of their action makes\n",
-        "them more sinister, perhaps.\r",
-        "Their warehouse needs investigation.\n",
-        "Come with me, and we’ll take a look!\r"
+        "behavior of the Team Galactic.\r"
       ]
     },
     {
@@ -389,14 +281,6 @@
     {
       "id": "VeilstoneCity_Text_IKnowNothingAboutStorageKey",
       "en_US": [
-        "Hey!\n",
-        "It’s you!\r",
-        "I bet you don’t remember me, but\n",
-        "I sure remember you!\r",
-        "Because of you, they took my CLEFAIRY\n",
-        "away...\r",
-        "My partner called it quits and went\n",
-        "back to his old country...\r",
         "Waah! I know nothing! I don’t know\n",
         "anything about any Storage Key!\r"
       ]
@@ -405,13 +289,7 @@
       "id": "VeilstoneCity_Text_WillYouEnterTheHideout",
       "en_US": [
         "Ah-hah!\n",
-        "You leave this to me!\r",
-        "The Storage Key for entering the Team\n",
-        "Galactic hideout, I have right here.\r",
-        "A frontal assault, it is not possible.\n",
-        "But we can enter their hideout.\r",
-        "Well? Will you enter the hideout?\n",
-        "You have your reasons, yes?"
+        "You leave this to me!\r"
       ]
     },
     {
@@ -419,9 +297,7 @@
       "en_US": [
         "Very well.\n",
         "Inside the Team Galactic warehouse.\f",
-        "We will meet there.\r",
-        "Prepare the best you can.\n",
-        "I shall join you shortly.\r"
+        "We will meet there.\r"
       ]
     },
     {
@@ -440,9 +316,7 @@
       "id": "VeilstoneCity_Text_WeHaveHMFlyInWarehouse",
       "en_US": [
         "We have the Hidden Machine that teaches\n",
-        "Fly stored in the warehouse.\r",
-        "They said I can use it if I show them\n",
-        "that I deserve it."
+        "Fly stored in the warehouse.\r"
       ]
     },
     {

@@ -6,14 +6,6 @@
       "en_US": [
         "{SIZE 200}Ohohoho!!{SIZE 100}\r",
         "Finally, you have arrived!\r",
-        "Since I came to this country, always\n",
-        "I try to learn new things.\r",
-        "They hold Contests in this city?\n",
-        "I say to myself, enfin, I will excel.\r",
-        "That is why I dress this way.\n",
-        "C’est une performance!\r",
-        "Also, I study Pokémon very much.\n",
-        "I have come to be Gym Leader.\r",
         "And, uh, so it shall be that you\n",
         "challenge me.\r",
         "But I shall win.\n",
@@ -40,9 +32,7 @@
     {
       "id": "HearthomeGym_Text_FantinaExplainRelicBadge",
       "en_US": [
-        "That Badge will let you use the\n",
-        "hidden move Defog outside of battle.\r",
-        "Also, you can make use of this\n",
+        "You can make use of this\n",
         "Technical Machine.\r",
         "That is what I think.\r"
       ]
@@ -60,10 +50,6 @@
       "id": "HearthomeGym_Text_FantinaAfterBadge",
       "en_US": [
         "Three Gym Badges...\r",
-        "But you must not forget this.\n",
-        "There are many other Trainers.\r",
-        "Strong Trainers, too.\n",
-        "There are many more in Sinnoh.\r",
         "Have patience! You must become\n",
         "stronger, one at a time."
       ]
