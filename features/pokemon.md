@@ -47,4 +47,7 @@
 * Sneasel > Razor Claw > Weavile
 * Tangela > 34 > Tangrowth
 * Togepi > 16 > Togetic
+* Tyrogue > 20 > Hitmonlee
+* Tyrogue > Protector > Hitmonchan
+* Tyrogue > Oval Stone > Hitmontop
 * Yanma > 30 > Yanmega
