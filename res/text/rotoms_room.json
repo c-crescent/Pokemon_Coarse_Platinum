@@ -261,52 +261,21 @@
       "en_US": [
         "Rowan: Ah, imagine finding you here!\r",
         "You must be eager to fill your Pokédex\n",
-        "to be searching even here.\r",
-        "What am I doing?\r",
-        "I visit a professor I know in Eterna\n",
-        "every so often.\r",
-        "He tells me intriguing rumors of rare\n",
-        "Pokémon sightings and such.\r"
+        "to be searching even here.\r"
       ]
     },
     {
       "id": "RotomsRoom_Text_PokemonThatSlipsIntoAppliances",
       "en_US": [
         "A Pokémon that slips into electric\n",
-        "appliances, you say...\r",
-        "Hmm...\r",
-        "That is somewhat off from what I’ve\n",
-        "heard about it.\r",
-        "Hmm...\n",
-        "This is what I’ve heard.\r",
-        "Long ago, there was a Pokémon that\n",
-        "merged with a toy robot.\r",
-        "Should that Pokémon be recognized as a\n",
-        "new species or not...\r",
-        "Debates over the issue were about to\n",
-        "start when they were rendered moot.\r",
-        "The very topic of discussion--the\n",
-        "Pokémon-infused robot--disappeared...\r"
+        "appliances, you say...\r"
       ]
     },
     {
       "id": "RotomsRoom_Text_RotomInterestingPokemon",
       "en_US": [
         "Anyway, this ROTOM...\n",
-        "What an interesting Pokémon.\r",
-        "So, you say it enters an appliance and\n",
-        "essentially merges with the device.\r",
-        "In the process, it may also learn new\n",
-        "moves.\r",
-        "In a way, I suppose it could be thought\n",
-        "of as a mechanical Pokémon.\r",
-        "Hmm...!\r",
-        "Though it is utterly unique, it is\n",
-        "undeniably a form of Pokémon.\r",
-        "Fine, fine, so be it!\r",
-        "No matter how old one gets, there will\n",
-        "always be new Pokémon discoveries!\r",
-        "Take care, {STRVAR_1 3, 0, 0}!\r"
+        "What an interesting Pokémon.\r"
       ]
     },
     {

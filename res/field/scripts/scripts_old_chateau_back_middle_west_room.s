@@ -27,12 +27,22 @@ OldChateauBackMiddleWestRoom_TV:
     CheckDidNotCapture VAR_RESULT
     GoToIfEq VAR_RESULT, TRUE, OldChateauBackMiddleWestRoom_RotomDisappearedIntoTV
     SetFlag FLAG_CAUGHT_OLD_CHATEAU_ROTOM
+    GetItemQuantity ITEM_SECRET_KEY, VAR_0x8000
+    GoToIfEq VAR_0x8000, 0, OldChateauBackMiddleWestRoom_GetSecretKey
     ReleaseAll
     End
 
 OldChateauBackMiddleWestRoom_RotomDisappearedIntoTV:
     Message OldChateauBackMiddleWestRoom_Text_RotomDisappearedIntoTV
     WaitButton
+    CloseMessage
+    ReleaseAll
+    End
+
+OldChateauBackMiddleWestRoom_GetSecretKey:
+    SetVar VAR_0x8004, ITEM_SECRET_KEY
+    SetVar VAR_0x8005, 1
+    Common_GiveItemQuantity
     CloseMessage
     ReleaseAll
     End
