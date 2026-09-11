@@ -87,6 +87,10 @@ Day:
 Night:
 > Tangela
 
+## Mt. Coronet 1F South
+Land:
+> Bagon
+
 ### Oreburg Mine B1F
 Land:
 > Chimchar
@@ -188,3 +192,23 @@ Land:
 Land:
 > Drowzee
 > Azurill
+
+### Route 214
+Land:
+> Spoink
+> Paras
+> Poochyena
+
+### Maniac Tunnel
+Land:
+> Beldum
+
+### Valor Lakefront
+Land:
+> Nidorina
+> Nidorino
+
+### Route 213
+Land:
+> Swellow
+> Venonat

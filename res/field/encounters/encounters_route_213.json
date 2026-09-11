@@ -3,11 +3,11 @@
     "land_encounters": [
         {
             "level": 24,
-            "species": "SPECIES_SHELLOS"
+            "species": "SPECIES_SWELLOW"
         },
         {
             "level": 23,
-            "species": "SPECIES_BUIZEL"
+            "species": "SPECIES_SWELLOW"
         },
         {
             "level": 23,
@@ -59,8 +59,8 @@
         "SPECIES_CHATOT"
     ],
     "night": [
-        "SPECIES_SHELLOS",
-        "SPECIES_BUIZEL"
+        "SPECIES_VENONAT",
+        "SPECIES_VENONAT"
     ],
     "radar": [
         "SPECIES_SWELLOW",

@@ -3,7 +3,7 @@
     "land_encounters": [
         {
             "level": 25,
-            "species": "SPECIES_GEODUDE"
+            "species": "SPECIES_BELDUM"
         },
         {
             "level": 24,
@@ -43,7 +43,7 @@
         },
         {
             "level": 25,
-            "species": "SPECIES_GEODUDE"
+            "species": "SPECIES_BELDUM"
         },
         {
             "level": 26,

@@ -3,11 +3,11 @@
     "land_encounters": [
         {
             "level": 23,
-            "species": "SPECIES_GRAVELER"
+            "species": "SPECIES_SPOINK"
         },
         {
             "level": 21,
-            "species": "SPECIES_GEODUDE"
+            "species": "SPECIES_POOCHYENA"
         },
         {
             "level": 22,
@@ -27,11 +27,11 @@
         },
         {
             "level": 24,
-            "species": "SPECIES_GRAVELER"
+            "species": "SPECIES_SPOINK"
         },
         {
             "level": 21,
-            "species": "SPECIES_RHYHORN"
+            "species": "SPECIES_PARAS"
         },
         {
             "level": 24,
@@ -43,11 +43,11 @@
         },
         {
             "level": 24,
-            "species": "SPECIES_HOUNDOUR"
+            "species": "SPECIES_PARAS"
         },
         {
             "level": 24,
-            "species": "SPECIES_RHYHORN"
+            "species": "SPECIES_POOCHYENA"
         }
     ],
     "swarms": [
