@@ -131,36 +131,36 @@ GameCorner_CoinsClerk_OpenCoinBuyMenu:
     AddMenuEntryImm MenuEntries_Text_GameCorner_NoThanks, 2
     ShowMenu
     SetVar VAR_0x8008, VAR_RESULT
-    GoToIfEq VAR_0x8008, 0, GameCorner_CoinsClerk_Buy50Coins
-    GoToIfEq VAR_0x8008, 1, GameCorner_CoinsClerk_Buy500Coins
+    GoToIfEq VAR_0x8008, 0, GameCorner_CoinsClerk_Buy500Coins
+    GoToIfEq VAR_0x8008, 1, GameCorner_CoinsClerk_Buy5000Coins
     GoTo GameCorner_CoinsClerk_Cancel
 
-GameCorner_CoinsClerk_Buy50Coins:
-    GoToIfNotEnoughMoney 1000, GameCorner_CoinsClerk_NotEnoughMoney
+GameCorner_CoinsClerk_Buy500Coins:
+    GoToIfNotEnoughMoney 100, GameCorner_CoinsClerk_NotEnoughMoney
     GoToIfCannotAddCoins 50, GameCorner_CoinsClerk_CoinCaseFull
     PlaySE SEQ_SE_DP_REGI_sseq
-    AddToGameRecord RECORD_MONEY_SPENT, 1000
-    RemoveMoney 1000
+    AddToGameRecord RECORD_MONEY_SPENT, 100
+    RemoveMoney 100
     UpdateMoneyDisplay
     WaitSE SEQ_SE_DP_REGI_sseq
     PlaySE SEQ_SE_PL_COIN_sseq
-    AddCoins 50
+    AddCoins 500
     UpdateCoinDisplay
     WaitSE SEQ_SE_PL_COIN_sseq
     Message GameCorner_Text_HereAreYourCoins
     WaitTime 30, VAR_RESULT
     GoTo GameCorner_CoinsClerk_OpenCoinBuyMenu
 
-GameCorner_CoinsClerk_Buy500Coins:
-    GoToIfNotEnoughMoney 10000, GameCorner_CoinsClerk_NotEnoughMoney
+GameCorner_CoinsClerk_Buy5000Coins:
+    GoToIfNotEnoughMoney 1000, GameCorner_CoinsClerk_NotEnoughMoney
     GoToIfCannotAddCoins 500, GameCorner_CoinsClerk_CoinCaseFull
     PlaySE SEQ_SE_DP_REGI_sseq
-    AddToGameRecord RECORD_MONEY_SPENT, 10000
-    RemoveMoney 10000
+    AddToGameRecord RECORD_MONEY_SPENT, 1000
+    RemoveMoney 1000
     UpdateMoneyDisplay
     WaitSE SEQ_SE_DP_REGI_sseq
     PlaySE SEQ_SE_PL_COIN_sseq
-    AddCoins 500
+    AddCoins 5000
     UpdateCoinDisplay
     WaitSE SEQ_SE_PL_COIN_sseq
     Message GameCorner_Text_HereAreYourCoins

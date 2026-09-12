@@ -527,11 +527,11 @@
     },
     {
       "id": "MenuEntries_Text_GameCorner_50Coins",
-      "en_US": "50 Coins{CURSOR_X 60}$1,000"
+      "en_US": "500 Coins{CURSOR_X 60}$100"
     },
     {
       "id": "MenuEntries_Text_GameCorner_500Coins",
-      "en_US": "500 Coins{CURSOR_X 60}$10,000"
+      "en_US": "5000 Coins{CURSOR_X 60}$1,000"
     },
     {
       "id": "MenuEntries_Text_GameCorner_NoThanks",
