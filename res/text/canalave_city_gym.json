@@ -5,11 +5,6 @@
       "id": "CanalaveGym_Text_ByronIntro",
       "en_US": [
         "Ah!\n",
-        "That’s Oreburgh’s Gym Badge!\r",
-        "I see, I see!\n",
-        "You’ve defeated my son.\r",
-        "But that’s no surprise.\n",
-        "He still has much to learn.\r",
         "In place of my son Roark, I, Byron,\n",
         "will take your challenge!\r"
       ]
@@ -35,12 +30,7 @@
       "en_US": [
         "Having the Mine Badge enables you to\n",
         "use the hidden move Strength anytime\f",
-        "outside of battle.\r",
-        "And you now have six Gym Badges.\r",
-        "That means all Pokémon up to Lv. 70\n",
-        "will obey you without question.\r",
-        "Here!\n",
-        "Take this, too!\r"
+        "outside of battle.\r"
       ]
     },
     {
@@ -56,16 +46,7 @@
       "id": "CanalaveGym_Text_ByronAfterBadge",
       "en_US": [
         "Gwahahahaha!\n",
-        "The Sinnoh region is vast!\r",
-        "Tough Trainers like you and\n",
-        "{STRVAR_1 3, 1, 0} crop up constantly\f",
-        "to challenge the old guard!\r",
-        "With more young Trainers like my son\n",
-        "and you two taking charge, the\f",
-        "future of Pokémon is bright!\r",
-        "But I’m not stepping aside just yet!\r",
-        "I merely need to rededicate myself\n",
-        "to training on Iron Island."
+        "The Sinnoh region is vast!\r"
       ]
     },
     {
