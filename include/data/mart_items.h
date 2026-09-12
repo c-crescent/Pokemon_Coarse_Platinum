@@ -230,7 +230,14 @@ const u16 VeilstoneDeptStoreStock_3F_DOWN[] = {
     SHOP_ITEM_END
 };
 
-const u16 CelesticMartSpecialties[] = {
+const u16 CelesticMartSpecialties[] = {    
+    ITEM_CHOICE_SPECS,
+    ITEM_CHOICE_BAND,
+    ITEM_CHOICE_SCARF,
+    ITEM_LEFTOVERS,
+    ITEM_LIFE_ORB,
+    ITEM_FOCUS_SASH,
+    ITEM_EXPERT_BELT,
     ITEM_AIR_MAIL,
     ITEM_DUSK_BALL,
     ITEM_QUICK_BALL,
@@ -239,13 +246,6 @@ const u16 CelesticMartSpecialties[] = {
 };
 
 const u16 SnowpointMartSpecialties[] = {
-    ITEM_CHOICE_SPECS,
-    ITEM_CHOICE_BAND,
-    ITEM_CHOICE_SCARF,
-    ITEM_LEFTOVERS,
-    ITEM_LIFE_ORB,
-    ITEM_FOCUS_SASH,
-    ITEM_EXPERT_BELT,
     ITEM_SNOW_MAIL,
     ITEM_DUSK_BALL,
     ITEM_QUICK_BALL,
