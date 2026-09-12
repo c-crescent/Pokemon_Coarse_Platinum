@@ -170,7 +170,7 @@
         {
             "level_max": 25,
             "level_min": 10,
-            "species": "SPECIES_BARBOACH"
+            "species": "SPECIES_DRATINI"
         },
         {
             "level_max": 25,
@@ -193,7 +193,7 @@
         {
             "level_max": 55,
             "level_min": 40,
-            "species": "SPECIES_GYARADOS"
+            "species": "SPECIES_DRATINI"
         },
         {
             "level_max": 55,
@@ -203,7 +203,7 @@
         {
             "level_max": 55,
             "level_min": 40,
-            "species": "SPECIES_WHISCASH"
+            "species": "SPECIES_DRATINI"
         }
     ],
     "elusive_rod_encounter": {

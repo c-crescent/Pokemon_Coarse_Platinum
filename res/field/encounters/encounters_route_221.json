@@ -3,7 +3,7 @@
     "land_encounters": [
         {
             "level": 29,
-            "species": "SPECIES_FLOATZEL"
+            "species": "SPECIES_COMBEE"
         },
         {
             "level": 28,
@@ -11,7 +11,7 @@
         },
         {
             "level": 28,
-            "species": "SPECIES_ROSELIA"
+            "species": "SPECIES_FARFETCHD"
         },
         {
             "level": 29,
@@ -31,7 +31,7 @@
         },
         {
             "level": 29,
-            "species": "SPECIES_SUDOWOODO"
+            "species": "SPECIES_COMBEE"
         },
         {
             "level": 31,
@@ -39,7 +39,7 @@
         },
         {
             "level": 30,
-            "species": "SPECIES_ROSELIA"
+            "species": "SPECIES_FARFETCHD"
         },
         {
             "level": 31,

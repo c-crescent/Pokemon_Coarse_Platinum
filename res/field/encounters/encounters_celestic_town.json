@@ -142,12 +142,12 @@
         {
             "level_max": 10,
             "level_min": 5,
-            "species": "SPECIES_MAGIKARP"
+            "species": "SPECIES_CORPHISH"
         },
         {
             "level_max": 15,
             "level_min": 5,
-            "species": "SPECIES_MAGIKARP"
+            "species": "SPECIES_CORPHISH"
         }
     ],
     "good_rod_rate": 50,
@@ -160,7 +160,7 @@
         {
             "level_max": 20,
             "level_min": 15,
-            "species": "SPECIES_GOLDEEN"
+            "species": "SPECIES_CORPHISH"
         },
         {
             "level_max": 25,
@@ -170,12 +170,12 @@
         {
             "level_max": 35,
             "level_min": 25,
-            "species": "SPECIES_GOLDEEN"
+            "species": "SPECIES_CORPHISH"
         },
         {
             "level_max": 35,
             "level_min": 25,
-            "species": "SPECIES_GOLDEEN"
+            "species": "SPECIES_CORPHISH"
         }
     ],
     "super_rod_rate": 75,

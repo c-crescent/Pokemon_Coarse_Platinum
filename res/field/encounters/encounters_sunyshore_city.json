@@ -109,7 +109,7 @@
         {
             "level_max": 50,
             "level_min": 30,
-            "species": "SPECIES_TENTACRUEL"
+            "species": "SPECIES_TROPIUS"
         },
         {
             "level_max": 50,
@@ -119,7 +119,7 @@
         {
             "level_max": 50,
             "level_min": 30,
-            "species": "SPECIES_PELIPPER"
+            "species": "SPECIES_TROPIUS"
         }
     ],
     "old_rod_rate": 25,
@@ -188,7 +188,7 @@
         {
             "level_max": 40,
             "level_min": 30,
-            "species": "SPECIES_OCTILLERY"
+            "species": "SPECIES_STARYU"
         },
         {
             "level_max": 50,

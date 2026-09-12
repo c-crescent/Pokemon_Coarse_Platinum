@@ -23,7 +23,7 @@
         },
         {
             "level": 28,
-            "species": "SPECIES_MACHOP"
+            "species": "SPECIES_NATU"
         },
         {
             "level": 29,
@@ -31,11 +31,11 @@
         },
         {
             "level": 29,
-            "species": "SPECIES_MACHOKE"
+            "species": "SPECIES_MANKEY"
         },
         {
             "level": 29,
-            "species": "SPECIES_MACHOP"
+            "species": "SPECIES_MANKEY"
         },
         {
             "level": 30,
@@ -47,7 +47,7 @@
         },
         {
             "level": 30,
-            "species": "SPECIES_MACHOKE"
+            "species": "SPECIES_XATU"
         }
     ],
     "swarms": [

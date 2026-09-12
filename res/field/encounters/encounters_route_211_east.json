@@ -11,7 +11,7 @@
         },
         {
             "level": 28,
-            "species": "SPECIES_MEDITITE"
+            "species": "SPECIES_AIPOM"
         },
         {
             "level": 29,
@@ -47,7 +47,7 @@
         },
         {
             "level": 29,
-            "species": "SPECIES_BRONZOR"
+            "species": "SPECIES_AIPOM"
         }
     ],
     "swarms": [
@@ -55,12 +55,12 @@
         "SPECIES_GRAVELER"
     ],
     "day": [
-        "SPECIES_MEDITITE",
-        "SPECIES_MEDITITE"
+        "SPECIES_KOFFING",
+        "SPECIES_KOFFING"
     ],
     "night": [
-        "SPECIES_ZUBAT",
-        "SPECIES_NOCTOWL"
+        "SPECIES_ARBOK",
+        "SPECIES_ARBOK"
     ],
     "radar": [
         "SPECIES_CHINGLING",

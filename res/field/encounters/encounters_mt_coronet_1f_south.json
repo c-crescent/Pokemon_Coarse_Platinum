@@ -47,7 +47,7 @@
         },
         {
             "level": 19,
-            "species": "SPECIES_CHINGLING"
+            "species": "SPECIES_WHISMUR"
         }
     ],
     "swarms": [
@@ -55,8 +55,8 @@
         "SPECIES_GEODUDE"
     ],
     "day": [
-        "SPECIES_MEDITITE",
-        "SPECIES_GEODUDE"
+        "SPECIES_WHISMUR",
+        "SPECIES_WHISMUR"
     ],
     "night": [
         "SPECIES_ZUBAT",

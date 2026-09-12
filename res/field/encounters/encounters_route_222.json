@@ -47,7 +47,7 @@
         },
         {
             "level": 41,
-            "species": "SPECIES_MAGNETON"
+            "species": "SPECIES_ELEKID"
         }
     ],
     "swarms": [
@@ -55,12 +55,12 @@
         "SPECIES_SKITTY"
     ],
     "day": [
-        "SPECIES_ELECTABUZZ",
-        "SPECIES_CHATOT"
+        "SPECIES_EXEGGCUTE",
+        "SPECIES_EXEGGCUTE"
     ],
     "night": [
-        "SPECIES_FLOATZEL",
-        "SPECIES_FLOATZEL"
+        "SPECIES_HERACROSS",
+        "SPECIES_HERACROSS"
     ],
     "radar": [
         "SPECIES_FLAAFFY",

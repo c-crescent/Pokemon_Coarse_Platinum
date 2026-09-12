@@ -165,7 +165,7 @@
         {
             "level_max": 25,
             "level_min": 10,
-            "species": "SPECIES_MAGIKARP"
+            "species": "SPECIES_QWILFISH"
         },
         {
             "level_max": 25,
@@ -198,7 +198,7 @@
         {
             "level_max": 55,
             "level_min": 40,
-            "species": "SPECIES_LUMINEON"
+            "species": "SPECIES_QWILFISH"
         },
         {
             "level_max": 55,

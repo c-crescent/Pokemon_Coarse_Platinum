@@ -15,7 +15,7 @@
         },
         {
             "level": 29,
-            "species": "SPECIES_FLOATZEL"
+            "species": "SPECIES_MAGBY"
         },
         {
             "level": 30,
@@ -23,7 +23,7 @@
         },
         {
             "level": 30,
-            "species": "SPECIES_GASTRODON"
+            "species": "SPECIES_MAGMAR"
         },
         {
             "level": 28,
@@ -35,7 +35,7 @@
         },
         {
             "level": 31,
-            "species": "SPECIES_FLOATZEL"
+            "species": "SPECIES_TORKOAL"
         },
         {
             "level": 31,
@@ -43,7 +43,7 @@
         },
         {
             "level": 31,
-            "species": "SPECIES_FLOATZEL"
+            "species": "SPECIES_TORKOAL"
         },
         {
             "level": 31,
@@ -55,12 +55,12 @@
         "SPECIES_MAGNEMITE"
     ],
     "day": [
-        "SPECIES_MAGMAR",
-        "SPECIES_FLOATZEL"
+        "SPECIES_VOLTORB",
+        "SPECIES_VOLTORB"
     ],
     "night": [
-        "SPECIES_GASTRODON",
-        "SPECIES_FLOATZEL"
+        "SPECIES_SKARMORY",
+        "SPECIES_SKARMORY"
     ],
     "radar": [
         "SPECIES_ARON",

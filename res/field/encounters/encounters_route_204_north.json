@@ -31,7 +31,7 @@
         },
         {
             "level": 10,
-            "species": "SPECIES_SHINX"
+            "species": "SPECIES_BELLSPROUT"
         },
         {
             "level": 10,
@@ -47,7 +47,7 @@
         },
         {
             "level": 11,
-            "species": "SPECIES_BIDOOF"
+            "species": "SPECIES_BELLSPROUT"
         }
     ],
     "swarms": [
@@ -55,12 +55,12 @@
         "SPECIES_BIDOOF"
     ],
     "day": [
-        "SPECIES_WURMPLE",
-        "SPECIES_BUDEW"
+        "SPECIES_BURMY",
+        "SPECIES_BURMY"
     ],
     "night": [
-        "SPECIES_KRICKETOT",
-        "SPECIES_ZUBAT"
+        "SPECIES_CACNEA",
+        "SPECIES_CACNEA"
     ],
     "radar": [
         "SPECIES_SUNKERN",
