@@ -5,23 +5,14 @@
       "id": "ValorLakefront_Text_WhyAmIRunning",
       "en_US": [
         "...Pant...pant...\r",
-        "...Why am I running like this anyway?!\r",
-        "That new world...\n",
-        "The new universe that our boss was\f",
-        "talking about...\r",
-        "It’s making me giddy thinking about it...\n",
-        "When we use this thing...\r"
+        "...Why am I running like this anyway?!\r"
       ]
     },
     {
       "id": "ValorLakefront_Text_YouWereEavesdropping",
       "en_US": [
         "Gweh! You were eavesdropping!\n",
-        "I was only talking to myself!\r",
-        "You’re persistent, too...\n",
-        "I’m pooped out from all the running...\r",
-        "But, I’m not...\n",
-        "Going to battle you...\r"
+        "I was only talking to myself!\r"
       ]
     },
     {
@@ -29,20 +20,14 @@
       "en_US": [
         "Aww, no...\n",
         "You’re still on my tail...?\f",
-        "The lake’s within sight...\r",
-        "You leave me no choice...\n",
-        "My Pokémon will KO you...\r"
+        "The lake’s within sight...\r"
       ]
     },
     {
       "id": "ValorLakefront_Text_ICantBattleAnymore",
       "en_US": [
         "I can’t battle anymore...\n",
-        "I’m running on fumes...\r",
-        "I’ll have to give this to the\n",
-        "Commander...\r",
-        "I wish...\n",
-        "I got to use it at the lake...\r"
+        "I’m running on fumes...\r"
       ]
     },
     {
@@ -50,17 +35,6 @@
       "en_US": [
         "Cynthia: Oh, hello, long time no see!\n",
         "How is your Pokédex filling up?\r",
-        "I came to research the folklore\n",
-        "about the lake, but...\r",
-        "Well, it doesn’t appear as if the\n",
-        "lake is open to the public now.\r",
-        "Have you heard the folklore about it?\r",
-        "They say there is an island inside\n",
-        "the lake.\r",
-        "And inside that island is a mirage\n",
-        "of a Pokémon.\r",
-        "No one must enter the chamber\n",
-        "of that Pokémon...\r",
         "Oh, that’s right! I had to talk to you\n",
         "about something else...\r"
       ]
@@ -85,13 +59,7 @@
       "id": "ValorLakefront_Text_SeeYouAround",
       "en_US": [
         "That explosion in the Great Marsh?\n",
-        "It wasn’t anything serious.\r",
-        "Mr. Wake told me to tell you that.\r",
-        "But that Team Galactic... Wow! Are they\n",
-        "out of control or what?\r",
-        "Next time I see them, I’ll teach them\n",
-        "a lesson they won’t forget!\r",
-        "See you around!\r"
+        "It wasn’t anything serious.\r"
       ]
     },
     {
@@ -115,20 +83,14 @@
       "id": "ValorLakefront_Text_YeahThatsRight",
       "en_US": [
         "Cynthia: Yes, that’s right.\n",
-        "By the café on Route 210.\r",
-        "You’ve seen that group of PSYDUCK\n",
-        "huddled with their heads in their,\f",
-        "uh, hands...?\r"
+        "By the café on Route 210.\r"
       ]
     },
     {
       "id": "ValorLakefront_Text_YouHaventSeen",
       "en_US": [
         "Cynthia: You haven’t seen them?\n",
-        "By the café on Route 210.\r",
-        "There’s a group of PSYDUCK huddled\n",
-        "with their heads in their, uh,\f",
-        "hands...?\r"
+        "By the café on Route 210.\r"
       ]
     },
     {

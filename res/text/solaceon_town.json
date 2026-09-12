@@ -17,18 +17,7 @@
       "id": "SolaceonTown_Text_CheckOutTheRuins",
       "en_US": [
         "Huh?\n",
-        "What the...\r",
-        "What’s this all about?\r",
-        "...I got some Seals, but I forgot to\n",
-        "put them on.\r",
-        "Oh, right.\n",
-        "It’s because I was at the ruins.\r",
-        "The ruins here are cool.\n",
-        "You have to check it out.\r",
-        "I even found a Hidden Machine.\n",
-        "It was Defog!\r",
-        "Anyway, I’ll battle you another time.\n",
-        "See ya!\r"
+        "What the...\r"
       ]
     },
     {
@@ -49,11 +38,7 @@
       "id": "SolaceonTown_Text_TakeATour",
       "en_US": [
         "Howdy, traveling Trainer.\n",
-        "There’s nothing here.\r",
-        "Well, nothing but plenty of time to\n",
-        "think, anyway.\r",
-        "Oh, right. We have the ruins here.\n",
-        "Why not take a tour through that?"
+        "There’s nothing here.\r"
       ]
     },
     {
@@ -86,22 +71,14 @@
       "en_US": [
         "A traveling Trainer, huh?\r",
         "Tell me, how many kinds of Pokémon\n",
-        "have you met so far?\r",
-        "If you’re a competent Trainer, I’d\n",
-        "think you’d’ve met at least fifty.\r",
-        "If you haven’t, go farther abroad and\n",
-        "search wider, youngster."
+        "have you met so far?\r"
       ]
     },
     {
       "id": "SolaceonTown_Text_PoketchAppPokemonHistory",
       "en_US": [
         "Your encounters with Pokémon can\n",
-        "be considered your shared history.\r",
-        "This here’s a Pokétch app called\n",
-        "Pokémon History.\r",
-        "Use it to see your history of\n",
-        "Pokémon catches.\r"
+        "be considered your shared history.\r"
       ]
     },
     {

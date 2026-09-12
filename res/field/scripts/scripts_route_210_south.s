@@ -33,7 +33,7 @@ Route210South_Psyduck:
     LockAll
     FacePlayer
     CheckItem ITEM_SECRETPOTION, 1, VAR_RESULT
-    GoToIfEq VAR_RESULT, TRUE, Route210South_AskUseSecretPotion
+    GoToIfEq VAR_RESULT, TRUE, Route210South_UseSecretPotion
     Message Route210South_Text_PsyduckAreStandingFirm
     WaitButton
     CloseMessage
@@ -98,9 +98,7 @@ Route210South_CynthiaEnter:
     ApplyMovement LOCALID_PLAYER, Route210South_Movement_PlayerWalkOnSpotSouth
     WaitMovement
     Message Route210South_Text_DeliverThisOldCharm
-    ShowYesNoMenu VAR_RESULT
-    GoToIfEq VAR_RESULT, MENU_YES, Route210South_AcceptOldCharm
-    GoToIfEq VAR_RESULT, MENU_NO, Route210South_RefuseOldCharm
+    GoTo Route210South_AcceptOldCharm
     End
 
 Route210South_RefuseOldCharm:

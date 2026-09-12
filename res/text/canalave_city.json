@@ -7,55 +7,28 @@
         "{STRVAR_1 3, 0, 0}: Whoops!\n",
         "Hey, {STRVAR_1 3, 1, 0}!\r",
         "You’re going to challenge the Gym\n",
-        "Leader up past here, eh?\r",
-        "Someone should check to see if you’re\n",
-        "ready for this challenge!\r",
-        "That someone is me!\n",
-        "With my brand-new Gym Badge!\r"
+        "Leader up past here, eh?\r"
       ]
     },
     {
       "id": "CanalaveCity_Text_TrainAtIronIsland",
       "en_US": [
         "{STRVAR_1 3, 0, 0}: Yeah, yeah, you’re just\n",
-        "a bit better than me, as usual.\r",
-        "But listen up!\r",
-        "Let me tell you who’s going to take on\n",
-        "the Pokémon League and become the\f",
-        "Champion.\r",
-        "You guessed right!\n",
-        "It’s going to be me!\r",
-        "Anyway, you should go to Iron Island\n",
-        "and toughen up some more.\r",
-        "Yeah, train at Iron Island! That’s what\n",
-        "I did before going to the Gym!\r"
+        "a bit better than me, as usual.\r"
       ]
     },
     {
       "id": "CanalaveCity_Text_ComeToLibrary",
       "en_US": [
         "{STRVAR_1 3, 0, 0}: Hey! That’s the Mine\n",
-        "Badge! Good going!\r",
-        "You’re tough enough to consider\n",
-        "becoming the Pokémon Champ.\r",
-        "Of course, I’m tougher, so it’s\n",
-        "not going to actually happen.\r",
-        "Anyway, {STRVAR_1 3, 1, 0}, come with\n",
-        "me to the library.\r"
+        "Badge! Good going!\r"
       ]
     },
     {
       "id": "CanalaveCity_Text_DidntGetHMStrength",
       "en_US": [
         "{STRVAR_1 3, 0, 0}: Hey, you’re here!\n",
-        "Finally!\r",
-        "Oh, but what the...\r",
-        "Aww, you haven’t gone to Iron Island,\n",
-        "have you?\r",
-        "You didn’t get the HM Strength, did\n",
-        "you?\r",
-        "Aww, sheesh! I’ll wait here for you!\n",
-        "Hurry up and go already!"
+        "Finally!\r"
       ]
     },
     {
@@ -77,11 +50,7 @@
       "id": "CanalaveCity_Text_HugeExplosionAtLakeValor",
       "en_US": [
         "Hey, hey! Old dude and kids!\n",
-        "Did you hear?!\r",
-        "They’re saying there was a huge\n",
-        "explosion at Lake Valor!\r",
-        "But, I hear everything’s fine now.\n",
-        "I guess it was just a lot of noise.\r"
+        "Did you hear?!\r"
       ]
     },
     {
@@ -96,17 +65,7 @@
       "id": "CanalaveCity_Text_INeedYouAtLakeValor",
       "en_US": [
         "Rowan: ...That {STRVAR_1 3, 0, 0}...\n",
-        "Can’t sit still...\r",
-        "{STRVAR_1 3, 1, 0}, I don’t like to demand,\n",
-        "but I need you at Lake Valor.\r",
-        "It’s impossible for things to be OK.\n",
-        "Not after an explosion like that.\r",
-        "But I have no idea what is taking\n",
-        "place...\r",
-        "But before you go, let me stress:\n",
-        "don’t get in over your head.\r",
-        "We will try to join you as soon as\n",
-        "we inspect Lake Verity.\r"
+        "Can’t sit still...\r"
       ]
     },
     {
@@ -146,11 +105,7 @@
       "en_US": [
         "Rowan: Hmm...\r",
         "What is taking place at Lake\n",
-        "Valor... You must find out!\r",
-        "But before you go, let me stress:\n",
-        "don’t get in over your head.\r",
-        "We will try to join you as soon as\n",
-        "we inspect Lake Verity."
+        "Valor... You must find out!\r"
       ]
     },
     {
