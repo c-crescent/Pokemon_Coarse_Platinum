@@ -269,11 +269,19 @@ Floatzel
 Ludicolo
 Swampert
 
+## Celestic Cave
+
+### Galactic Boss Cyrus (44)
+
 ## Canalave City
 
 ### Rival
 
-####
+#### Fire
+
+#### Grass
+
+#### Water
 
 ## Canalave Gym
 
