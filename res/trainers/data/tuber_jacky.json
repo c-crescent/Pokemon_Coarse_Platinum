@@ -10,15 +10,43 @@
         {
             "species": "SPECIES_BIBAREL",
             "form": 0,
-            "level": 32,
-            "item": null,
+            "level": 37,
+            "item": "ITEM_CHOICE_BAND",
             "moves": [
-                "MOVE_WATER_GUN",
-                "MOVE_ROLLOUT",
-                "MOVE_HYPER_FANG",
-                "MOVE_YAWN"
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_WATERFALL",
+                "MOVE_DIG",
+                "MOVE_SUPERPOWER"
             ],
-            "iv_scale": 10,
+            "iv_scale": 100,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_LUMINEON",
+            "form": 0,
+            "level": 37,
+            "item": "ITEM_LEFTOVERS",
+            "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_TOXIC",
+                "MOVE_PROTECT"
+            ],
+            "iv_scale": 100,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_FERALIGATR",
+            "form": 0,
+            "level": 37,
+            "item": "ITEM_LIFE_ORB",
+            "moves": [
+                "MOVE_DRAGON_DANCE",
+                "MOVE_WATERFALL",
+                "MOVE_ICE_PUNCH",
+                "MOVE_EARTHQUAKE"
+            ],
+            "iv_scale": 100,
             "ball_seal": 0
         }
     ],

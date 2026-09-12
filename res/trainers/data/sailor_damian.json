@@ -8,29 +8,45 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_WINGULL",
+            "species": "SPECIES_PELIPPER",
             "form": 0,
-            "level": 31,
-            "item": null,
+            "level": 37,
+            "item": "ITEM_LEFTOVERS",
             "moves": [
-                "MOVE_WATER_PULSE",
-                "MOVE_WING_ATTACK",
-                "MOVE_QUICK_ATTACK"
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_AIR_SLASH",
+                "MOVE_TOXIC"
             ],
-            "iv_scale": 10,
+            "iv_scale": 100,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_PELIPPER",
+            "species": "SPECIES_POLITOED",
             "form": 0,
-            "level": 31,
-            "item": null,
+            "level": 37,
+            "item": "ITEM_RINDO_BERRY",
             "moves": [
-                "MOVE_WATER_PULSE",
-                "MOVE_WING_ATTACK",
-                "MOVE_QUICK_ATTACK"
+                "MOVE_TOXIC",
+                "MOVE_PROTECT",
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM"
             ],
-            "iv_scale": 10,
+            "iv_scale": 100,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_OCTILLERY",
+            "form": 0,
+            "level": 37,
+            "item": "ITEM_FOCUS_SASH",
+            "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_ENERGY_BALL",
+                "MOVE_FIRE_BLAST"
+            ],
+            "iv_scale": 100,
             "ball_seal": 0
         }
     ],

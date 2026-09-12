@@ -8,42 +8,45 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_WINGULL",
+            "species": "SPECIES_QWILFISH",
             "form": 0,
-            "level": 29,
-            "item": null,
+            "level": 38,
+            "item": "ITEM_FOCUS_SASH",
             "moves": [
-                "MOVE_WATER_PULSE",
-                "MOVE_WING_ATTACK",
-                "MOVE_SUPERSONIC"
+                "MOVE_SPIKES",
+                "MOVE_EXPLOSION",
+                "MOVE_WATERFALL",
+                "MOVE_POISON_JAB"
             ],
-            "iv_scale": 10,
+            "iv_scale": 100,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_SHELLOS",
+            "species": "SPECIES_SLOWBRO",
             "form": 0,
-            "level": 30,
-            "item": null,
+            "level": 38,
+            "item": "ITEM_LEFTOVERS",
             "moves": [
-                "MOVE_WATER_PULSE",
-                "MOVE_MUD_BOMB",
-                "MOVE_RAIN_DANCE"
+                "MOVE_SLACK_OFF",
+                "MOVE_TOXIC",
+                "MOVE_SURF",
+                "MOVE_PSYCHIC"
             ],
-            "iv_scale": 10,
+            "iv_scale": 100,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_GOLDUCK",
+            "species": "SPECIES_SLOWBRO",
             "form": 0,
-            "level": 31,
-            "item": null,
+            "level": 38,
+            "item": "ITEM_COLBUR_BERRY",
             "moves": [
-                "MOVE_FURY_SWIPES",
-                "MOVE_CONFUSION",
-                "MOVE_WATER_PULSE"
+                "MOVE_SLACK_OFF",
+                "MOVE_NASTY_PLOT",
+                "MOVE_SURF",
+                "MOVE_FIRE_BLAST"
             ],
-            "iv_scale": 10,
+            "iv_scale": 100,
             "ball_seal": 0
         }
     ],

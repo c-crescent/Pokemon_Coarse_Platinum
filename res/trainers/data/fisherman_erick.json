@@ -8,43 +8,45 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_GOLDEEN",
+            "species": "SPECIES_CLAMPERL",
             "form": 0,
-            "level": 28,
-            "item": null,
+            "level": 38,
+            "item": "ITEM_DEEPSEATOOTH",
             "moves": [
-                "MOVE_WATER_PULSE",
-                "MOVE_PECK",
-                "MOVE_FLAIL",
-                "MOVE_SUPERSONIC"
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_RAIN_DANCE",
+                "MOVE_HYDRO_PUMP"
             ],
-            "iv_scale": 10,
+            "iv_scale": 100,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_SEAKING",
+            "species": "SPECIES_HUNTAIL",
             "form": 0,
-            "level": 31,
-            "item": null,
+            "level": 38,
+            "item": "ITEM_LIFE_ORB",
             "moves": [
-                "MOVE_WATER_PULSE",
-                "MOVE_FURY_ATTACK",
-                "MOVE_FLAIL",
-                "MOVE_SUPERSONIC"
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_RAIN_DANCE",
+                "MOVE_HYDRO_PUMP"
             ],
-            "iv_scale": 10,
+            "iv_scale": 100,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_GYARADOS",
+            "species": "SPECIES_GOREBYSS",
             "form": 0,
-            "level": 31,
-            "item": null,
+            "level": 38,
+            "item": "ITEM_LIFE_ORB",
             "moves": [
-                "MOVE_THRASH",
-                "MOVE_BITE"
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_RAIN_DANCE",
+                "MOVE_PSYCHIC"
             ],
-            "iv_scale": 10,
+            "iv_scale": 100,
             "ball_seal": 0
         }
     ],

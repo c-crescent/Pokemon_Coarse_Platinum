@@ -6,35 +6,37 @@
 * Gym Leaders now enforce a party size cap
 * All Team Galactic Commaner boss fights are now double battles
 
-## Barry's Final Team
+## Rival's Final Team
 Staraptor
 Heracross
 Snorlax
-Fire (Rapidash / Chimchar)
+Fire (Rapidash / Fire)
 Water (Floatzel / Empoleon)
 Grass ( Tangrowth / Torterra )
+
+## Level Caps
 
 ## Route 203
 
 ### Rival (10)
 
-#### Chimchar
+#### Fire
 
 Starly
 Ponyta
-Piplup
+Water
 
-#### Piplup
+#### Water
 
 Starly 
 Buizel 
-Turtwig
+Grass
 
-#### Turtwig
+#### Grass
 
 Starly
 Tangela
-Chimchar
+Fire
 
 ## Oreburgh Gym
 
@@ -148,17 +150,17 @@ Mismagius
 
 ### Rival (29)
 
-#### Chimchar
+#### Fire
 Staravia
 Ponyta
 Prinplup
 Tangela
-#### Piplup
+#### Water
 Staravia
 Ponyta
 Floatzel
 Grotle
-#### Turtwig
+#### Grass
 Staravia
 Monferno
 Floatzel
@@ -166,27 +168,27 @@ Tangela
 
 ## Veilstone Gym
 
-## Black Belt Coly (29)
+### Black Belt Coly (29)
 Mankey
 Primeape
 Makuhita
 Hariyama
 
-## Black Belt Darren (30)
+### Black Belt Darren (30)
 Croagunk
 Toxicroak
 Combusken
 
-## Black Belt Rafael (31)
+### Black Belt Rafael (31)
 Tyrogue
 Hitmonlee
 Hitmonchan
 
-## Black Belt Jeffery (32)
+### Black Belt Jeffery (32)
 Heracross
 Poliwrath
 
-## Leader Maylene (34)
+### Leader Maylene (34)
 
 Hitmontop
 Medicham
@@ -194,3 +196,107 @@ Breloom
 Machamp
 Lucario
 Gallade
+
+## Pastoria City
+
+### Rival (38)
+
+#### Fire
+Staraptor
+Snorlax
+Rapidash
+Empoleon
+Tangrowth
+
+#### Water
+Staraptor
+Snorlax
+Rapidash
+Floatzel
+Torterra
+
+#### Grass
+Staraptor
+Snorlax
+Infernape
+Floatzel
+Tangrowth
+
+## Pastoria Gym 
+
+### Tuber Jacky (37)
+
+Bibarel
+Lumineon
+Feraligatr
+
+### Fisherman Walter (37)
+
+Seaking
+Whiscash
+Blastoise
+
+### Sailor Damian (37)
+
+Octillery
+Pelipper
+Politoed
+
+### Tuber Caitlyn (38)
+
+Lanturn
+Mantine
+Azumarill
+
+### Fisherman Erick (38)
+
+Clamperl
+Huntail
+Gorebyss
+
+### Sailor Samson (38)
+
+Slowbro
+Slowking
+Qwilfish
+
+### Leader Wake (40)
+
+Sharpedo
+Quagsire
+Gyarados
+Floatzel
+Ludicolo
+Swampert
+
+## Canalave City
+
+### Rival
+
+####
+
+## Canalave Gym
+
+### Leader Byron (46)
+
+## Snowpoint Gym
+
+### Leader Candice (52)
+
+## Sunyshore Gym
+
+### Leader Volkner (58)
+
+## Pokemon League
+
+### Rival
+
+### Elite Four Aaron (62)
+
+### Elite Four Bertha (63)
+
+### Elite Four Flint (64)
+
+### Elite Four Lucian (65)
+
+### Champion Cynthia (70)
