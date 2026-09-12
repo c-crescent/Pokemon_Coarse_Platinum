@@ -41,9 +41,6 @@ FieldMoves_CantUseCut:
     End
 
 FieldMoves_UseCutFromField:
-    FindPartySlotWithMove VAR_RESULT, MOVE_CUT
-    SetVar VAR_0x8004, VAR_RESULT
-    BufferPartyMonNickname 0, VAR_RESULT
     Message FieldMoves_Text_PokemonUsedCut
     CloseMessage
     StartDestroyObstacleAnimation 0, VAR_0x8005
@@ -189,9 +186,6 @@ FieldMoves_CantUseStrength:
 
 FieldMoves_UseStrengthFromField:
     DoStrengthFunc FIELD_MOVE_FUNC_SET_ACTIVE
-    FindPartySlotWithMove VAR_RESULT, MOVE_STRENGTH
-    SetVar VAR_0x8004, VAR_RESULT
-    BufferPartyMonNickname 0, VAR_RESULT
     Message FieldMoves_Text_PokemonUsedStrength
     CloseMessage
     Message FieldMoves_Text_PokemonStrengthMadePossibleToMove
@@ -251,9 +245,6 @@ FieldMoves_NoRockClimbingWithPartner:
     End
 
 FieldMoves_UseRockClimbFromField:
-    FindPartySlotWithMove VAR_RESULT, MOVE_ROCK_CLIMB
-    SetVar VAR_0x8004, VAR_RESULT
-    BufferPartyMonNickname 0, VAR_RESULT
     Message FieldMoves_Text_PokemonUsedRockClimb
     CloseMessage
     UseRockClimb VAR_0x8004
@@ -288,9 +279,6 @@ FieldMoves_CantUseSurf:
     GoTo FieldMoves_End2
 
 FieldMoves_UseSurfFromField:
-    FindPartySlotWithMove VAR_RESULT, MOVE_SURF
-    SetVar VAR_0x8004, VAR_RESULT
-    BufferPartyMonNickname 0, VAR_RESULT
     Message FieldMoves_Text_PokemonUsedSurf
     CloseMessage
     UseSurf VAR_0x8004
@@ -328,9 +316,6 @@ FieldMoves_CantUseDefog_Unused:
     End
 
 FieldMoves_UseDefogFromField_Unused:
-    FindPartySlotWithMove VAR_RESULT, MOVE_DEFOG
-    SetVar VAR_0x8004, VAR_RESULT
-    BufferPartyMonNickname 0, VAR_RESULT
     Message FieldMoves_Text_PokemonUsedDefog
     CloseMessage
     GetCurrentMapID VAR_0x8004
@@ -398,9 +383,6 @@ FieldMoves_CantUseWaterfall:
     End
 
 FieldMoves_UseWaterfallFromField:
-    FindPartySlotWithMove VAR_RESULT, MOVE_WATERFALL
-    SetVar VAR_0x8004, VAR_RESULT
-    BufferPartyMonNickname 0, VAR_RESULT
     Message FieldMoves_Text_PokemonUsedWaterfall
     CloseMessage
     UseWaterfall VAR_0x8004

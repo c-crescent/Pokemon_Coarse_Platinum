@@ -1708,7 +1708,7 @@ void FieldSystem_EndVsSeekerTask(SysTask *param0)
 
 static void MonRideTask_Init(FieldSystem *fieldSystem, Pokemon *partyMon, MonRideTask *monRideTask)
 {
-    monRideTask->playCutIn = TRUE;
+    monRideTask->playCutIn = FALSE;
     monRideTask->partyMon = partyMon;
     monRideTask->playerGender = PlayerAvatar_GetGender(fieldSystem->playerAvatar);
 }
