@@ -10,17 +10,31 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_SCIZOR",
+            "species": "SPECIES_SCYTHER",
             "form": 0,
-            "level": 40,
-            "item": null,
+            "level": 44,
+            "item": "ITEM_CHOICE_BAND",
             "moves": [
-                "MOVE_METAL_CLAW",
-                "MOVE_X_SCISSOR",
-                "MOVE_SLASH",
+                "MOVE_AERIAL_ACE",
+                "MOVE_U_TURN",
+                "MOVE_QUICK_ATTACK",
                 "MOVE_PURSUIT"
             ],
-            "iv_scale": 60,
+            "iv_scale": 250,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_SCIZOR",
+            "form": 0,
+            "level": 44,
+            "item": "ITEM_LEFTOVERS",
+            "moves": [
+                "MOVE_BULLET_PUNCH",
+                "MOVE_ROOST",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_KNOCK_OFF"
+            ],
+            "iv_scale": 250,
             "ball_seal": 0
         }
     ],

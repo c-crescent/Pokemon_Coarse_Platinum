@@ -305,19 +305,51 @@ Tangrowth
 
 ### Black Belt Ricky (43)
 
+Forretress
+Forretress
+Forretress
+
 ### Worker Gary (43)
+
+Magnamite
+Magneton
+Magneton
  
 ### Worker Jackson (43)
 
+OnIx
+Steelix
+
 ### Ace Trainer Cesar (44)
+
+Scyther
+Scizor
 
 ### Worker Gerardo (44)
 
+Nosepass
+Probopass
+Mawile
+
 ### Black Belt David (44)
+
+Beldum
+Metang
 
 ### Ace Trainer Breanna (44)
 
+Bronzor
+Bronzong
+Lairon
+
 ### Leader Byron (46)
+
+Skarmory
+Steelix
+Magnezone
+Bastiodon
+Aggron
+Metagross
 
 ## Snowpoint Gym
 

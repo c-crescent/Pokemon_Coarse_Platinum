@@ -12,40 +12,43 @@
         {
             "species": "SPECIES_BRONZOR",
             "form": 0,
-            "level": 35,
-            "item": null,
+            "level": 44,
+            "item": "ITEM_LEFTOVERS",
             "moves": [
                 "MOVE_GYRO_BALL",
-                "MOVE_EXTRASENSORY",
-                "MOVE_CONFUSE_RAY"
+                "MOVE_STEALTH_ROCK",
+                "MOVE_TRICK_ROOM",
+                "MOVE_EXPLOSION"
             ],
-            "iv_scale": 60,
+            "iv_scale": 150,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_BRONZOR",
+            "species": "SPECIES_BRONZONG",
             "form": 0,
-            "level": 36,
-            "item": null,
+            "level": 44,
+            "item": "ITEM_LEFTOVERS",
             "moves": [
                 "MOVE_GYRO_BALL",
-                "MOVE_EXTRASENSORY",
-                "MOVE_CONFUSE_RAY"
+                "MOVE_EARTHQUAKE",
+                "MOVE_TRICK_ROOM",
+                "MOVE_EXPLOSION"
             ],
-            "iv_scale": 60,
+            "iv_scale": 150,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_BRONZOR",
+            "species": "SPECIES_LAIRON",
             "form": 0,
-            "level": 38,
-            "item": null,
+            "level": 44,
+            "item": "ITEM_CHOICE_SCARF",
             "moves": [
-                "MOVE_GYRO_BALL",
-                "MOVE_EXTRASENSORY",
-                "MOVE_CONFUSE_RAY"
+                "MOVE_HEAD_SMASH",
+                "MOVE_EARTHQUAKE",
+                "MOVE_SUPERPOWER",
+                "MOVE_IRON_HEAD"
             ],
-            "iv_scale": 60,
+            "iv_scale": 150,
             "ball_seal": 0
         }
     ],

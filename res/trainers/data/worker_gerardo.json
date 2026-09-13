@@ -8,29 +8,45 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_MAGNEMITE",
+            "species": "SPECIES_NOSEPASS",
             "form": 0,
-            "level": 35,
-            "item": null,
+            "level": 44,
+            "item": "ITEM_FOCUS_SASH",
             "moves": [
-                "MOVE_SUPERSONIC",
-                "MOVE_MAGNET_BOMB",
-                "MOVE_SPARK"
+                "MOVE_STEALTH_ROCK",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_EXPLOSION",
+                "MOVE_PROTECT"
             ],
-            "iv_scale": 10,
+            "iv_scale": 150,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_MAGNEMITE",
+            "species": "SPECIES_PROBOPASS",
             "form": 0,
-            "level": 35,
-            "item": null,
+            "level": 44,
+            "item": "ITEM_SHUCA_BERRY",
             "moves": [
+                "MOVE_FLASH_CANNON",
                 "MOVE_THUNDER_WAVE",
-                "MOVE_MAGNET_BOMB",
-                "MOVE_SPARK"
+                "MOVE_POWER_GEM",
+                "MOVE_EARTH_POWER"
             ],
-            "iv_scale": 10,
+            "iv_scale": 150,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_MAWILE",
+            "form": 0,
+            "level": 44,
+            "item": "ITEM_LEFTOVERS",
+            "moves": [
+                "MOVE_SWORDS_DANCE",
+                "MOVE_IRON_HEAD",
+                "MOVE_SUCKER_PUNCH",
+                "MOVE_KNOCK_OFF"
+            ],
+            "iv_scale": 150,
             "ball_seal": 0
         }
     ],

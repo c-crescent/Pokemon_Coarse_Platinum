@@ -10,13 +10,43 @@
         {
             "species": "SPECIES_MAGNEMITE",
             "form": 0,
-            "level": 37,
-            "item": null,
+            "level": 43,
+            "item": "ITEM_FOCUS_SASH",
             "moves": [
-                "MOVE_SPARK",
-                "MOVE_MAGNET_BOMB"
+                "MOVE_MAGNET_RISE",
+                "MOVE_EXPLOSION",
+                "MOVE_THUNDERBOLT",
+                "MOVE_FLASH_CANNON"
             ],
-            "iv_scale": 10,
+            "iv_scale": 150,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_MAGNETON",
+            "form": 0,
+            "level": 43,
+            "item": "ITEM_SHUCA_BERRY",
+            "moves": [
+                "MOVE_MAGNET_RISE",
+                "MOVE_EXPLOSION",
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER"
+            ],
+            "iv_scale": 150,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_MAGNETON",
+            "form": 0,
+            "level": 43,
+            "item": "ITEM_LEFTOVERS",
+            "moves": [
+                "MOVE_TOXIC",
+                "MOVE_PROTECT",
+                "MOVE_THUNDERBOLT",
+                "MOVE_ENDURE"
+            ],
+            "iv_scale": 150,
             "ball_seal": 0
         }
     ],

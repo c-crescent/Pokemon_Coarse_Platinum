@@ -8,42 +8,31 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_MAGNEMITE",
+            "species": "SPECIES_ONIX",
             "form": 0,
-            "level": 34,
-            "item": null,
+            "level": 43,
+            "item": "ITEM_SOFT_SAND",
             "moves": [
-                "MOVE_MAGNET_BOMB",
-                "MOVE_SPARK",
-                "MOVE_THUNDER_WAVE"
+                "MOVE_EARTHQUAKE",
+                "MOVE_STONE_EDGE",
+                "MOVE_EXPLOSION",
+                "MOVE_STEALTH_ROCK"
             ],
-            "iv_scale": 10,
+            "iv_scale": 150,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_MAGNEMITE",
+            "species": "SPECIES_STEELIX",
             "form": 0,
-            "level": 34,
-            "item": null,
+            "level": 43,
+            "item": "ITEM_METAL_COAT",
             "moves": [
-                "MOVE_MAGNET_BOMB",
-                "MOVE_SPARK",
-                "MOVE_THUNDER_WAVE"
+                "MOVE_EARTHQUAKE",
+                "MOVE_GYRO_BALL",
+                "MOVE_EXPLOSION",
+                "MOVE_IRON_HEAD"
             ],
-            "iv_scale": 10,
-            "ball_seal": 0
-        },
-        {
-            "species": "SPECIES_MAGNEMITE",
-            "form": 0,
-            "level": 34,
-            "item": null,
-            "moves": [
-                "MOVE_MAGNET_BOMB",
-                "MOVE_SPARK",
-                "MOVE_THUNDER_WAVE"
-            ],
-            "iv_scale": 10,
+            "iv_scale": 150,
             "ball_seal": 0
         }
     ],
