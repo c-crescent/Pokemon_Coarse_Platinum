@@ -460,7 +460,18 @@ SandgemTownLab_BookshelfReferenceMaterial:
 
 SandgemTownLab_PC:
     BufferPlayerName 0
-    EventMessage SandgemTownLab_Text_PlayerCheckedThePC
+    Message SandgemTownLab_Text_PlayerCheckedThePC
+    ShowYesNoMenu VAR_RESULT
+    GoToIfEq VAR_RESULT, MENU_YES, SandgemTownLab_PC_StartBattle
+    WaitButton
+    CloseMessage
+    ReleaseAll
+    End
+
+SandgemTownLab_PC_StartBattle:
+    SetVar VAR_0x8004, 0
+    GetPartyMonSpecies VAR_0x8004, VAR_0x8000
+    StartWildBattle VAR_0x8000, 5
     End
 
 SandgemTownLab_ResearchMaterials_Unused:

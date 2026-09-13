@@ -20,6 +20,7 @@
 * Day of the week no longer matters for Valley Windworks Drifloon.
 * Spiritomb no longer requires meeting 32 people to encounter.
 * You get the Secret Key upon catching Rotom.
+* You can infinitely encounter a Pokemon species you already own at the Sandgem Lab PC.
 
 ## Misc.
 * Opening & Title Screen is now completely skipped

@@ -404,9 +404,9 @@
       "id": "SandgemTownLab_Text_PlayerCheckedThePC",
       "en_US": [
         "{STRVAR_1 3, 0, 0} checked the PC.\r",
-        "The screen is filled with special terms\n",
-        "and academic writing that is impossible\f",
-        "to figure out."
+        "A battle against an imperfect clone\n",
+        "of your lead Pokémon can be initiated.\r",
+        "Would you like to start the encounter?\r"
       ]
     },
     {
