@@ -18,7 +18,7 @@
 * Repels now have have reuse prompts
 * Fishing no longer has a chance to fail. The reel in window has been increased significantly. The fish hook delay is no longer random.
 * Day of the week no longer matters for Valley Windworks Drifloon.
-* Spiritomb no longer requires meeting 32 people to encounter.
+* Spiritomb no longer requires meeting 32 people to encounter. Odd Keystone can now be bought from Snowpoint City Mart.
 * You get the Secret Key upon catching Rotom.
 * You can infinitely encounter a Pokemon species you already own at the Sandgem Lab PC.
 

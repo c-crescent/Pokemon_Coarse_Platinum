@@ -246,6 +246,7 @@ const u16 CelesticMartSpecialties[] = {
 };
 
 const u16 SnowpointMartSpecialties[] = {
+    ITEM_ODD_KEYSTONE,
     ITEM_SNOW_MAIL,
     ITEM_DUSK_BALL,
     ITEM_QUICK_BALL,
