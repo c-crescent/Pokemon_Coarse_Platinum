@@ -12,71 +12,85 @@
         {
             "species": "SPECIES_STARAPTOR",
             "form": 0,
-            "level": 36,
-            "item": null,
+            "level": 44,
+            "item": "ITEM_CHOICE_BAND",
             "moves": [
-                "MOVE_AERIAL_ACE",
-                "MOVE_TAKE_DOWN",
-                "MOVE_QUICK_ATTACK",
-                "MOVE_DOUBLE_TEAM"
+                "MOVE_BRAVE_BIRD",
+                "MOVE_CLOSE_COMBAT",
+                "MOVE_U_TURN",
+                "MOVE_DOUBLE_EDGE"
             ],
-            "iv_scale": 100,
-            "ball_seal": 0
+            "iv_scale": 200,
+            "ball_seal": 10
         },
         {
-            "species": "SPECIES_FLOATZEL",
+            "species": "SPECIES_SNORLAX",
             "form": 0,
-            "level": 35,
-            "item": null,
+            "level": 44,
+            "item": "ITEM_LUM_BERRY",
             "moves": [
-                "MOVE_AQUA_JET",
+                "MOVE_BODY_SLAM",
                 "MOVE_PURSUIT",
-                "MOVE_QUICK_ATTACK",
-                "MOVE_SWIFT"
+                "MOVE_EARTHQUAKE",
+                "MOVE_SELFDESTRUCT"
             ],
-            "iv_scale": 100,
-            "ball_seal": 0
+            "iv_scale": 200,
+            "ball_seal": 10
         },
         {
             "species": "SPECIES_HERACROSS",
             "form": 0,
-            "level": 37,
-            "item": null,
+            "level": 44,
+            "item": "ITEM_CHOICE_SCARF",
             "moves": [
-                "MOVE_BRICK_BREAK",
-                "MOVE_AERIAL_ACE",
-                "MOVE_NIGHT_SLASH",
-                "MOVE_HORN_ATTACK"
+                "MOVE_CLOSE_COMBAT",
+                "MOVE_MEGAHORN",
+                "MOVE_STONE_EDGE",
+                "MOVE_NIGHT_SLASH"
             ],
-            "iv_scale": 100,
-            "ball_seal": 0
-        },
-        {
-            "species": "SPECIES_ROSERADE",
-            "form": 0,
-            "level": 35,
-            "item": null,
-            "moves": [
-                "MOVE_GIGA_DRAIN",
-                "MOVE_TOXIC_SPIKES",
-                "MOVE_LEECH_SEED",
-                "MOVE_GRASS_WHISTLE"
-            ],
-            "iv_scale": 100,
-            "ball_seal": 0
+            "iv_scale": 200,
+            "ball_seal": 10
         },
         {
             "species": "SPECIES_INFERNAPE",
             "form": 0,
-            "level": 38,
-            "item": null,
+            "level": 44,
+            "item": "ITEM_EXPERT_BELT",
             "moves": [
-                "MOVE_BRICK_BREAK",
-                "MOVE_FLAME_WHEEL",
-                "MOVE_MACH_PUNCH",
-                "MOVE_AERIAL_ACE"
+                "MOVE_CLOSE_COMBAT",
+                "MOVE_FIRE_BLAST",
+                "MOVE_GRASS_KNOT",
+                "MOVE_U_TURN"
             ],
-            "iv_scale": 100,
+            "iv_scale": 200,
+            "ball_seal": 10
+        },
+        {
+            "species": "SPECIES_FLOATZEL",
+            "form": 0,
+            "level": 44,
+            "item": "ITEM_LIFE_ORB",
+            "moves": [
+                "MOVE_WATERFALL",
+                "MOVE_AQUA_JET",
+                "MOVE_ICE_BEAM",
+                "MOVE_CRUNCH"
+            ],
+            "iv_scale": 200,
+            "ball_seal": 10
+        },
+        {
+            "species": "SPECIES_TANGROWTH",
+            "form": 0,
+            "level": 44,
+            "item": "ITEM_LEFTOVERS",
+            "moves": [
+                "MOVE_SYNTHESIS",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_EARTHQUAKE",
+                "MOVE_LEAF_STORM"
+            ],
+            "iv_scale": 200,
             "ball_seal": 10
         }
     ],

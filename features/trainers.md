@@ -275,15 +275,47 @@ Swampert
 
 ## Canalave City
 
-### Rival
+### Rival (44)
 
 #### Fire
-
-#### Grass
+Staraptor
+Snorlax
+Heracross
+Rapidash
+Empoleon
+Tangrowth
 
 #### Water
+Staraptor
+Snorlax
+Heracross
+Rapidash
+Floatzel
+Torterra
+
+#### Grass
+Staraptor
+Snorlax
+Heracross
+Infernape
+Floatzel
+Tangrowth
 
 ## Canalave Gym
+
+### Black Belt Ricky (43)
+
+### Worker Gary (43)
+ 
+### Worker Jackson (43)
+
+### Ace Trainer Cesar (44)
+
+### Worker Gerardo (44)
+
+### Black Belt David (44)
+
+### Ace Trainer Breanna (44)
 
 ### Leader Byron (46)
 
