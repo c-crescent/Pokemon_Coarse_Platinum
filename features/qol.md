@@ -10,6 +10,7 @@
 * HM moves only requires the item and badge to be used in the overworld.
 * No map requries Defog or Flash. Lost Tower 5F no longer requires Defog.
 * Fly now appears in the party context menu as long as the Pokemon learns it, but still needs the appropriate badge to be used as a field move.
+* TM03 Water Pulse now only requires Rock Smash to access, and not Surf.
 
 ## Encounters
 * Rebalanced encounter chances to be more even for each slot, with the lowest chance for a slot to be 5%
