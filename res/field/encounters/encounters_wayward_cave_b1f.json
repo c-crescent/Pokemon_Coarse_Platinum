@@ -23,7 +23,7 @@
         },
         {
             "level": 20,
-            "species": "SPECIES_ONIX"
+            "species": "SPECIES_GIBLE"
         },
         {
             "level": 19,
@@ -55,12 +55,12 @@
         "SPECIES_GEODUDE"
     ],
     "day": [
-        "SPECIES_GIBLE",
-        "SPECIES_ZUBAT"
+        "SPECIES_ILLUMISE",
+        "SPECIES_ILLUMISE"
     ],
     "night": [
-        "SPECIES_GIBLE",
-        "SPECIES_ZUBAT"
+        "SPECIES_VOLBEAT",
+        "SPECIES_VOLBEAT"
     ],
     "radar": [
         "SPECIES_BRONZOR",

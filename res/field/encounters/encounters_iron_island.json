@@ -99,7 +99,7 @@
         {
             "level_max": 30,
             "level_min": 20,
-            "species": "SPECIES_WINGULL"
+            "species": "SPECIES_CORSOLA"
         },
         {
             "level_max": 30,
@@ -109,7 +109,7 @@
         {
             "level_max": 40,
             "level_min": 20,
-            "species": "SPECIES_PELIPPER"
+            "species": "SPECIES_CORSOLA"
         },
         {
             "level_max": 40,

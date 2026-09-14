@@ -90,7 +90,6 @@ Night:
 ### Mt. Coronet 1F South
 Land:
 > Bagon
-> Whismur
 Day:
 > Whismur
 
@@ -144,6 +143,10 @@ Old Rod:
 ### Route 205 South
 Land:
 > Hoppip
+Day:
+> Kangaskhan
+Night:
+> Skitty
 Old Rod:
 > Finneon
 > Shellder
@@ -198,6 +201,10 @@ Land:
 Land:
 > Slugma
 > Sandshrew
+Day:
+> Illumise
+Night:
+> Volbeat
 
 ### Route 208
 Land:
@@ -267,6 +274,7 @@ Night:
 > Igglybuff
 Surf:
 > Chinchou
+> Carvanha
 
 ### Route 212 North
 Land:
@@ -281,7 +289,7 @@ Land:
 > Ditto
 > Eevee
 > Happiny
-> Riolu
+> Porygon
 Day:
 > Togepi
 Night:
@@ -350,3 +358,9 @@ Night:
 ### Sunyshore City
 Surf:
 > Tropius
+
+### Iron Island
+Day:
+> Mawile
+> Vibrava
+> Riolu

@@ -3,7 +3,7 @@
     "land_encounters": [
         {
             "level": 32,
-            "species": "SPECIES_ONIX"
+            "species": "SPECIES_MAWILE"
         },
         {
             "level": 33,
@@ -15,11 +15,11 @@
         },
         {
             "level": 33,
-            "species": "SPECIES_GOLBAT"
+            "species": "SPECIES_VIBRAVA"
         },
         {
             "level": 33,
-            "species": "SPECIES_GRAVELER"
+            "species": "SPECIES_VIBRAVA"
         },
         {
             "level": 34,
@@ -39,15 +39,15 @@
         },
         {
             "level": 32,
-            "species": "SPECIES_GRAVELER"
+            "species": "SPECIES_RIOLU"
         },
         {
             "level": 31,
-            "species": "SPECIES_GRAVELER"
+            "species": "SPECIES_RIOLU"
         },
         {
             "level": 32,
-            "species": "SPECIES_GRAVELER"
+            "species": "SPECIES_MAWILE"
         }
     ],
     "swarms": [
