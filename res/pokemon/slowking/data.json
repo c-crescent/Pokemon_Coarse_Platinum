@@ -1,13 +1,13 @@
 {
     "base_stats": {
         "hp": 95,
-        "attack": 75,
+        "attack": 65,
         "defense": 80,
         "speed": 30,
-        "special_attack": 100,
+        "special_attack": 110,
         "special_defense": 110
     },
-    "types": [ "TYPE_WATER", "TYPE_PSYCHIC" ],
+    "types": [ "TYPE_POISON", "TYPE_PSYCHIC" ],
     "catch_rate": 70,
     "base_exp_reward": 164,
     "ev_yields": {
@@ -41,14 +41,17 @@
             [ 1, "MOVE_TACKLE" ],
             [ 6, "MOVE_GROWL" ],
             [ 11, "MOVE_WATER_GUN" ],
+            [ 13, "MOVE_ACID" ],
             [ 15, "MOVE_CONFUSION" ],
             [ 20, "MOVE_DISABLE" ],
             [ 25, "MOVE_HEADBUTT" ],
             [ 29, "MOVE_WATER_PULSE" ],
             [ 34, "MOVE_ZEN_HEADBUTT" ],
+            [ 36, "MOVE_SLUDGE" ],
             [ 39, "MOVE_NASTY_PLOT" ],
             [ 43, "MOVE_SWAGGER" ],
             [ 48, "MOVE_PSYCHIC" ],
+            [ 50, "MOVE_SLUDGE_BOMB" ],
             [ 53, "MOVE_TRUMP_CARD" ],
             [ 57, "MOVE_PSYCH_UP" ]
         ],
@@ -77,6 +80,7 @@
             "TM31",
             "TM32",
             "TM35",
+            "TM36",
             "TM38",
             "TM42",
             "TM43",

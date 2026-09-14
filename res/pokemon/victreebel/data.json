@@ -1,11 +1,11 @@
 {
     "base_stats": {
         "hp": 80,
-        "attack": 105,
-        "defense": 65,
+        "attack": 115,
+        "defense": 75,
         "speed": 70,
-        "special_attack": 100,
-        "special_defense": 70
+        "special_attack": 118,
+        "special_defense": 82
     },
     "types": [ "TYPE_GRASS", "TYPE_POISON" ],
     "catch_rate": 45,

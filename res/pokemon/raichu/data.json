@@ -1,10 +1,10 @@
 {
     "base_stats": {
         "hp": 60,
-        "attack": 90,
+        "attack": 95,
         "defense": 55,
-        "speed": 100,
-        "special_attack": 90,
+        "speed": 110,
+        "special_attack": 125,
         "special_defense": 80
     },
     "types": [ "TYPE_ELECTRIC", "TYPE_ELECTRIC" ],
@@ -27,7 +27,7 @@
     "base_friendship": 70,
     "exp_rate": "EXP_RATE_MEDIUM_FAST",
     "egg_groups": [ "EGG_GROUP_FIELD", "EGG_GROUP_FAIRY" ],
-    "abilities": [ "ABILITY_STATIC", "ABILITY_NONE" ],
+    "abilities": [ "ABILITY_STATIC", "ABILITY_NO_GUARD" ],
     "safari_flee_rate": 0,
     "body_color": "MON_COLOR_YELLOW",
     "flip_sprite": false,
