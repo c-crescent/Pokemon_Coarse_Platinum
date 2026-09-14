@@ -5,9 +5,7 @@
       "id": "IronIslandB2FLeftRoom_Text_LetsTeamUp",
       "en_US": [
         "Riley: {STRVAR_1 3, 0, 0}, I’m glad to see\n",
-        "you here.\r",
-        "If you don’t mind, let’s team up.\n",
-        "The Pokémon seem to be restless.\r"
+        "you here.\r"
       ]
     },
     {
@@ -44,10 +42,7 @@
       "id": "IronIslandB2FLeftRoom_Text_YoureResponsible",
       "en_US": [
         "Riley: I get it now. You’re\n",
-        "responsible for agitating the Pokémon.\r",
-        "I don’t care what good reason you may\n",
-        "have, but I don’t want you bringing\f",
-        "any trouble into the mine.\r"
+        "responsible for agitating the Pokémon.\r"
       ]
     },
     {
@@ -62,21 +57,13 @@
       "id": "IronIslandB2FLeftRoom_Text_WereAbductingPokemon",
       "en_US": [
         "Grunt 2: You said it, brother!\n",
-        "So that’s what we’re gonna do!\r",
-        "We’re abducting all the Pokémon from\n",
-        "this rusted-out Iron Island!\r"
+        "So that’s what we’re gonna do!\r"
       ]
     },
     {
       "id": "IronIslandB2FLeftRoom_Text_WeCantLose",
       "en_US": [
-        "Riley: To share in all the joys and\n",
-        "all the sorrows...\r",
-        "That is how all the Trainers and\n",
-        "Pokémon live in Sinnoh!\r",
-        "I won’t allow anyone to defy that\n",
-        "code of ethics!\r",
-        "Come on, {STRVAR_1 3, 0, 0}!\n",
+        "Riley: Come on, {STRVAR_1 3, 0, 0}!\n",
         "This is one battle we can’t lose!\r"
       ]
     },
@@ -85,8 +72,7 @@
       "en_US": [
         "Grunt 1: Stop! I said stop!\n",
         "Your combination is so sick!\f",
-        "The both of you, and your Pokémon...\r",
-        "Let’s beat it, partner!\r"
+        "The both of you, and your Pokémon...\r"
       ]
     },
     {
@@ -121,9 +107,7 @@
       "en_US": [
         "Riley: Thank you...\r",
         "But you don’t have room to take\n",
-        "another Pokémon.\r",
-        "All right, then.\n",
-        "I’ll wait here for you."
+        "another Pokémon.\r"
       ]
     },
     {
@@ -137,11 +121,7 @@
       "id": "IronIslandB2FLeftRoom_Text_LetsMeetAgain",
       "en_US": [
         "Riley: Spending time with you was\n",
-        "very enjoyable.\r",
-        "I intend to test my skills in other\n",
-        "places from now on.\r",
-        "Let’s meet again!\n",
-        "Take care on the way out."
+        "very enjoyable.\r"
       ]
     },
     {
@@ -183,11 +163,7 @@
       "en_US": [
         "Riley: Imagine what it would be like\n",
         "for a Steel-type Pokémon user to\f",
-        "battle a Steel type.\r",
-        "Would that be like battling yourself,\n",
-        "I wonder?\r",
-        "I mean, it’s a lot harder to defeat\n",
-        "one’s self than anyone else."
+        "battle a Steel type.\r"
       ]
     },
     {

@@ -7,46 +7,74 @@
         "AI_FLAG_EVAL_ATTACK",
         "AI_FLAG_EXPERT"
     ],
-    "double_battle": false,
+    "double_battle": true,
     "party": [
         {
-            "species": "SPECIES_GOLBAT",
+            "species": "SPECIES_LUNATONE",
             "form": 0,
-            "level": 38,
-            "item": "ITEM_NONE",
+            "level": 48,
+            "item": "ITEM_LIFE_ORB",
             "moves": [
-                "MOVE_AIR_CUTTER",
-                "MOVE_BITE",
-                "MOVE_TOXIC",
-                "MOVE_SUPERSONIC"
+                "MOVE_STEALTH_ROCK",
+                "MOVE_PSYCHIC",
+                "MOVE_EARTH_POWER",
+                "MOVE_SIGNAL_BEAM"
             ],
             "iv_scale": 200,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_BRONZOR",
+            "species": "SPECIES_SOLROCK",
             "form": 0,
-            "level": 38,
-            "item": "ITEM_NONE",
+            "level": 48,
+            "item": "ITEM_LEFTOVERS",
             "moves": [
-                "MOVE_GYRO_BALL",
-                "MOVE_SHADOW_BALL",
-                "MOVE_ROCK_TOMB",
-                "MOVE_IRON_DEFENSE"
+                "MOVE_TRICK_ROOM",
+                "MOVE_EXPLOSION",
+                "MOVE_ZEN_HEADBUTT",
+                "MOVE_STONE_EDGE"
             ],
             "iv_scale": 200,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_TOXICROAK",
+            "species": "SPECIES_HYPNO",
             "form": 0,
-            "level": 40,
-            "item": "ITEM_SITRUS_BERRY",
+            "level": 48,
+            "item": "ITEM_LEFTOVERS",
             "moves": [
-                "MOVE_POISON_JAB",
-                "MOVE_REVENGE",
-                "MOVE_MUD_BOMB",
-                "MOVE_FAINT_ATTACK"
+                "MOVE_WISH",
+                "MOVE_SEISMIC_TOSS",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_PROTECT"
+            ],
+            "iv_scale": 200,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_WOBBUFFET",
+            "form": 0,
+            "level": 48,
+            "item": "ITEM_LEFTOVERS",
+            "moves": [
+                "MOVE_ENCORE",
+                "MOVE_COUNTER",
+                "MOVE_MIRROR_COAT",
+                "MOVE_DESTINY_BOND"
+            ],
+            "iv_scale": 200,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_GIRAFARIG",
+            "form": 0,
+            "level": 48,
+            "item": "ITEM_LEFTOVERS",
+            "moves": [
+                "MOVE_AGILITY",
+                "MOVE_PSYCHIC",
+                "MOVE_SIGNAL_BEAM",
+                "MOVE_EARTHQUAKE"
             ],
             "iv_scale": 200,
             "ball_seal": 0

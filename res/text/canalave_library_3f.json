@@ -20,10 +20,6 @@
       "id": "CanalaveLibrary3F_Text_Ellipses",
       "en_US": [
         "Rowan: ...\n",
-        "...\r",
-        "...\n",
-        "...\r",
-        "...\n",
         "...\r"
       ]
     },
@@ -38,24 +34,12 @@
       "id": "CanalaveLibrary3F_Text_EveryonesHereFinally",
       "en_US": [
         "Rowan: Hm! Everyone’s here finally.\n",
-        "{STRVAR_1 3, 0, 0}, everyone, listen.\r",
-        "You may have forgotten already, but\n",
-        "I study the evolution of Pokémon.\r"
+        "{STRVAR_1 3, 0, 0}, everyone, listen.\r"
       ]
     },
     {
       "id": "CanalaveLibrary3F_Text_MoreIStudyMoreMysteries",
       "en_US": [
-        "But the more I study, the more\n",
-        "mysteries appear and multiply.\r",
-        "Pokémon that evolve, and those that\n",
-        "don’t...\r",
-        "What makes them different from each\n",
-        "other?\r",
-        "Do those that are immature as living\n",
-        "beings evolve to ones more mature?\r",
-        "If so, what do we make of the\n",
-        "legendary Pokémon that don’t evolve?\r",
         "Are we to assume that the legendary\n",
         "Pokémon are complete as creatures?\r"
       ]
@@ -64,13 +48,6 @@
       "id": "CanalaveLibrary3F_Text_HelpMeFindLakePokemon",
       "en_US": [
         "This is where you three come in.\r",
-        "In the three lakes of Sinnoh, there\n",
-        "are said to be mirage Pokémon.\r",
-        "If we can obtain data on them,\n",
-        "it may shed some light on how the\f",
-        "process of Pokémon evolution works.\r",
-        "I need help from each one of you\n",
-        "on this grand undertaking.\r",
         "Help me find these Pokémon that are\n",
         "considered to be mirages.\r"
       ]
@@ -87,11 +64,7 @@
       "en_US": [
         "Rowan: ...And who was it that bolted\n",
         "from the lab before I had a chance\f",
-        "to give you a Pokédex?\r",
-        "But that’s water under the bridge!\r",
-        "Seeing Pokémon with your own eyes is\n",
-        "important for you in becoming a better\f",
-        "Trainer, too.\r"
+        "to give you a Pokédex?\r"
       ]
     },
     {
@@ -116,11 +89,7 @@
       "id": "CanalaveLibrary3F_Text_InvestigateLakesIndividually",
       "en_US": [
         "Rowan: Hm! I would have made all of\n",
-        "you go regardless... Anyway.\r",
-        "Now, there are three lakes.\n",
-        "Fortuitously, there are three of you.\r",
-        "You should therefore split up and\n",
-        "investigate the lakes individually.\r"
+        "you go regardless... Anyway.\r"
       ]
     },
     {
@@ -143,11 +112,7 @@
       "id": "CanalaveLibrary3F_Text_RivalToLakeAcuity",
       "en_US": [
         "Rowan: {STRVAR_1 3, 0, 0}, I want you to\n",
-        "investigate Lake Acuity.\r",
-        "That would take you almost to\n",
-        "Snowpoint City.\r",
-        "The road there is harsh. I need\n",
-        "a tough Trainer to go.\r"
+        "investigate Lake Acuity.\r"
       ]
     },
     {
@@ -155,24 +120,14 @@
       "en_US": [
         "{STRVAR_1 3, 0, 0}: Uh... Yeah, of course!\n",
         "Gramps, you know how to call it!\f",
-        "You can tell I’m the hotness!\r",
-        "And, you know what? I was going to\n",
-        "catch those legendary Pokémon for you.\r",
-        "You know, as thanks for giving us our\n",
-        "Pokémon back on Route 201.\r",
-        "...Even though I forgot completely\n",
-        "about it until just now.\r"
+        "You can tell I’m the hotness!\r"
       ]
     },
     {
       "id": "CanalaveLibrary3F_Text_ThatLeavesLakeValor",
       "en_US": [
         "Rowan: Very well.\n",
-        "I’m counting on you.\r",
-        "And that leaves {STRVAR_1 3, 0, 0} with\n",
-        "Lake Valor.\r",
-        "The lake is between Veilstone\n",
-        "and Pastoria, if memory serves...\r"
+        "I’m counting on you.\r"
       ]
     },
     {
@@ -199,12 +154,7 @@
       "id": "CanalaveLibrary3F_Text_NewsExplosion",
       "en_US": [
         "Announcer: What you’ve just witnessed\n",
-        "is actual footage from the scene.\r",
-        "It was taken by a cameraman who\n",
-        "happened to be there.\r",
-        "Newscaster: It’s certainly impressive.\r",
-        "Who knows what the explosion could\n",
-        "expose at the lake?\r"
+        "is actual footage from the scene.\r"
       ]
     },
     {
@@ -229,20 +179,14 @@
       "id": "CanalaveLibrary3F_Text_LeaveNowToo",
       "en_US": [
         "Rowan: {STRVAR_1 3, 1, 0}.\n",
-        "You should leave now, too.\r",
-        "...There may be aftershocks, however.\n",
-        "Be alert always.\r"
+        "You should leave now, too.\r"
       ]
     },
     {
       "id": "CanalaveLibrary3F_Text_BooksContainMemories",
       "en_US": [
         "Every book contains someone’s\n",
-        "memories of various places and times.\r",
-        "Libraries aren’t just buildings where\n",
-        "books are kept, you know.\r",
-        "They’re where different places\n",
-        "and times are gathered together."
+        "memories of various places and times.\r"
       ]
     },
     {

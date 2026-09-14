@@ -351,6 +351,16 @@ Bastiodon
 Aggron
 Metagross
 
+## Valor Cavern
+
+### Commander Saturn (48)
+
+Lunatone
+Solrock
+Wobbuffet
+Hypno
+Girafarig
+
 ## Snowpoint Gym
 
 ### Leader Candice (52)

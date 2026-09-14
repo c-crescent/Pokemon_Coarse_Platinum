@@ -5,9 +5,7 @@
       "id": "ValorCavern_Text_SaturnMissionIsProceeding",
       "en_US": [
         "The mission is proceeding without\n",
-        "a hitch. The boss should be pleased.\r",
-        "Everything is for everyone, and\n",
-        "for the good of Team Galactic!\r"
+        "a hitch. The boss should be pleased.\r"
       ]
     },
     {
@@ -15,29 +13,14 @@
       "en_US": [
         "I recognize your face!\r",
         "You’re the child who raided the Team\n",
-        "Galactic building in Eterna!\r",
-        "Humph! Jupiter should be ashamed of\n",
-        "herself, being beaten by a child.\r",
-        "But anything and anyone that opposes\n",
-        "Team Galactic must be crushed!\r",
-        "Even the very thought of opposition\n",
-        "will not be tolerated!\r"
+        "Galactic building in Eterna!\r"
       ]
     },
     {
       "id": "ValorCavern_Text_SaturnPostBattle",
       "en_US": [
         "Gah! Even I, a Commander, only\n",
-        "managed to buy us time?\r",
-        "But that’s fine.\r",
-        "A child like you will never be able to\n",
-        "stem the flow of time!\r",
-        "Team Galactic will get the three\n",
-        "legendary Pokémon of the lakes!\r",
-        "With their power, we will create an\n",
-        "entirely new universe!\r",
-        "By now, Mars should have captured\n",
-        "the Pokémon of Lake Verity...\r"
+        "managed to buy us time?\r"
       ]
     },
     {
