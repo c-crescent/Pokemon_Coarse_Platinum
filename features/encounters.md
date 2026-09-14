@@ -2,6 +2,9 @@
 
 ## Gift & Static Pokemon
 
+### Oreburg City
+* Hilary now trades a Riolu for your Machop.
+
 ## Wild Encounter Locations
 
 ### Twinleaf Town
