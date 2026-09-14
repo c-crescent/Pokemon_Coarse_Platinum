@@ -363,7 +363,15 @@ Surf:
 > Tropius
 
 ### Iron Island
-Day:
+Land:
 > Mawile
 > Vibrava
 > Riolu
+
+### Route 216
+Land:
+> Smoochum
+
+### Route 217
+Land:
+> Spheal

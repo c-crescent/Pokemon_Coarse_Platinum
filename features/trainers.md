@@ -361,6 +361,15 @@ Wobbuffet
 Hypno
 Girafarig
 
+## Lake Verity
+
+### Commander Mars (49)
+
+Golbat
+Yanmega
+Metang
+Purugly
+
 ## Snowpoint Gym
 
 ### Leader Candice (52)
