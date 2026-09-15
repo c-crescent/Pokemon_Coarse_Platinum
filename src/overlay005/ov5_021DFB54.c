@@ -1008,6 +1008,7 @@ static void RockClimbTask_Start(FieldSystem *fieldSystem, int direction, const M
     taskEnv->playerAvatar = fieldSystem->playerAvatar;
     taskEnv->playerObject = PlayerAvatar_GetMapObject(taskEnv->playerAvatar);
     taskEnv->monRideTask = *monRideTask;
+    taskEnv->state = 2;
 
     FieldTask_InitCall(fieldSystem->task, FieldTask_UseRockClimb, taskEnv);
 }
