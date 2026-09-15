@@ -5,13 +5,7 @@
       "id": "LakeValorDrained_Text_WhatYouDoWant",
       "en_US": [
         "What do you want?\n",
-        "You’re investigating the explosion?\r",
-        "Bah, it doesn’t matter who you are.\n",
-        "It’s too late to make any difference.\r",
-        "Things are going to get really\n",
-        "interesting now.\r",
-        "All the legendary Pokémon are going\n",
-        "to be brought to our HQ in Veilstone!"
+        "You’re investigating the explosion?\r"
       ]
     },
     {
@@ -25,11 +19,7 @@
       "id": "LakeValorDrained_Text_NextStopLakeVerity",
       "en_US": [
         "Hahaha!\n",
-        "Next stop, Lake Verity!\r",
-        "The closest civilization is that hick\n",
-        "town called Twinleaf!\r",
-        "We can roll in there completely\n",
-        "unopposed!"
+        "Next stop, Lake Verity!\r"
       ]
     },
     {
