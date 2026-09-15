@@ -1,13 +1,13 @@
 {
     "base_stats": {
     "hp": 65,
-        "attack": 55,
-        "defense": 95,
+        "attack": 75,
+        "defense": 70,
         "speed": 35,
-        "special_attack": 65,
-        "special_defense": 95
+        "special_attack": 105,
+        "special_defense": 110
     },
-    "types": [ "TYPE_WATER", "TYPE_ROCK" ],
+    "types": [ "TYPE_WATER", "TYPE_GHOST" ],
     "catch_rate": 60,
     "base_exp_reward": 113,
     "ev_yields": {
@@ -40,13 +40,16 @@
             [ 13, "MOVE_RECOVER" ],
             [ 16, "MOVE_REFRESH" ],
             [ 20, "MOVE_ROCK_BLAST" ],
+            [ 23, "MOVE_NIGHT_SHADE" ],
             [ 25, "MOVE_BUBBLE_BEAM" ],
             [ 28, "MOVE_LUCKY_CHANT" ],
             [ 32, "MOVE_ANCIENT_POWER" ],
+            [ 34, "MOVE_OMINOUS_WIND" ],
             [ 37, "MOVE_AQUA_RING" ],
             [ 40, "MOVE_SPIKE_CANNON" ],
             [ 44, "MOVE_POWER_GEM" ],
             [ 48, "MOVE_MIRROR_COAT" ],
+            [ 50, "MOVE_SHADOW_BALL" ],
             [ 53, "MOVE_EARTH_POWER" ]
         ],
         "by_tm": [

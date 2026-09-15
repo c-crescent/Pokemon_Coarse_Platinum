@@ -1,6 +1,8 @@
 # Goal
 Give every underpowered Pokemon a niche by giving them unique tools, based on future games if possible
 
+## Pokemon
+
 ## Ampharos
 - Made it more like its Mega form
 > Type: Electric / Dragon
@@ -12,6 +14,10 @@ Give every underpowered Pokemon a niche by giving them unique tools, based on fu
 > SPE: 50(-5)
 
 ## Arbok
+> Type: Poison / Normal
+> HP: 63(+3)
+> SPA: 80(+15)
+> SPE: 110(+40)
 
 ## Ariados
 
@@ -71,6 +77,14 @@ Give every underpowered Pokemon a niche by giving them unique tools, based on fu
 ## Chimecho
 
 ## Corsola
+- Learn Night Shade (23)
+- Learn Ominous Wind (34)
+- Learn Shadow Ball (50)
+Type: Water / Ghost
+> ATK: 75(+20)
+> DEF: 70(-25)
+> SPA: 105(+50)
+> SPD: 110(+15)
 
 ## Cradily
 
@@ -107,7 +121,11 @@ Give every underpowered Pokemon a niche by giving them unique tools, based on fu
 
 ## Dustox
 
-## Electrode
+## Electrode (+ Voltorb)
+- Learn Giga Drain (38)
+- Learn Energy Ball (43)
+- Learn Leaf Storm (54)
+> Type: Electric / Grass
 
 ## Espeon
 
@@ -206,12 +224,23 @@ Give every underpowered Pokemon a niche by giving them unique tools, based on fu
 ## Lunatone
 
 ## Luvdisc
+- Learn Aqua Jet (34)
+- Learn Wish (43)
+> Ability: Swift Swim / Hydration
+> HP: 165(+122)
+> ATK: 75(+45)
+> DEF: 80(+25)
+> SPD: 45(-20)
+> SPE: 65(-32)
 
 ## Luxray
 
 ## Magcargo
 
 ## Magmortar
+- Learn Water Gun (12)
+- Learn Water Pulse (22)
+> Type: Fire / Water
 
 ## Manectric
 
@@ -357,8 +386,25 @@ Give every underpowered Pokemon a niche by giving them unique tools, based on fu
 ## Spinda
 
 ## Stantler
+- Learn Baton Pass (40)
+- Learn Leaf Blade (41)
+- Learn Wood Hammer (51)
+> Type: Normal / Grass
+> Ability: Intimidate / Serene Grace
+> HP: 80(+7)
+> ATK: 100(+5)
+> DEF: 70(+8)
+> SPA: 60(-25)
+> SPD: 70(+5)
+> SPE: 95(+5)
 
 ## Sudowoodo
+- Learn Arm Thrust (12)
+- Learn Brick Break (27)
+- Learn Close Combat (55)
+> Type: Rock / Fighting
+> HP: 91(+21)
+> ATK: 129(+29)
 
 ## Sunflora
 
@@ -405,5 +451,22 @@ Give every underpowered Pokemon a niche by giving them unique tools, based on fu
 ## Wormadam
 
 ## Xatu
+> HP: 110(+55)
+> ATK: 83(+9)
+> SPA: 112(+17)
+> SPE: 85(-10)
 
 ## Zangoose
+> Ability: Immunity / Guts
+> ATK: 125(+10)
+> SPE: 95(+5)
+
+# Moves
+
+## Cut
+Type: Bug
+> BP: 55(+5)
+> Acc: 100(+5)
+
+## Rock Smash
+> BP: 60(+20)
