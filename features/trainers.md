@@ -273,6 +273,12 @@ Swampert
 
 ### Galactic Boss Cyrus (44)
 
+Weavile
+Crobat
+Honchkrow
+Houndoom
+Gyarados
+
 ## Canalave City
 
 ### Rival (44)
