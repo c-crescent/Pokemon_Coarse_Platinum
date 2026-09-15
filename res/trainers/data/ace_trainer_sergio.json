@@ -10,31 +10,45 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_SNOVER",
+            "species": "SPECIES_SWINUB",
             "form": 0,
-            "level": 41,
-            "item": null,
+            "level": 50,
+            "item": "ITEM_FOCUS_SASH",
             "moves": [
                 "MOVE_ICE_SHARD",
-                "MOVE_SWAGGER",
-                "MOVE_ICY_WIND",
-                "MOVE_WOOD_HAMMER"
+                "MOVE_PROTECT",
+                "MOVE_STEALTH_ROCK",
+                "MOVE_EARTHQUAKE"
             ],
-            "iv_scale": 60,
+            "iv_scale": 200,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_SNEASEL",
+            "species": "SPECIES_PILOSWINE",
             "form": 0,
-            "level": 42,
-            "item": null,
+            "level": 50,
+            "item": "ITEM_CHOICE_BAND",
             "moves": [
-                "MOVE_ICY_WIND",
-                "MOVE_SLASH",
-                "MOVE_FAINT_ATTACK",
-                "MOVE_QUICK_ATTACK"
+                "MOVE_ICE_SHARD",
+                "MOVE_ICE_FANG",
+                "MOVE_STONE_EDGE",
+                "MOVE_EARTHQUAKE"
             ],
-            "iv_scale": 60,
+            "iv_scale": 200,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_MAMOSWINE",
+            "form": 0,
+            "level": 50,
+            "item": "ITEM_CHOICE_SCARF",
+            "moves": [
+                "MOVE_ICE_SHARD",
+                "MOVE_SUPERPOWER",
+                "MOVE_STONE_EDGE",
+                "MOVE_EARTHQUAKE"
+            ],
+            "iv_scale": 200,
             "ball_seal": 0
         }
     ],

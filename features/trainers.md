@@ -372,7 +372,47 @@ Purugly
 
 ## Snowpoint Gym
 
+### Ace Trainer Anton (48)
+
+Snorunt
+Glalie
+Glalie
+
+### Ace Trainer Savannah (48)
+
+Seel
+Dewgong
+
+### Ace Trainer Alicia (49)
+
+Spheal
+Sealeo
+Walrein
+
+### Ace Trainer Isaiah (49)
+
+Jynx
+Sneasel
+
+### Ace Trainer Brenna (50)
+
+Cloyster
+Lapras
+
+### Ace Trainer Sergio (50)
+
+Swinub
+Piloswine
+Mamoswine
+
 ### Leader Candice (52)
+
+Froslass
+Abomasnow
+Weavile
+Mamoswine
+Delibird
+Glaceon
 
 ## Sunyshore Gym
 
