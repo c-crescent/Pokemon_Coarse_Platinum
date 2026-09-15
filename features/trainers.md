@@ -391,14 +391,13 @@ Dewgong
 
 ### Ace Trainer Alicia (49)
 
-Spheal
-Sealeo
-Walrein
+Jynx
+Sneasel
 
 ### Ace Trainer Isaiah (49)
 
-Jynx
-Sneasel
+Sealeo
+Walrein
 
 ### Ace Trainer Brenna (50)
 
