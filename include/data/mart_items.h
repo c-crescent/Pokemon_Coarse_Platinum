@@ -193,12 +193,18 @@ const u16 VeilstoneDeptStoreStock_2F_UP[] = {
 };
 
 const u16 VeilstoneDeptStoreStock_2F_MID[] = {
+    ITEM_HP_UP,
     ITEM_PROTEIN,
     ITEM_IRON,
     ITEM_CALCIUM,
     ITEM_ZINC,
     ITEM_CARBOS,
-    ITEM_HP_UP,
+    ITEM_POMEG_BERRY,
+    ITEM_KELPSY_BERRY,
+    ITEM_QUALOT_BERRY,
+    ITEM_HONDEW_BERRY,
+    ITEM_GREPA_BERRY,
+    ITEM_TAMATO_BERRY,
     SHOP_ITEM_END
 };
 
@@ -235,6 +241,7 @@ const u16 CelesticMartSpecialties[] = {
     ITEM_CHOICE_BAND,
     ITEM_CHOICE_SCARF,
     ITEM_LEFTOVERS,
+    ITEM_BLACK_SLUDGE,
     ITEM_LIFE_ORB,
     ITEM_FOCUS_SASH,
     ITEM_EXPERT_BELT,

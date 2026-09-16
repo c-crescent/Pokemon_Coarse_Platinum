@@ -39,5 +39,5 @@
 * Significantly reduced egg hatch cycle for every pokemon
 * Made relevant Battle Items much more accessible through normal marts
 * The tutor in house 212 now teaches every tutor moves and is free
-* EV consumables are much cheaper
+* EV Vitamins are much cheaper as now has a cap of 252.
 * Game Corner coins are now 100 times cheaper.
