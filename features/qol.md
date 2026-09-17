@@ -7,7 +7,7 @@
 
 ## Exploration
 * After acquiring the Running Shoes, running is the default movement state. The player can hold B to walk.
-* HM moves only requires the item and badge to be used in the overworld.
+* HM moves only requires the item and badge to be used in the overworld. Your first pokemon always has access to fly.
 * No map requries Defog or Flash. Lost Tower 5F no longer requires Defog.
 * Fly now appears in the party context menu as long as the Pokemon learns it, but still needs the appropriate badge to be used as a field move.
 * TM03 Water Pulse now only requires Rock Smash to access, and not Surf.
