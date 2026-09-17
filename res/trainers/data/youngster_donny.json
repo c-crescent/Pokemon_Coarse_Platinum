@@ -18,7 +18,7 @@
                 "MOVE_EXPLOSION",
                 "MOVE_CURSE"
             ],
-            "iv_scale": 10,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -32,7 +32,7 @@
                 "MOVE_HAZE",
                 "MOVE_OMINOUS_WIND"
             ],
-            "iv_scale": 10,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

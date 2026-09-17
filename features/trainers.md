@@ -5,6 +5,7 @@
 * Trainer AI now prioritises status & hazards
 * Gym Leaders now enforce a party size cap
 * All Team Galactic Commaner boss fights are now double battles
+* All trainer IVs are now maxed out
 
 ## Rival's Final Team
 Staraptor

@@ -17,7 +17,7 @@
                 "MOVE_HORN_DRILL",
                 "MOVE_FLAIL"
             ],
-            "iv_scale": 250,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

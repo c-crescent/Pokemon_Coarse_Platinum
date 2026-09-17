@@ -20,7 +20,7 @@
                 "MOVE_TOXIC",
                 "MOVE_WING_ATTACK"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -34,7 +34,7 @@
                 "MOVE_DETECT",
                 "MOVE_SILVER_WIND"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -48,7 +48,7 @@
                 "MOVE_HEADBUTT",
                 "MOVE_ZEN_HEADBUTT"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -62,7 +62,7 @@
                 "MOVE_FAKE_OUT",
                 "MOVE_HYPNOSIS"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

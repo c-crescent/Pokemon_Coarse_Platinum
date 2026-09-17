@@ -18,7 +18,7 @@
                 "MOVE_THUNDERBOLT",
                 "MOVE_FLASH_CANNON"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -32,7 +32,7 @@
                 "MOVE_THUNDERBOLT",
                 "MOVE_HIDDEN_POWER"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -46,7 +46,7 @@
                 "MOVE_THUNDERBOLT",
                 "MOVE_ENDURE"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

@@ -20,7 +20,7 @@
                 "MOVE_X_SCISSOR",
                 "MOVE_AERIAL_ACE"
             ],
-            "iv_scale": 50,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

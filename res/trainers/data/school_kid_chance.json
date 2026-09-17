@@ -19,7 +19,7 @@
                 "MOVE_SHADOW_SNEAK",
                 "MOVE_HYPNOSIS"
             ],
-            "iv_scale": 10,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -33,7 +33,7 @@
                 "MOVE_SHADOW_SNEAK",
                 "MOVE_HYPNOSIS"
             ],
-            "iv_scale": 10,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

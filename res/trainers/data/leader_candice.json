@@ -20,7 +20,7 @@
                 "MOVE_WOOD_HAMMER",
                 "MOVE_BLIZZARD"
             ],
-            "iv_scale": 250,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -34,7 +34,7 @@
                 "MOVE_SPIKES",
                 "MOVE_DESTINY_BOND"
             ],
-            "iv_scale": 250,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -48,7 +48,7 @@
                 "MOVE_PURSUIT",
                 "MOVE_ICE_SHARD"
             ],
-            "iv_scale": 250,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -62,7 +62,7 @@
                 "MOVE_STONE_EDGE",
                 "MOVE_SUPERPOWER"
             ],
-            "iv_scale": 250,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -76,7 +76,7 @@
                 "MOVE_HYDRO_PUMP",
                 "MOVE_BLIZZARD"
             ],
-            "iv_scale": 250,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -90,7 +90,7 @@
                 "MOVE_HIDDEN_POWER",
                 "MOVE_BLIZZARD"
             ],
-            "iv_scale": 250,
+            "iv_scale": 255,
             "ball_seal": 0
         }
         

@@ -20,7 +20,7 @@
                 "MOVE_WILL_O_WISP",
                 "MOVE_THUNDER_FANG"
             ],
-            "iv_scale": 250,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -34,7 +34,7 @@
                 "MOVE_HEAT_WAVE",
                 "MOVE_PSYCHIC"
             ],
-            "iv_scale": 250,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -48,7 +48,7 @@
                 "MOVE_TOXIC",
                 "MOVE_CONFUSE_RAY"
             ],
-            "iv_scale": 250,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -62,7 +62,7 @@
                 "MOVE_ICE_FANG",
                 "MOVE_EARTHQUAKE"
             ],
-            "iv_scale": 250,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -76,7 +76,7 @@
                 "MOVE_FAKE_OUT",
                 "MOVE_X_SCISSOR"
             ],
-            "iv_scale": 250,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

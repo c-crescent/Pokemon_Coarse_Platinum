@@ -18,7 +18,7 @@
                 "MOVE_ABSORB",
                 "MOVE_TACKLE"
             ],
-            "iv_scale": 30,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

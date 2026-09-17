@@ -20,7 +20,7 @@
                 "MOVE_TRICK_ROOM",
                 "MOVE_EXPLOSION"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -34,7 +34,7 @@
                 "MOVE_TRICK_ROOM",
                 "MOVE_EXPLOSION"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -48,7 +48,7 @@
                 "MOVE_SUPERPOWER",
                 "MOVE_IRON_HEAD"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

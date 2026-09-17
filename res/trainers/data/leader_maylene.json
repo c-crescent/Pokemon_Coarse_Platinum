@@ -20,7 +20,7 @@
                 "MOVE_SUCKER_PUNCH",
                 "MOVE_FAKE_OUT"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -34,7 +34,7 @@
                 "MOVE_THUNDER_PUNCH",
                 "MOVE_ROCK_SLIDE"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -48,7 +48,7 @@
                 "MOVE_SEED_BOMB",
                 "MOVE_MACH_PUNCH"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -62,7 +62,7 @@
                 "MOVE_BULLET_PUNCH",
                 "MOVE_EARTHQUAKE"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -76,7 +76,7 @@
                 "MOVE_ICE_PUNCH",
                 "MOVE_DESTINY_BOND"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -90,7 +90,7 @@
                 "MOVE_DARK_PULSE",
                 "MOVE_VACUUM_WAVE"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

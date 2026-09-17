@@ -20,7 +20,7 @@
                 "MOVE_STEALTH_ROCK",
                 "MOVE_EARTHQUAKE"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -34,7 +34,7 @@
                 "MOVE_STONE_EDGE",
                 "MOVE_EARTHQUAKE"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -48,7 +48,7 @@
                 "MOVE_STONE_EDGE",
                 "MOVE_EARTHQUAKE"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

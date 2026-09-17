@@ -18,7 +18,7 @@
                 "MOVE_WATERFALL",
                 "MOVE_POISON_JAB"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -32,7 +32,7 @@
                 "MOVE_SURF",
                 "MOVE_PSYCHIC"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -46,7 +46,7 @@
                 "MOVE_SURF",
                 "MOVE_FIRE_BLAST"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

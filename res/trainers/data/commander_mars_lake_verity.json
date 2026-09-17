@@ -20,7 +20,7 @@
                 "MOVE_ROOST",
                 "MOVE_U_TURN"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -34,7 +34,7 @@
                 "MOVE_GIGA_DRAIN",
                 "MOVE_PSYCHIC"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -48,7 +48,7 @@
                 "MOVE_METEOR_MASH",
                 "MOVE_THUNDER_PUNCH"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -62,7 +62,7 @@
                 "MOVE_SUCKER_PUNCH",
                 "MOVE_U_TURN"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

@@ -20,7 +20,7 @@
                 "MOVE_EARTH_POWER",
                 "MOVE_SIGNAL_BEAM"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -34,7 +34,7 @@
                 "MOVE_ZEN_HEADBUTT",
                 "MOVE_STONE_EDGE"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -48,7 +48,7 @@
                 "MOVE_THUNDER_WAVE",
                 "MOVE_PROTECT"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -62,7 +62,7 @@
                 "MOVE_MIRROR_COAT",
                 "MOVE_DESTINY_BOND"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -76,7 +76,7 @@
                 "MOVE_SIGNAL_BEAM",
                 "MOVE_EARTHQUAKE"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

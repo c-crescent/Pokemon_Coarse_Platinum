@@ -18,7 +18,7 @@
                 "MOVE_DIG",
                 "MOVE_SUPERPOWER"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -32,7 +32,7 @@
                 "MOVE_TOXIC",
                 "MOVE_PROTECT"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -46,7 +46,7 @@
                 "MOVE_ICE_PUNCH",
                 "MOVE_EARTHQUAKE"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

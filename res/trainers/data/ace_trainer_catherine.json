@@ -20,7 +20,7 @@
                 "MOVE_AIR_CUTTER",
                 "MOVE_ICY_WIND"
             ],
-            "iv_scale": 60,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -34,7 +34,7 @@
                 "MOVE_OMINOUS_WIND",
                 "MOVE_DESTINY_BOND"
             ],
-            "iv_scale": 60,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -48,7 +48,7 @@
                 "MOVE_SWALLOW",
                 "MOVE_SPIT_UP"
             ],
-            "iv_scale": 60,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

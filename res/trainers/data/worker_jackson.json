@@ -18,7 +18,7 @@
                 "MOVE_EXPLOSION",
                 "MOVE_STEALTH_ROCK"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -32,7 +32,7 @@
                 "MOVE_EXPLOSION",
                 "MOVE_IRON_HEAD"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

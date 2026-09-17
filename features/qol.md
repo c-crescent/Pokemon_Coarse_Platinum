@@ -22,6 +22,7 @@
 * Spiritomb no longer requires meeting 32 people to encounter. Odd Keystone can now be bought from Snowpoint City Mart.
 * You get the Secret Key upon catching Rotom.
 * You can infinitely encounter a Pokemon species you already own at the Sandgem Lab PC.
+* All Pokemon in the game now have max IVs in every stat
 
 ## Misc.
 * Opening & Title Screen is now completely skipped
