@@ -420,13 +420,41 @@ Mamoswine
 Delibird
 Glaceon
 
+## Galactic HQ
+
+### Galactic Boss Cyrus (54)
+
+### Commander Saturn (53)
+
+## Spear Pillar
+
+### Commander Mars & Jupiter (54)
+
+### Galactic Boss Cyrus (56)
+
 ## Sunyshore Gym
+
+### School Kid Tiera
+
+### School Kid Forrest
+
+### Guitarist Jerry
+
+### Poke Kid Meghan
+
+### Guitarist Lonnie
+
+### Ace Trainer Destiny
+
+### Guitarist Preston
+
+### Ace Trainer Zachery
 
 ### Leader Volkner (58)
 
 ## Pokemon League
 
-### Rival
+### Rival (60)
 
 ### Elite Four Aaron (62)
 
