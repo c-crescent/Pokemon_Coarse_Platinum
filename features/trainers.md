@@ -424,7 +424,20 @@ Glaceon
 
 ### Galactic Boss Cyrus (54)
 
+Weavile
+Crobat
+Honchkrow
+Houndoom
+Gyarados
+
 ### Commander Saturn (53)
+
+Lunatone
+Solrock
+Hypno
+Girafarig
+Exeggutor
+Starmie
 
 ## Spear Pillar
 
