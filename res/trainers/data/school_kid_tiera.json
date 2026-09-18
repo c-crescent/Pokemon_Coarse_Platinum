@@ -6,7 +6,7 @@
         "AI_FLAG_BASIC",
         "AI_FLAG_EXPERT"
     ],
-    "double_battle": false,
+    "double_battle": true,
     "party": [
         {
             "species": "SPECIES_PACHIRISU",

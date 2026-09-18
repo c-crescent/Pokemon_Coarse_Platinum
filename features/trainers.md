@@ -461,23 +461,55 @@ Darkrai
 
 ## Sunyshore Gym
 
-### School Kid Tiera
+### School Kid Tiera (55)
 
-### School Kid Forrest
+Pachirisu
 
-### Guitarist Jerry
+### School Kid Forrest (55)
 
-### Poke Kid Meghan
+Plusle
+Plusle
+Minun
+Minun
 
-### Guitarist Lonnie
+### Guitarist Jerry (55)
 
-### Ace Trainer Destiny
+Manectric
+Luxray
 
-### Guitarist Preston
+### Poke Kid Meghan (55)
 
-### Ace Trainer Zachery
+Pikachu
+Raichu
+
+### Guitarist Lonnie (56)
+
+Electabuzz
+
+### Ace Trainer Destiny (56)
+
+Voltorb
+Voltorb
+Electrode
+
+### Guitarist Preston (56)
+
+Magneton
+Magnezone
+
+### Ace Trainer Zachery (56)
+
+Ampharos
+Ampharos
 
 ### Leader Volkner (58)
+
+Jolteon
+Raichu
+Luxray
+Lanturn
+Electivire
+Rotom
 
 ## Pokemon League
 
