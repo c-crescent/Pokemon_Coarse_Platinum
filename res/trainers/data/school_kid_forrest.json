@@ -9,14 +9,29 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_MAGNETON",
+            "species": "SPECIES_PLUSLE",
             "form": 0,
-            "level": 47,
-            "item": null,
+            "level": 55,
+            "item": "ITEM_CHOICE_SCARF",
             "moves": [
-                "MOVE_THUNDERBOLT",
+                "MOVE_DISCHARGE",
                 "MOVE_TRI_ATTACK",
-                "MOVE_MIRROR_SHOT"
+                "MOVE_SIGNAL_BEAM",
+                "MOVE_GRASS_KNOT"
+            ],
+            "iv_scale": 255,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_MINUN",
+            "form": 0,
+            "level": 55,
+            "item": "ITEM_CHOICE_SPECS",
+            "moves": [
+                "MOVE_DISCHARGE",
+                "MOVE_TRI_ATTACK",
+                "MOVE_SIGNAL_BEAM",
+                "MOVE_GRASS_KNOT"
             ],
             "iv_scale": 255,
             "ball_seal": 0

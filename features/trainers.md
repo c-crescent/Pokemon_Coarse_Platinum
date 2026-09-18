@@ -464,12 +464,11 @@ Darkrai
 ### School Kid Tiera (55)
 
 Pachirisu
+Pikachu
 
 ### School Kid Forrest (55)
 
 Plusle
-Plusle
-Minun
 Minun
 
 ### Guitarist Jerry (55)
@@ -485,10 +484,10 @@ Raichu
 ### Guitarist Lonnie (56)
 
 Electabuzz
+Electabuzz
 
 ### Ace Trainer Destiny (56)
 
-Voltorb
 Voltorb
 Electrode
 

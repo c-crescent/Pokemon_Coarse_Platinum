@@ -8,20 +8,30 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_LUXIO",
+            "species": "SPECIES_MAGNETON",
             "form": 0,
-            "level": 45,
-            "item": null,
-            "moves": null,
+            "level": 56,
+            "item": "ITEM_FOCUS_SASH",
+            "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_FLASH_CANNON",
+                "MOVE_TOXIC",
+                "MOVE_MAGNET_RISE"
+            ],
             "iv_scale": 255,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_LUXIO",
+            "species": "SPECIES_MAGNEZONE",
             "form": 0,
-            "level": 45,
-            "item": null,
-            "moves": null,
+            "level": 56,
+            "item": "ITEM_CHOICE_SCARF",
+            "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_FLASH_CANNON",
+                "MOVE_THUNDER",
+                "MOVE_EXPLOSION"
+            ],
             "iv_scale": 255,
             "ball_seal": 0
         }

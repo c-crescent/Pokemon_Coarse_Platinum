@@ -10,29 +10,29 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_ELECTABUZZ",
+            "species": "SPECIES_VOLTORB",
             "form": 0,
-            "level": 47,
-            "item": null,
+            "level": 56,
+            "item": "ITEM_FOCUS_SASH",
             "moves": [
                 "MOVE_THUNDERBOLT",
-                "MOVE_SHOCK_WAVE",
-                "MOVE_QUICK_ATTACK",
-                "MOVE_IRON_TAIL"
+                "MOVE_SUCKER_PUNCH",
+                "MOVE_EXPLOSION",
+                "MOVE_LIGHT_SCREEN"
             ],
             "iv_scale": 255,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_RAICHU",
+            "species": "SPECIES_ELECTRODE",
             "form": 0,
-            "level": 48,
-            "item": null,
+            "level": 56,
+            "item": "ITEM_LIFE_ORB",
             "moves": [
                 "MOVE_THUNDERBOLT",
-                "MOVE_DIG",
-                "MOVE_THUNDER_WAVE",
-                "MOVE_LIGHT_SCREEN"
+                "MOVE_SUCKER_PUNCH",
+                "MOVE_EXPLOSION",
+                "MOVE_SIGNAL_BEAM"
             ],
             "iv_scale": 255,
             "ball_seal": 0

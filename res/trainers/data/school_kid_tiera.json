@@ -11,13 +11,27 @@
         {
             "species": "SPECIES_PACHIRISU",
             "form": 0,
-            "level": 47,
-            "item": null,
+            "level": 55,
+            "item": "ITEM_FOCUS_SASH",
             "moves": [
-                "MOVE_LAST_RESORT",
-                "MOVE_SUPER_FANG",
+                "MOVE_PROTECT",
+                "MOVE_HELPING_HAND",
                 "MOVE_DISCHARGE",
-                "MOVE_SWEET_KISS"
+                "MOVE_THUNDER_WAVE"
+            ],
+            "iv_scale": 255,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_PIKACHU",
+            "form": 0,
+            "level": 55,
+            "item": "ITEM_LIGHT_BALL",
+            "moves": [
+                "MOVE_DISCHARGE",
+                "MOVE_GRASS_KNOT",
+                "MOVE_ENCORE",
+                "MOVE_THUNDER_WAVE"
             ],
             "iv_scale": 255,
             "ball_seal": 0
