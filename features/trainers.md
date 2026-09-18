@@ -441,9 +441,23 @@ Starmie
 
 ## Spear Pillar
 
-### Commander Mars & Jupiter (54)
+### Commander Mars & Jupiter (55)
 
-### Galactic Boss Cyrus (56)
+Crobat
+Metagross
+Yanmega
+Purugly
+Nidoqueen
+Skuntank
+
+### Galactic Boss Cyrus (57)
+
+Weavile
+Crobat
+Honchkrow
+Houndoom
+Gyarados
+Darkrai
 
 ## Sunyshore Gym
 
