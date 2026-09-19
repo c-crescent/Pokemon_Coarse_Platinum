@@ -5,24 +5,14 @@
       "id": "SpearPillar_Text_TakeYouDown",
       "en_US": [
         "Our boss is about to do something\n",
-        "spectacular!\r",
-        "Don’t get in the way!\n",
-        "Of course you will, won’t you?\r",
-        "That’s why the two of us will team up\n",
-        "to take you down in an epic duel!\r"
+        "spectacular!\r"
       ]
     },
     {
       "id": "SpearPillar_Text_OnlyOnePokemon",
       "en_US": [
         "Our boss is about to do something\n",
-        "spectacular!\r",
-        "Don’t get in the way!\n",
-        "Of course you will, won’t you?\r",
-        "That’s why the two of us will team up\n",
-        "to take you down in an epic duel!\r",
-        "What? You only have one Pokémon?\n",
-        "Bah, come back when you’re ready!\r"
+        "spectacular!\r"
       ]
     },
     {
@@ -37,11 +27,7 @@
       "id": "SpearPillar_Text_GoThroughMeFirst",
       "en_US": [
         "Mars: Where do you think you’re going?\n",
-        "I won’t let you disturb our boss.\r",
-        "If you’re not going to listen, you’ll\n",
-        "have to go through me first.\r",
-        "After all, you’ve made me look bad\n",
-        "more times than I care to remember!\r"
+        "I won’t let you disturb our boss.\r"
       ]
     },
     {
@@ -116,17 +102,7 @@
         "Cyrus: ...\n",
         "...\r",
         "Everything is ready for the creation\n",
-        "of a new world.\r",
-        "Now, all will end.\n",
-        "And everything will begin.\r",
-        "With this, the Red Chain made from the\n",
-        "crystals of the three lake Pokémon...\r",
-        "And this, the Red Chain I replicated\n",
-        "with technological means...\r",
-        "With these Red Chains I will pry open\n",
-        "the portal to another dimension.\r",
-        "I command that you unleash your power\n",
-        "for me...\r"
+        "of a new world.\r"
       ]
     },
     {
@@ -156,55 +132,28 @@
       "id": "SpearPillar_Text_IWillCreateNewWorld",
       "en_US": [
         "Cyrus: I’ve waited so long for this\n",
-        "moment, DIALGA and PALKIA.\r",
-        "Shaping this world is a double spiral\n",
-        "of time and space.\r",
-        "Yes, the very things that you have the\n",
-        "ability to control!\r",
-        "You will do my bidding!\n",
-        "I will have your abilities as mine!\r",
-        "With the power I wield, I will create\n",
-        "an entirely new world!\r"
+        "moment, DIALGA and PALKIA.\r"
       ]
     },
     {
       "id": "SpearPillar_Text_NothingCanRemain",
       "en_US": [
         "The incomplete and ugly world we have\n",
-        "now can disappear.\r",
-        "I am resetting everything to zero.\n",
-        "Nothing can remain.\r",
-        "It is all for making the ultimate world.\n",
-        "A world of complete perfection.\r",
-        "Nothing so vague and incomplete as\n",
-        "spirit can remain.\r"
+        "now can disappear.\r"
       ]
     },
     {
       "id": "SpearPillar_Text_IShouldHaveExpectedAsMuch",
       "en_US": [
         "Cyrus: ...I should have expected as\n",
-        "much.\r",
-        "UXIE, “The Being of Knowledge.”\r",
-        "AZELF, “The Being of Willpower.”\r",
-        "And MESPRIT, “The Being of Emotion”...\r"
+        "much.\r"
       ]
     },
     {
       "id": "SpearPillar_Text_CantMaintainBalance",
       "en_US": [
         "The Pokémon have come to protect\n",
-        "Sinnoh? Pathetic and worthless.\r",
-        "It takes the three of them, the three\n",
-        "lake Pokémon that symbolize spirit,\f",
-        "to balance either the Pokémon of time\f",
-        "or space.\r",
-        "But they can’t maintain balance against\n",
-        "the two.\r",
-        "Not when both DIALGA and PALKIA are\n",
-        "here.\r",
-        "Their coming here is in vain.\n",
-        "So much meaningless drama.\r"
+        "Sinnoh? Pathetic and worthless.\r"
       ]
     },
     {
@@ -212,16 +161,7 @@
       "en_US": [
         "Now, {STRVAR_1 3, 0, 0}.\r",
         "You’ve constantly interfered with my\n",
-        "plans, but you will be forgiven.\r",
-        "After all, there will remain no spirit\n",
-        "for all time when I am done.\r",
-        "All spirit will disappear.\n",
-        "It will be ripped away...\r",
-        "From you!\n",
-        "From your Pokémon!\f",
-        "From those precious to you...!\r",
-        "It is time!\n",
-        "My dream will be my reality!\r"
+        "plans, but you will be forgiven.\r"
       ]
     },
     {
