@@ -252,6 +252,7 @@ Type: Water / Ghost
 
 ## Mawile
 - Made it more like its Mega form
+> Type: Steel / Dark
 > Ability: Intimidate / Huge Power
 > ATK: 95(+10)
 > DEF: 105(+20)
