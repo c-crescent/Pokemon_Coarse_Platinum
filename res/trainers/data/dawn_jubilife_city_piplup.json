@@ -18,7 +18,7 @@
                 "MOVE_EMBER",
                 "MOVE_SCRATCH"
             ],
-            "iv_scale": 30,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

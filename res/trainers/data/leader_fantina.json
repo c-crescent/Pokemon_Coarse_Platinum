@@ -20,7 +20,7 @@
                 "MOVE_DESTINY_BOND",
                 "MOVE_THUNDERBOLT"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -34,7 +34,7 @@
                 "MOVE_WILL_O_WISP",
                 "MOVE_THUNDER_WAVE"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -48,7 +48,7 @@
                 "MOVE_PROTECT",
                 "MOVE_EARTHQUAKE"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -62,7 +62,7 @@
                 "MOVE_PSYCHIC",
                 "MOVE_SHOCK_WAVE"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -76,7 +76,7 @@
                 "MOVE_MAGICAL_LEAF",
                 "MOVE_ICY_WIND"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

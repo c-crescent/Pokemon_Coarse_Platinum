@@ -19,7 +19,7 @@
                 "MOVE_ASSURANCE",
                 "MOVE_COUNTER"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -33,7 +33,7 @@
                 "MOVE_KNOCK_OFF",
                 "MOVE_VITAL_THROW"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -47,7 +47,7 @@
                 "MOVE_FIRE_PUNCH",
                 "MOVE_ICE_PUNCH"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -61,7 +61,7 @@
                 "MOVE_FORCE_PALM",
                 "MOVE_REVERSAL"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

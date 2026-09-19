@@ -20,7 +20,7 @@
                 "MOVE_THUNDERBOLT",
                 "MOVE_WILL_O_WISP"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -34,7 +34,7 @@
                 "MOVE_SILVER_WIND",
                 "MOVE_BATON_PASS"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -48,7 +48,7 @@
                 "MOVE_DOUBLE_TEAM",
                 "MOVE_PROTECT"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -62,7 +62,7 @@
                 "MOVE_MAGICAL_LEAF",
                 "MOVE_THUNDERBOLT"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -76,7 +76,7 @@
                 "MOVE_FOCUS_BLAST",
                 "MOVE_THUNDER"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

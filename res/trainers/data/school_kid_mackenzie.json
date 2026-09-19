@@ -19,7 +19,7 @@
                 "MOVE_DESTINY_BOND",
                 "MOVE_GUST"
             ],
-            "iv_scale": 10,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -33,7 +33,7 @@
                 "MOVE_OMINOUS_WIND",
                 "MOVE_HYPNOSIS"
             ],
-            "iv_scale": 10,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

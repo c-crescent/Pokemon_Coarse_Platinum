@@ -7,7 +7,7 @@
 
 ## Exploration
 * After acquiring the Running Shoes, running is the default movement state. The player can hold B to walk.
-* HM moves only requires the item and badge to be used in the overworld.
+* HM moves only requires the item and badge to be used in the overworld. Your first pokemon always has access to fly.
 * No map requries Defog or Flash. Lost Tower 5F no longer requires Defog.
 * Fly now appears in the party context menu as long as the Pokemon learns it, but still needs the appropriate badge to be used as a field move.
 * TM03 Water Pulse now only requires Rock Smash to access, and not Surf.
@@ -22,6 +22,7 @@
 * Spiritomb no longer requires meeting 32 people to encounter. Odd Keystone can now be bought from Snowpoint City Mart.
 * You get the Secret Key upon catching Rotom.
 * You can infinitely encounter a Pokemon species you already own at the Sandgem Lab PC.
+* All Pokemon in the game now have max IVs in every stat
 
 ## Misc.
 * Opening & Title Screen is now completely skipped
@@ -39,5 +40,5 @@
 * Significantly reduced egg hatch cycle for every pokemon
 * Made relevant Battle Items much more accessible through normal marts
 * The tutor in house 212 now teaches every tutor moves and is free
-* EV consumables are much cheaper
+* EV Vitamins are much cheaper as now has a cap of 252.
 * Game Corner coins are now 100 times cheaper.

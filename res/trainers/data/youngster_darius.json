@@ -18,7 +18,7 @@
                 "MOVE_WITHDRAW",
                 "MOVE_SAFEGUARD"
             ],
-            "iv_scale": 50,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -32,7 +32,7 @@
                 "MOVE_LOW_KICK",
                 "MOVE_FLAIL"
             ],
-            "iv_scale": 50,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -46,7 +46,7 @@
                 "MOVE_HARDEN",
                 "MOVE_BIND"
             ],
-            "iv_scale": 50,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

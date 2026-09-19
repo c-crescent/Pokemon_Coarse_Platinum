@@ -18,7 +18,7 @@
                 "MOVE_ROCK_THROW",
                 "MOVE_ROCK_POLISH"
             ],
-            "iv_scale": 50,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -32,7 +32,7 @@
                 "MOVE_MUD_SLAP",
                 "MOVE_HEADBUTT"
             ],
-            "iv_scale": 50,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

@@ -18,7 +18,7 @@
                 "MOVE_LEECH_LIFE",
                 "MOVE_CROSS_POISON"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -32,7 +32,7 @@
                 "MOVE_NATURE_POWER",
                 "MOVE_ABSORB"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -46,7 +46,7 @@
                 "MOVE_FAINT_ATTACK",
                 "MOVE_NATURE_POWER"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         }        
     ],

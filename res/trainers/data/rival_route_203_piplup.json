@@ -19,7 +19,7 @@
                 "MOVE_PECK",
                 "MOVE_GROWL"
             ],
-            "iv_scale": 50,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -32,7 +32,7 @@
                 "MOVE_GROWL",
                 "MOVE_WATER_GUN"
             ],
-            "iv_scale": 50,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -45,7 +45,7 @@
                 "MOVE_ABSORB",
                 "MOVE_WITHDRAW"
             ],
-            "iv_scale": 250,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

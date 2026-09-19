@@ -20,7 +20,7 @@
                 "MOVE_BITE",
                 "MOVE_HEAT_WAVE"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -34,7 +34,7 @@
                 "MOVE_DETECT",
                 "MOVE_TOXIC"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -48,7 +48,7 @@
                 "MOVE_SUCKER_PUNCH",
                 "MOVE_TOXIC"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -62,7 +62,7 @@
                 "MOVE_THUNDER_PUNCH",
                 "MOVE_FIRE_PUNCH"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -76,7 +76,7 @@
                 "MOVE_SIGNAL_BEAM",
                 "MOVE_PROTECT"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

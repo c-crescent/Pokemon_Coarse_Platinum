@@ -20,7 +20,7 @@
                 "MOVE_ENDEAVOR",
                 "MOVE_HEAT_WAVE"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -34,7 +34,7 @@
                 "MOVE_PURSUIT",
                 "MOVE_ICE_PUNCH"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -48,7 +48,7 @@
                 "MOVE_THRASH",
                 "MOVE_BOUNCE"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -62,7 +62,7 @@
                 "MOVE_BITE",
                 "MOVE_SUPERPOWER"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

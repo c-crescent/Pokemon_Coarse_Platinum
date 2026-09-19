@@ -19,7 +19,7 @@
                 "MOVE_PURSUIT",
                 "MOVE_THUNDER_PUNCH"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -33,7 +33,7 @@
                 "MOVE_DRAIN_PUNCH",
                 "MOVE_ICE_PUNCH"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -47,7 +47,7 @@
                 "MOVE_DOUBLE_KICK",
                 "MOVE_BULK_UP"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

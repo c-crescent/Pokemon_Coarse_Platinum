@@ -20,7 +20,7 @@
                 "MOVE_SUNNY_DAY",
                 "MOVE_EARTH_POWER"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -34,7 +34,7 @@
                 "MOVE_WEATHER_BALL",
                 "MOVE_PETAL_DANCE"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -48,7 +48,7 @@
                 "MOVE_STUN_SPORE",
                 "MOVE_AERIAL_ACE"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -62,7 +62,7 @@
                 "MOVE_WEATHER_BALL",
                 "MOVE_PETAL_DANCE"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -76,7 +76,7 @@
                 "MOVE_SLUDGE_BOMB",
                 "MOVE_SYNTHESIS"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

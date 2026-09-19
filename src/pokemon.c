@@ -441,34 +441,17 @@ static void sub_02073E18(BoxPokemon *boxMon, int monSpecies, int monLevel, int m
     v1 = ITEM_POKE_BALL;
     BoxPokemon_SetValue(boxMon, MON_DATA_POKEBALL, &v1);
 
-    if (monIVs < INIT_IVS_RANDOM) {
-        BoxPokemon_SetValue(boxMon, MON_DATA_HP_IV, &monIVs);
-        BoxPokemon_SetValue(boxMon, MON_DATA_ATK_IV, &monIVs);
-        BoxPokemon_SetValue(boxMon, MON_DATA_DEF_IV, &monIVs);
-        BoxPokemon_SetValue(boxMon, MON_DATA_SPEED_IV, &monIVs);
-        BoxPokemon_SetValue(boxMon, MON_DATA_SPATK_IV, &monIVs);
-        BoxPokemon_SetValue(boxMon, MON_DATA_SPDEF_IV, &monIVs);
-    } else {
-        v1 = LCRNG_Next();
-        v2 = (v1 & (0x1f << 0)) >> 0;
-        BoxPokemon_SetValue(boxMon, MON_DATA_HP_IV, &v2);
-
-        v2 = (v1 & (0x1f << 5)) >> 5;
-        BoxPokemon_SetValue(boxMon, MON_DATA_ATK_IV, &v2);
-
-        v2 = (v1 & (0x1f << 10)) >> 10;
-        BoxPokemon_SetValue(boxMon, MON_DATA_DEF_IV, &v2);
-
-        v1 = LCRNG_Next();
-        v2 = (v1 & (0x1f << 0)) >> 0;
-        BoxPokemon_SetValue(boxMon, MON_DATA_SPEED_IV, &v2);
-
-        v2 = (v1 & (0x1f << 5)) >> 5;
-        BoxPokemon_SetValue(boxMon, MON_DATA_SPATK_IV, &v2);
-
-        v2 = (v1 & (0x1f << 10)) >> 10;
-        BoxPokemon_SetValue(boxMon, MON_DATA_SPDEF_IV, &v2);
+    if (monIVs >= INIT_IVS_RANDOM) {
+        LCRNG_Next();
+        LCRNG_Next();
     }
+    u8 perfectIV = MAX_IVS_SINGLE_STAT;
+    BoxPokemon_SetValue(boxMon, MON_DATA_HP_IV, &perfectIV);
+    BoxPokemon_SetValue(boxMon, MON_DATA_ATK_IV, &perfectIV);
+    BoxPokemon_SetValue(boxMon, MON_DATA_DEF_IV, &perfectIV);
+    BoxPokemon_SetValue(boxMon, MON_DATA_SPEED_IV, &perfectIV);
+    BoxPokemon_SetValue(boxMon, MON_DATA_SPATK_IV, &perfectIV);
+    BoxPokemon_SetValue(boxMon, MON_DATA_SPDEF_IV, &perfectIV);
 
     v1 = SpeciesData_GetSpeciesValue(monSpecies, SPECIES_DATA_ABILITY_1);
     v2 = SpeciesData_GetSpeciesValue(monSpecies, SPECIES_DATA_ABILITY_2);
@@ -1523,27 +1506,27 @@ static void BoxPokemon_SetDataInternal(BoxPokemon *boxMon, enum PokemonDataParam
         break;
 
     case MON_DATA_HP_IV:
-        monDataBlockB->hpIV = *u8Value;
+        monDataBlockB->hpIV = MAX_IVS_SINGLE_STAT;
         break;
 
     case MON_DATA_ATK_IV:
-        monDataBlockB->atkIV = *u8Value;
+        monDataBlockB->atkIV = MAX_IVS_SINGLE_STAT;
         break;
 
     case MON_DATA_DEF_IV:
-        monDataBlockB->defIV = *u8Value;
+        monDataBlockB->defIV = MAX_IVS_SINGLE_STAT;
         break;
 
     case MON_DATA_SPEED_IV:
-        monDataBlockB->speedIV = *u8Value;
+        monDataBlockB->speedIV = MAX_IVS_SINGLE_STAT;
         break;
 
     case MON_DATA_SPATK_IV:
-        monDataBlockB->spAtkIV = *u8Value;
+        monDataBlockB->spAtkIV = MAX_IVS_SINGLE_STAT;
         break;
 
     case MON_DATA_SPDEF_IV:
-        monDataBlockB->spDefIV = *u8Value;
+        monDataBlockB->spDefIV = MAX_IVS_SINGLE_STAT;
         break;
 
     case MON_DATA_IS_EGG:
@@ -1765,12 +1748,12 @@ static void BoxPokemon_SetDataInternal(BoxPokemon *boxMon, enum PokemonDataParam
         break;
 
     case MON_DATA_COMBINED_IVS:
-        monDataBlockB->hpIV = (*u32Value >> 0) & 0x1F;
-        monDataBlockB->atkIV = (*u32Value >> 5) & 0x1F;
-        monDataBlockB->defIV = (*u32Value >> 10) & 0x1F;
-        monDataBlockB->speedIV = (*u32Value >> 15) & 0x1F;
-        monDataBlockB->spAtkIV = (*u32Value >> 20) & 0x1F;
-        monDataBlockB->spDefIV = (*u32Value >> 25) & 0x1F;
+        monDataBlockB->hpIV = MAX_IVS_SINGLE_STAT;
+        monDataBlockB->atkIV = MAX_IVS_SINGLE_STAT;
+        monDataBlockB->defIV = MAX_IVS_SINGLE_STAT;
+        monDataBlockB->speedIV = MAX_IVS_SINGLE_STAT;
+        monDataBlockB->spAtkIV = MAX_IVS_SINGLE_STAT;
+        monDataBlockB->spDefIV = MAX_IVS_SINGLE_STAT;
         break;
 
     case MON_DATA_NO_PRINT_GENDER:

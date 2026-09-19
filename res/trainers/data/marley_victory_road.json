@@ -20,7 +20,7 @@
                 "MOVE_HELPING_HAND",
                 "MOVE_AGILITY"
             ],
-            "iv_scale": 30,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

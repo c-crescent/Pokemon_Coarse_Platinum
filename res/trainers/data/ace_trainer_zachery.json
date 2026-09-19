@@ -7,33 +7,34 @@
         "AI_FLAG_EVAL_ATTACK",
         "AI_FLAG_EXPERT"
     ],
-    "double_battle": false,
+    "double_battle": true,
     "party": [
         {
-            "species": "SPECIES_ELECTABUZZ",
+            "species": "SPECIES_AMPHAROS",
             "form": 0,
-            "level": 47,
-            "item": null,
+            "level": 56,
+            "item": "ITEM_LIFE_ORB",
             "moves": [
-                "MOVE_THUNDERBOLT",
-                "MOVE_SHOCK_WAVE",
-                "MOVE_QUICK_ATTACK",
-                "MOVE_IRON_TAIL"
+                "MOVE_DRAGON_PULSE",
+                "MOVE_DRACO_METEOR",
+                "MOVE_DISCHARGE",
+                "MOVE_FOCUS_BLAST"
             ],
-            "iv_scale": 60,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
-            "species": "SPECIES_MAGNETON",
+            "species": "SPECIES_AMPHAROS",
             "form": 0,
-            "level": 48,
-            "item": null,
+            "level": 56,
+            "item": "ITEM_LIFE_ORB",
             "moves": [
-                "MOVE_THUNDERBOLT",
-                "MOVE_TRI_ATTACK",
-                "MOVE_MIRROR_SHOT"
+                "MOVE_DRAGON_PULSE",
+                "MOVE_DRACO_METEOR",
+                "MOVE_DISCHARGE",
+                "MOVE_FOCUS_BLAST"
             ],
-            "iv_scale": 60,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

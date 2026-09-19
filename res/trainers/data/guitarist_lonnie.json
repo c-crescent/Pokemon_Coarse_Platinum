@@ -8,17 +8,31 @@
     "double_battle": false,
     "party": [
         {
-            "species": "SPECIES_RAICHU",
+            "species": "SPECIES_ELECTABUZZ",
             "form": 0,
-            "level": 47,
-            "item": null,
+            "level": 56,
+            "item": "ITEM_LIFE_ORB",
             "moves": [
                 "MOVE_THUNDERBOLT",
-                "MOVE_SLAM",
-                "MOVE_THUNDER_WAVE",
-                "MOVE_QUICK_ATTACK"
+                "MOVE_CROSS_CHOP",
+                "MOVE_PSYCHIC",
+                "MOVE_ICE_PUNCH"
             ],
-            "iv_scale": 10,
+            "iv_scale": 255,
+            "ball_seal": 0
+        },
+        {
+            "species": "SPECIES_ELECTABUZZ",
+            "form": 0,
+            "level": 56,
+            "item": "ITEM_LEFTOVERS",
+            "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_TOXIC",
+                "MOVE_PROTECT",
+                "MOVE_CROSS_CHOP"
+            ],
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

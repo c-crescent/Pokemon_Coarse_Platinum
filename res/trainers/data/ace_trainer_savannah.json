@@ -20,7 +20,7 @@
                 "MOVE_ICE_SHARD",
                 "MOVE_WATERFALL"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         }, 
         {
@@ -34,7 +34,7 @@
                 "MOVE_TOXIC",
                 "MOVE_PROTECT"
             ],
-            "iv_scale": 200,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

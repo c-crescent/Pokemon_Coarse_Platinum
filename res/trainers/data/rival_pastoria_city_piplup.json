@@ -20,7 +20,7 @@
                 "MOVE_CLOSE_COMBAT",
                 "MOVE_TAKE_DOWN"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -34,7 +34,7 @@
                 "MOVE_SLEEP_TALK",
                 "MOVE_EARTHQUAKE"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -48,7 +48,7 @@
                 "MOVE_STOMP",
                 "MOVE_MEGAHORN"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -62,7 +62,7 @@
                 "MOVE_AQUA_JET",
                 "MOVE_CRUNCH"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -76,7 +76,7 @@
                 "MOVE_CRUNCH",
                 "MOVE_SEED_BOMB"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

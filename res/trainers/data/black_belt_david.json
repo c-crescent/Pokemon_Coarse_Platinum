@@ -19,7 +19,7 @@
                 "MOVE_TAKE_DOWN",
                 "MOVE_IRON_DEFENSE"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -33,7 +33,7 @@
                 "MOVE_BULLET_PUNCH",
                 "MOVE_EARTHQUAKE"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

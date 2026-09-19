@@ -18,7 +18,7 @@
                 "MOVE_EXPLOSION",
                 "MOVE_PROTECT"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -32,7 +32,7 @@
                 "MOVE_POWER_GEM",
                 "MOVE_EARTH_POWER"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -46,7 +46,7 @@
                 "MOVE_SUCKER_PUNCH",
                 "MOVE_KNOCK_OFF"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

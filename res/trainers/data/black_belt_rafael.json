@@ -19,7 +19,7 @@
                 "MOVE_FAKE_OUT",
                 "MOVE_BULLET_PUNCH"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -33,7 +33,7 @@
                 "MOVE_ICE_PUNCH",
                 "MOVE_FIRE_PUNCH"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -47,7 +47,7 @@
                 "MOVE_SUCKER_PUNCH",
                 "MOVE_KNOCK_OFF"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

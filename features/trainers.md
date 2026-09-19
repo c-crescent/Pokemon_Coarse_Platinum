@@ -5,6 +5,7 @@
 * Trainer AI now prioritises status & hazards
 * Gym Leaders now enforce a party size cap
 * All Team Galactic Commaner boss fights are now double battles
+* All trainer IVs are now maxed out
 
 ## Rival's Final Team
 Staraptor
@@ -391,14 +392,13 @@ Dewgong
 
 ### Ace Trainer Alicia (49)
 
-Spheal
-Sealeo
-Walrein
+Jynx
+Sneasel
 
 ### Ace Trainer Isaiah (49)
 
-Jynx
-Sneasel
+Sealeo
+Walrein
 
 ### Ace Trainer Brenna (50)
 
@@ -420,13 +420,99 @@ Mamoswine
 Delibird
 Glaceon
 
+## Galactic HQ
+
+### Galactic Boss Cyrus (54)
+
+Weavile
+Crobat
+Honchkrow
+Houndoom
+Gyarados
+
+### Commander Saturn (53)
+
+Lunatone
+Solrock
+Hypno
+Girafarig
+Exeggutor
+Starmie
+
+## Spear Pillar
+
+### Commander Mars & Jupiter (55)
+
+Crobat
+Metagross
+Yanmega
+Purugly
+Nidoqueen
+Skuntank
+
+### Galactic Boss Cyrus (57)
+
+Weavile
+Crobat
+Honchkrow
+Houndoom
+Gyarados
+Darkrai
+
 ## Sunyshore Gym
+
+### School Kid Tiera (55)
+
+Pachirisu
+Pikachu
+
+### School Kid Forrest (55)
+
+Plusle
+Minun
+
+### Guitarist Jerry (55)
+
+Manectric
+Luxray
+
+### Poke Kid Meghan (55)
+
+Pikachu
+Raichu
+
+### Guitarist Lonnie (56)
+
+Electabuzz
+Electabuzz
+
+### Ace Trainer Destiny (56)
+
+Voltorb
+Electrode
+
+### Guitarist Preston (56)
+
+Magneton
+Magnezone
+
+### Ace Trainer Zachery (56)
+
+Ampharos
+Ampharos
 
 ### Leader Volkner (58)
 
+Jolteon
+Raichu
+Luxray
+Lanturn
+Electivire
+Rotom
+
 ## Pokemon League
 
-### Rival
+### Rival (60)
 
 ### Elite Four Aaron (62)
 

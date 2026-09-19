@@ -18,7 +18,7 @@
                 "MOVE_DRAGON_DANCE",
                 "MOVE_ZEN_HEADBUTT"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -32,7 +32,7 @@
                 "MOVE_RETURN",
                 "MOVE_KNOCK_OFF"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -46,7 +46,7 @@
                 "MOVE_REST",
                 "MOVE_SLEEP_TALK"
             ],
-            "iv_scale": 100,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],

@@ -18,7 +18,7 @@
                 "MOVE_EGG_BOMB",
                 "MOVE_PSYCHIC"
             ],
-            "iv_scale": 250,
+            "iv_scale": 255,
             "ball_seal": 27
         }
     ],

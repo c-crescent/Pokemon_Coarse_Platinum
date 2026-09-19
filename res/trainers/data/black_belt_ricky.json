@@ -19,7 +19,7 @@
                 "MOVE_EXPLOSION",
                 "MOVE_GYRO_BALL"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -33,7 +33,7 @@
                 "MOVE_EXPLOSION",
                 "MOVE_PROTECT"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         },
         {
@@ -47,7 +47,7 @@
                 "MOVE_EXPLOSION",
                 "MOVE_GYRO_BALL"
             ],
-            "iv_scale": 150,
+            "iv_scale": 255,
             "ball_seal": 0
         }
     ],
