@@ -43,10 +43,13 @@
             [ 18, "MOVE_HEADBUTT" ],
             [ 23, "MOVE_HYPER_FANG" ],
             [ 28, "MOVE_YAWN" ],
+            [ 30, "MOVE_AQUA_TAIL" ],
             [ 33, "MOVE_AMNESIA" ],
             [ 38, "MOVE_TAKE_DOWN" ],
+            [ 38, "MOVE_ICE_FANG" ],
             [ 43, "MOVE_SUPER_FANG" ],
             [ 48, "MOVE_SUPERPOWER" ],
+            [ 50, "MOVE_AQUA_JET" ],
             [ 53, "MOVE_CURSE" ]
         ],
         "by_tm": [

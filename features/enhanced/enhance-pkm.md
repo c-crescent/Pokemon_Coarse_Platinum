@@ -43,9 +43,14 @@ Give every underpowered Pokemon a niche by giving them unique tools, based on fu
 > ATK: 120(+30)
 > SPA: 30(-15)
 > SPE: 110(+35)
+
 ## Bellossom
 
 ## Bibarel
+
+- Aqua Tail (30)
+- Ice Fang (40)
+- Aqua Jet (50)
 
 ## Butterfree
 
@@ -146,6 +151,18 @@ Type: Water / Ghost
 
 ## Flareon
 
+- Fire Spin (24)
+- Bite (28)
+- Fire Fang (32)
+- Last Resort (36)
+- Smog (40)
+- Flare Blitz (44)
+- Scary Face (48)
+- Fire Blast (52)
+- Agility (56)
+- Lava Plume (60)
+
+
 ## Floatzel
 
 ## Furret
@@ -200,9 +217,20 @@ Type: Water / Ghost
 
 ## Kecleon
 
+> Ability: Adaptability / Color Change
+> HP: 75(+15)
+> DEF: 85(+15)
+> SPD: 135(+15)
+
 ## Kingler
 
+> Ability: Hyper Cutter / Swift Swim
+
 ## Kricketune
+
+> Ability: Swarm / Hyper Cutter
+> ATK: 127(+32)
+> SPE: 97(+32)
 
 ## Lapras
 

@@ -1,9 +1,9 @@
 {
     "base_stats": {
         "hp": 77,
-        "attack": 85,
+        "attack": 117,
         "defense": 51,
-        "speed": 65,
+        "speed": 97,
         "special_attack": 55,
         "special_defense": 51
     },
@@ -27,7 +27,7 @@
     "base_friendship": 70,
     "exp_rate": "EXP_RATE_MEDIUM_SLOW",
     "egg_groups": [ "EGG_GROUP_BUG", "EGG_GROUP_BUG" ],
-    "abilities": [ "ABILITY_SWARM", "ABILITY_NONE" ],
+    "abilities": [ "ABILITY_SWARM", "ABILITY_HYPER_CUTTER" ],
     "safari_flee_rate": 0,
     "body_color": "MON_COLOR_RED",
     "flip_sprite": false,
