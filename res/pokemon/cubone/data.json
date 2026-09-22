@@ -36,7 +36,7 @@
         "by_level": [
             [ 1, "MOVE_GROWL" ],
             [ 3, "MOVE_TAIL_WHIP" ],
-            [ 7, "MOVE_BONE_CLUB" ],
+            [ 7, "MOVE_BULLDOZE" ],
             [ 11, "MOVE_HEADBUTT" ],
             [ 13, "MOVE_LEER" ],
             [ 17, "MOVE_FOCUS_ENERGY" ],

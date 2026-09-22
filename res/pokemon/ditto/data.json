@@ -1,11 +1,11 @@
 {
     "base_stats": {
-        "hp": 48,
-        "attack": 48,
-        "defense": 48,
-        "speed": 48,
-        "special_attack": 48,
-        "special_defense": 48
+        "hp": 88,
+        "attack": 88,
+        "defense": 88,
+        "speed": 88,
+        "special_attack": 88,
+        "special_defense": 88
     },
     "types": [ "TYPE_NORMAL", "TYPE_NORMAL" ],
     "catch_rate": 35,
@@ -27,7 +27,7 @@
     "base_friendship": 70,
     "exp_rate": "EXP_RATE_MEDIUM_FAST",
     "egg_groups": [ "EGG_GROUP_DITTO", "EGG_GROUP_DITTO" ],
-    "abilities": [ "ABILITY_LIMBER", "ABILITY_NONE" ],
+    "abilities": [ "ABILITY_SHADOW_TAG", "ABILITY_NONE" ],
     "safari_flee_rate": 0,
     "body_color": "MON_COLOR_PURPLE",
     "flip_sprite": false,

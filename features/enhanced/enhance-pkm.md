@@ -21,9 +21,17 @@ Give every underpowered Pokemon a niche by giving them unique tools, based on fu
 
 ## Ariados
 
+> ATK: 95(+5)
+> DEF: 80(+10)
+> SPA: 80(+20)
+> SPE: 70(+30)
+
 ## Armaldo
 
 ## Articuno
+
+> SPA: 125(+30)
+> SPD: 95(-30)
 
 ## Banette
 - Made it more like its Mega form
@@ -110,6 +118,16 @@ Type: Water / Ghost
 > SPE: 105(+30)
 
 ## Dewgong
+
+## Ditto
+
+> Ability: Shadow Tag
+> HP: 88(+40)
+> ATK: 88(+40)
+> DEF: 88(+40)
+> SPA: 88(+40)
+> SPD: 88(+40)
+> SPE: 88(+40)
 
 ## Dodrio
 
@@ -234,7 +252,17 @@ Type: Water / Ghost
 
 ## Lapras
 
+> ATK: 95(+10)
+> SPA: 95(+10)
+
+## Ledyba
+
+> ATK: 50(+30)
+
 ## Ledian
+
+> Ability: Swarm / Iron Fist
+> ATK: 85(+50)
 
 ## Lickilicky
 
@@ -248,6 +276,10 @@ Type: Water / Ghost
 > SPE: 120(+15)
 
 ## Lumineon
+
+> Ability: Chlorophyll / Storm Drain
+> ATK: 89(+20)
+> SPA: 89(+20)
 
 ## Lunatone
 
@@ -268,6 +300,7 @@ Type: Water / Ghost
 ## Magmortar
 - Learn Water Gun (12)
 - Learn Water Pulse (22)
+- Compatible with HM03 (Surf)
 > Type: Fire / Water
 
 ## Manectric
@@ -298,6 +331,8 @@ Type: Water / Ghost
 ## Minun
 
 ## Mothim
+
+> Ability: Tinted Lens
 
 ## Mr. Mime
 
@@ -437,9 +472,15 @@ Type: Water / Ghost
 
 ## Sunflora
 
+> SPA: 155(+50)
+
 ## Swalot
 
 ## Tauros
+
+> ATK: 120(+20)
+> SPA: 30(-10)
+> SPD: 60(-10)
 
 ## Torkoal
 > Ability: White Smoke / Drought
@@ -461,6 +502,9 @@ Type: Water / Ghost
 
 ## Vespiqueen
 
+> ATK: 102(+22)
+> SPE: 70(+30)
+
 ## Victreebel
 > ATK: 115(+10)
 > DEF: 75(+10)
@@ -475,9 +519,14 @@ Type: Water / Ghost
 
 ## Whiscash
 
+> Ability: Oblivious / Hydration
+
 ## Wigglytuff
 
 ## Wormadam
+
+> Ability: Heat Proof
+> ATK 79(+20)
 
 ## Xatu
 > HP: 110(+55)

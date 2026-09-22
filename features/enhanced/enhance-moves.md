@@ -84,6 +84,7 @@ Wring Out
 > Acc: 100
 > PP: 20
 > Targets: all adjacent
+> Class: Physical
 100% chance to lower target's Speed by 1 Stage.
 Flags: Metronome, Mirror Move, Can Protect
 
